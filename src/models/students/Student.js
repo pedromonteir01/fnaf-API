@@ -10,6 +10,7 @@ export class Student {
     this.description = description;
   }
 
+  //gerador de id aleatorio
   generateId() {
     return uuidv4();
   }
