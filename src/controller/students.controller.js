@@ -1,12 +1,15 @@
 import { Student } from "../models/students/Student.js"
 import { Students } from "../models/students/Students.js"
 
+//lista de estudante
 const studentsList = new Students();
 
+//verificação de imagem
 const verifyUrl = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) == null;
 }
 
+//pegar todos estudante 
 export const getStudents = (req, res) => {
     const students = studentsList.getStudents();
     if (students.length) {
@@ -15,6 +18,7 @@ export const getStudents = (req, res) => {
     return res.status(404).json({ message: "Não há alunos cadastrados" });
 };
 
+//pegar um estudante por id
 export const getStudent = (req, res) => {
     const { id } = req.params;
     const student = studentsList.getStudentsById(id);
@@ -24,6 +28,7 @@ export const getStudent = (req, res) => {
     return res.send(student);
 };
 
+//cadastrar um estudante
 export const createStudent = (req, res) => {
     const { name, img, age, gender, description } = req.body;
     const student = new Student(name, img, age, gender, description);
@@ -67,6 +72,7 @@ export const createStudent = (req, res) => {
     }
 };
 
+//atualizar/editar estudante
 export const updateStudents = (req, res) => {
     const { id } = req.params;
     const { name, img, age, gender, description } = req.body;
@@ -112,6 +118,7 @@ export const updateStudents = (req, res) => {
     }
 };
 
+//deletar estudante
 export const deleteStudents = (req, res) => {
     const { id } = req.params;
     const student = studentsList.getStudentsById(id);

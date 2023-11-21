@@ -1,6 +1,7 @@
 import { AnimatronicList } from "../models/animatronics/animatronics.js";
 import { Animatronic } from "../models/animatronics/animatronic.js";
 
+//verificação de imagem
 const verifyURL = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
 }
