@@ -5,7 +5,7 @@ import {
     createStudent,
     updateStudents,
     deleteStudents
-} from "../controller/alunos.controller.js";
+} from "../controller/students.controller.js";
 
 const studentsRouter = Router();
 
