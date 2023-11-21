@@ -9,6 +9,7 @@ import {
 
 const pizzeriasRouter = Router();
 
+// Rotas
 pizzeriasRouter.get("/", getPizzerias);
 pizzeriasRouter.get("/:id", getPizzeria);
 pizzeriasRouter.post("/", createPizzeria);

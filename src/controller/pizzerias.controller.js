@@ -1,12 +1,15 @@
 import { Pizzeria } from '../models/pizzeria/Pizzeria.js';
 import { Pizzerias } from '../models/pizzeria/Pizzerias.js';
 
+// Instância da classe
 const pizzeriasList = new Pizzerias();
 
+// Função de verificação de URL
 const verifyUrl = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) == null;
 }
 
+// Função de mostrar todas as pizzarias
 export const getPizzerias = (req, res) => {
     const pizzerias = pizzeriasList.getPizzerias();
     if (pizzerias.length) {
@@ -18,6 +21,7 @@ export const getPizzerias = (req, res) => {
     });
 };
 
+// Função de mostrar uma pizzaria específica por ID
 export const getPizzeria = (req, res) => {
     const { id } = req.params;
     const pizzeria = pizzeriasList.getPizzeriasById(id);
@@ -30,33 +34,40 @@ export const getPizzeria = (req, res) => {
     return res.send(pizzeria);
 };
 
+// Função de criar uma pizzaria
 export const createPizzeria = (req, res) => {
     const { name, img, franchise, description } = req.body;
     const pizzeria = new Pizzeria(name, img, franchise, description);
 
+    // Variáveis de erros
     let numbersErrors = 0;
     let errors = [];
 
+    // Verificação de dados
     if (!name || !img || !franchise || !description) {
         numbersErrors++;
         errors.push("Dados insuficientes");
     }
 
+    // Verificação de caracteres do nome
     if (name.length < 10 || name.length > 50) {
         numbersErrors++;
         errors.push('O nome da pizzaria deve ter entre 10 e 50 caracteres');
     }
 
+    // Verificação de caracteres da franquia
     if (franchise.length != 6) {
         numbersErrors++;
         errors.push('A franquia deve ter 6 caracteres.');
     }
 
+    // Verificação de URL da imagem
     if ((verifyUrl(img))) {
         numbersErrors++;
         errors.push("O formato da imagem é inválido");
     }
 
+    // Verificação de erros
     if (numbersErrors > 0) {
         return res.status(400).send({
             message: errors,
@@ -68,35 +79,42 @@ export const createPizzeria = (req, res) => {
     }
 };
 
+// Função de editar uma pizzaria
 export const updatePizzerias = (req, res) => {
     const { id } = req.params;
     const { name, img, franchise, description } = req.body;
 
     const pizzeria = pizzeriasList.getPizzeriasById(id);
 
+    // Variáveis de erros
     let numbersErrors = 0;
     let errors = [];
 
+    // Verificação de dados
     if (!name || !img || !franchise || !description) {
         numbersErrors++;
         errors.push("Dados insuficientes");
     }
 
+    // Verificação de caracteres do nome
     if (name.length < 10 || name.length > 50) {
         numbersErrors++;
         errors.push('O nome da pizzaria deve ter entre 10 e 50 caracteres');
     }
 
+    // Verificação de caracteres da franquia
     if (franchise.length != 6) {
         numbersErrors++;
         errors.push('A franquia deve ter 6 caracteres.');
     }
 
+    // Verificação de URL da imagem
     if ((verifyUrl(img))) {
         numbersErrors++;
         errors.push("O formato da imagem é inválido");
     }
 
+    // Verificação de erros
     if (numbersErrors > 0) {
         return res.status(400).send({
             message: errors,
@@ -108,6 +126,7 @@ export const updatePizzerias = (req, res) => {
     }
 };
 
+// Função de deletar uma pizzaria
 export const deletePizzerias = (req, res) => {
     const { id } = req.params;
     const pizzeria = pizzeriasList.getPizzeriasById(id);
