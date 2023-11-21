@@ -103,19 +103,9 @@ export const updatePizzerias = (req, res) => {
             status: "BAD REQUEST"
         });
     } else {
-        // pizzeriasList.addPizzeria(pizzeria);
         pizzeriasList.updatePizzeria(id, name, img, franchise, description);
         return res.status(201).send(pizzeria);
     }
-
-    // if (pizzeria) {
-    //     pizzeria.name = name;
-    //     pizzeria.img = img;
-    //     pizzeria.franchise = franchise;
-    //     pizzeria.description = description;
-    // }
-
-    // return res.send(pizzeria);
 };
 
 export const deletePizzerias = (req, res) => {
