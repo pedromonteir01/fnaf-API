@@ -13,3 +13,5 @@ app.use(router);
 app.listen(port, () => {
     console.log(`⚡ Server started on http://localhost:${port}`);
 })
+
+//receita básica para a montagem do servidor, o app.use encontra as rotas e o .listen lê o que vem da porta
