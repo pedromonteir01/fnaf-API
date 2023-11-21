@@ -33,10 +33,10 @@ export const createStudent = (req, res) => {
     }
 
     if(name.length > 50 || name.length <3){
-        return res.status(400).send('O tamanho do nome deve ser entre 3 e 50');
+        return res.status(400).send('O tamanho do name deve ser entre 3 e 50');
     }
 
-    if(gender.length > 8 || gender.length < 9){
+    if(gender.length < 8 || gender.length > 9){
         return res.status(400).send('gender Invalido');
     }
 
@@ -44,7 +44,7 @@ export const createStudent = (req, res) => {
         return res.status(400).send({message:"age inválida"});
     }
 
-    if(!(verifyUrl(img))){
+    if((verifyUrl(img))){
         return res.status(400).send({message:"Formato da imagem inválida"});
     }
 
@@ -54,13 +54,13 @@ export const createStudent = (req, res) => {
 
 export const updateStudents = (req, res) => {
     const { id } = req.params;
-    const { nome, img, age, gender, description } = req.body;
+    const { name, img, age, gender, description } = req.body;
 
     const student = studentsList.getStudentsById(id);
 
     if (!student) res.status(404).send({ message: "Aluno não encontrado!" });
 
-    studentsList.updateStudents(nome, img, age, gender, description);
+    studentsList.updateStudents(id, name, img, age, gender, description);
 
     return res.send(student);
 };

@@ -15,7 +15,7 @@ export class Students {
       this.students.push(student);
     }
   
-    updateStudents(name, img, age, gender, description) {
+    updateStudents(id, name, img, age, gender, description) {
       const student = this.getStudentsById(id);
   
       if (student) {
