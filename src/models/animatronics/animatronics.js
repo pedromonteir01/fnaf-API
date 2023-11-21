@@ -29,6 +29,8 @@ export class AnimatronicList {
             animatronic.status = status;
             animatronic.instrument = instrument;
         }
+
+        return animatronic;
     }
 
     deleteAnimatronic(id) {
