@@ -5,10 +5,12 @@ import {
     getAnimatronics, 
     postAnimtronic, 
     putAnimatronic
-} from "../controller/animatronics.controller";
+} from "../controller/animatronics.controller.js";
 
+//rota anexada no index router
 const animatronicRouter = Router();
 
+//métodos dos cruds e suas funções
 animatronicRouter.get("/", getAnimatronics);
 animatronicRouter.get("/:id", getAnimatronicById);
 animatronicRouter.post("/", postAnimtronic);
