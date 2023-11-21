@@ -1,5 +1,7 @@
 import { Router } from "express";
+
 import animatronicRouter from "./animatronic.routes.js";
+
 
 const router = Router();
 
@@ -9,6 +11,7 @@ router.get("/", (req, res) => {
         message: "SERVER OK!"
     });
 });
+
 
 //rota para acessar animatronics
 router.use("/animatronics", animatronicRouter);
