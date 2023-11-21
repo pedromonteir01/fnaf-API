@@ -11,7 +11,7 @@ export class Students {
       return this.students.find((student) => student.id === id);
     }
   
-    addStudents(student) {
+    addStudent(student) {
       this.students.push(student);
     }
   

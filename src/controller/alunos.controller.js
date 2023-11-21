@@ -1,77 +1,77 @@
-import {aluno} from "../models/alunos/aluno.js"
-import {alunos} from "../models/alunos/alunos.js"
+import { Student } from "../models/students/Student.js"
+import { Students } from "../models/students/Students.js"
 
-const alunosLista = new alunos();
+const studentsList = new Students();
 
-const Url = (url) => {
+const verifyUrl = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) == null;
 }
 
-export const getAlunos = (req, res) => {
-    const alunos = alunosLista.getAlunos();
-    if (alunos.length) {
-        return res.status(200).send({alunos, quantidade: alunos.length});
+export const getStudents = (req, res) => {
+    const students = studentsList.getStudents();
+    if (students.length) {
+        return res.status(200).send({students, totalStudents: students.length});
     }
     return res.status(404).json({ message: "Não há alunos cadastrados" });
 };
 
-export const getAluno = (req, res) => {
+export const getStudent = (req, res) => {
     const { id } = req.params;
-    const aluno = alunosLista.getAlunosById(id);
+    const student = studentsList.getStudentsById(id);
 
-    if (!aluno) res.status(404).send({ message: "Aluno não encontrado!" });
+    if (!student) res.status(404).send({ message: "Aluno não encontrado!" });
 
-    return res.send(aluno);
+    return res.send(student);
 };
 
-export const createAluno = (req, res) => {
-    const { nome, img, idade, genero, desc } = req.body;
-    const aluno = new Aluno(nome, img, idade, genero, desc);
+export const createStudent = (req, res) => {
+    const { name, img, age, gender, description } = req.body;
+    const student = new Student(name, img, age, gender, description);
 
-    if(!nome || !img || !idade || !genero || !desc){
+    if(!name || !img || !age || !gender || !description){
         return res.status(400).send("Dados insuficientes");
     }
 
-    if(nome.length > 50 || nome.length <3){
+    if(name.length > 50 || name.length <3){
         return res.status(400).send('O tamanho do nome deve ser entre 3 e 50');
     }
 
-    if(genero.length > 8 || genero.length < 9){
-        return res.status(400).send('Genero Invalido');
+    if(gender.length > 8 || gender.length < 9){
+        return res.status(400).send('gender Invalido');
     }
 
-    if(idade < 0 || !(Number.isInteger(idade))){
-        return res.status(400).send({message:"Idade inválida"});
+    if(age < 0 || !(Number.isInteger(age))){
+        return res.status(400).send({message:"age inválida"});
     }
 
-    if(!(Url(img))){
+    if(!(verifyUrl(img))){
         return res.status(400).send({message:"Formato da imagem inválida"});
     }
 
-    alunosLista.addAlunos(aluno);
-    return res.status(201).send(aluno);
+    studentsList.addStudent(student);
+    return res.status(201).send(student);
 };
 
-export const updateAluno = (req, res) => {
+export const updateStudents = (req, res) => {
     const { id } = req.params;
-    const { nome, img, idade, genero, desc } = req.body;
+    const { nome, img, age, gender, description } = req.body;
 
-    const aluno = alunosLista.getAlunosById(id);
+    const student = studentsList.getStudentsById(id);
 
-    if (!aluno) res.status(404).send({ message: "Aluno não encontrado!" });
+    if (!student) res.status(404).send({ message: "Aluno não encontrado!" });
 
-    alunosLista.updateAlunos(nome, img, idade, genero, desc);
+    studentsList.updateStudents(nome, img, age, gender, description);
 
-    return res.send(aluno);
+    return res.send(student);
 };
 
-export const deleteAluno = (req, res) => {
+export const deleteStudents = (req, res) => {
     const { id } = req.params;
-    const aluno = alunosLista.getAlunosById(id);
+    const student = studentsList.getStudentsById(id);
 
-    if (!aluno) res.status(404).send({ message: "Aluno não encontrado!" });
+    if (!student) res.status(404).send({ message: "Aluno não encontrado!" });
 
-    alunosLista.deleteAlunos(id);
+    studentsList.deleteStudents(id);
 
-    return res.send(aluno);
+    return res.send(student);
 };
