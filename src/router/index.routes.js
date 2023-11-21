@@ -1,4 +1,5 @@
 import { Router } from "express";
+import animatronicRouter from "./animatronic.routes";
 
 const router = Router();
 
@@ -7,5 +8,7 @@ router.get("/", (req, res) => {
         message: "SERVER OK!"
     });
 });
+
+router.use("/animatronics", animatronicRouter);
 
 export default router;
