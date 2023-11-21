@@ -1,5 +1,5 @@
 import { Router } from "express";
-import alunosRouter from "./aluno.routes.js"
+import studentsRouter from "./students.routes.js"
 
 const router = Router();
 
@@ -9,5 +9,5 @@ router.get("/", (req, res) => {
     });
 });
 
-router.use("/alunos", alunosRouter)
+router.use("/students", studentsRouter)
 export default router;
