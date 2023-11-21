@@ -1,35 +1,35 @@
-export class alunos {
+export class Students {
     constructor() {
-      this.alunos = [];
+      this.students = [];
     }
   
-    getAlunos() {
-      return this.alunos;
+    getStudents() {
+      return this.students;
     }
   
-    getAlunosById(id) {
-      return this.alunos.find((aluno) => aluno.id === id);
+    getStudentsById(id) {
+      return this.students.find((student) => student.id === id);
     }
   
-    addAlunos(aluno) {
-      this.alunos.push(aluno);
+    addStudents(student) {
+      this.students.push(student);
     }
   
-    updateAlunos(nome, img, idade, genero, desc) {
-      const aluno = this.getAlunosById(id);
+    updateStudents(name, img, age, gender, description) {
+      const student = this.getStudentsById(id);
   
-      if (aluno) {
-        aluno.nome = nome;
-        aluno.img = img;
-        aluno.idade = idade;
-        aluno.genero = genero;
-        aluno.desc = desc;
+      if (student) {
+        student.name = name;
+        student.img = img;
+        student.age = age;
+        student.gender = gender;
+        student.description = description;
       }
   
-      return aluno;
+      return student;
     }
   
-    deleteAlunos(id) {
-      this.alunos = this.alunos.filter((aluno) => aluno.id !== id);
+    deleteStudents(id) {
+      this.students = this.students.filter((student) => student.id !== id);
     }
   }

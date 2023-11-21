@@ -1,13 +1,13 @@
 import { v4 as uuidv4 } from "uuid";
 
-export class aluno {
-  constructor(nome, img, idade, genero, desc){
+export class Student {
+  constructor(name, img, age, gender, description){
     this.id = this.generateId();
-    this.nome = nome;
+    this.name = name;
     this.img = img;
-    this.idade = idade;
-    this.genero = genero;
-    this.desc = desc;
+    this.age = age;
+    this.gender = gender;
+    this.description = description;
   }
 
   generateId() {
