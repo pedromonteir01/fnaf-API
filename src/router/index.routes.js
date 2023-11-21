@@ -1,4 +1,5 @@
 import { Router } from "express";
+import alunosRouter from "./aluno.routes.js"
 
 const router = Router();
 
@@ -8,4 +9,5 @@ router.get("/", (req, res) => {
     });
 });
 
+router.use("/alunos", alunosRouter)
 export default router;
