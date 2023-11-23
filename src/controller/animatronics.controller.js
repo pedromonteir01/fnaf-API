@@ -7,10 +7,10 @@ const verifyURL = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
 }
 
-const verifyVideo = (url) => {
-    console.log("Caiu na func video")
-    return url.match(/\.(mp4)$/) != null;
-}
+// const verifyVideo = (url) => {
+//     console.log("Caiu na func video")
+//     return url.match(/\.(mp4)$/) != null;
+// }
 
 
 //lista dos animatronics
@@ -110,10 +110,10 @@ export const postAnimtronic = (req, res) => {
         errors.push("invalid_status");
     }
 
-    //faz a verificação do Url do video
-    if (!verifyVideo(video)) {
-        errors.push("invalid_Url");
-    }
+    // //faz a verificação do Url do video
+    // if (!verifyVideo(video)) {
+    //     errors.push("invalid_Url");
+    // }
 
     //restorna os erros adicionas ao array
     if (errors.length) {
@@ -121,7 +121,7 @@ export const postAnimtronic = (req, res) => {
     }
 
     //cria o animatronic
-    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument, jumpscare);
+    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument);
 
     //adiciona ele na lista
     list.createAnimatronic(animatronic);
