@@ -1,20 +1,25 @@
 export class Pizzerias {
     constructor() {
+        // Array de pizzarias
         this.pizzerias = [];
     }
 
+    // Método de mostrar todas as pizzarias
     getPizzerias() {
         return this.pizzerias;
     }
 
+    // Método de mostrar uma pizzaria específica por ID
     getPizzeriasById(id) {
         return this.pizzerias.find((pizzeria) => pizzeria.id === id);
     }
 
+    // Método de criar uma pizzaria
     addPizzeria(pizzeria) {
         this.pizzerias.push(pizzeria);
     }
 
+    // Método de editar uma pizzaria
     updatePizzeria(id, name, img, franchise, description) {
         const pizzeria = this.getPizzeriasById(id);
 
@@ -28,6 +33,7 @@ export class Pizzerias {
         return pizzeria;
     }
 
+    // Método de excluir uma pizzaria
     deletePizzeria(id) {
         this.pizzerias = this.pizzerias.filter((pizzeria) => pizzeria.id !== id);
     }
