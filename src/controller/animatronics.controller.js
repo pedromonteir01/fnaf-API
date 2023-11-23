@@ -9,7 +9,7 @@ const verifyURL = (url) => {
 
 const verifyVideo = (url) => {
     console.log("Caiu na func video")
-    return url.match(/\.(mp4|mov|wmv|avi|webm|html5)$/) != null;
+    return url.match(/\.(mp4)$/) != null;
 }
 
 //lista dos animatronics
@@ -97,8 +97,12 @@ export const postAnimtronic = (req, res) => {
         errors.push("invalid_instrument");
     }
 
-    if (status.length < 3 && status.length >25 ) {
+    if (status.length < 3 && status.length > 25 ) {
         errors.push("invalid_status");
+    }
+
+    if (!verifyVideo(video)) {
+        errors.push("invalid_Url");
     }
 
     if (errors.length) {
