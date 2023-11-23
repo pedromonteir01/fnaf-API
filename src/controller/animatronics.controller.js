@@ -67,37 +67,10 @@ export const postAnimtronic = (req, res) => {
     }
 
     if (!verifyURL(image)) {
-        errors.push("invalid_url");
-    } 
-    
-    if (occupation.length < 3 && occupation.length > 50) {
-        errors.push("invalid_occupation");
-    }
-    
-    if (initialLocation.length < 3 && initialLocation.length > 30) {
-        errors.push("invalid_initialLocation");
-    } 
-
-    if (description.length < 10) {
-        errors.push("invalid_description");
-    }
-    
-    if (color.length < 3 && color.length > 15) {
-        errors.push("invalid_color");
-    } 
-    
-    if (status.length < 2 && status.length > 15) {
-        errors.push("invalid_status");
-    }
-    
-    if (instrument.length > 20) {
-        errors.push("invalid_instrument");
+        errors.push("invalid_image");
     }
 
-    if(!verifyVideo(jumpscare)) {
-        console.log("Caiu no video")
-        errors.push("invalid_video");
-    }
+
 
     if (errors.length) {
         return errors;
