@@ -70,7 +70,21 @@ export const postAnimtronic = (req, res) => {
         errors.push("invalid_image");
     }
 
+    if (occupation.length < 3 && occupation.length > 25) {
+        errors.push("invalid_occupation");
+    }
 
+    if (initialLocation.length < 3 && initialLocation > 25) {
+        errors.push("invalid_initialLocation");
+    }
+
+    if (description.length < 10 ){
+        errors.push("invalid_description");
+    }
+
+    if (color.length < 3 && color.length > 25) {
+        errors.push("invalid_color");
+    }
 
     if (errors.length) {
         return errors;
