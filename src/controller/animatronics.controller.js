@@ -86,6 +86,14 @@ export const postAnimtronic = (req, res) => {
         errors.push("invalid_color");
     }
 
+    if (instrument.length <3 && instrument.length > 25) {
+        errors.push("invalid_instrument");
+    }
+
+    if (status.length < 3 && status.length >25 ) {
+        errors.push("invalid_status");
+    }
+
     if (errors.length) {
         return errors;
     }
