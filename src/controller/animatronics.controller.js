@@ -62,42 +62,51 @@ export const postAnimtronic = (req, res) => {
         })
     }
 
-    if (name.length < 3 && name.length > 25) {
+    //faz a verificação do tamanho do nome    if (name.length < 3 && name.length > 25) {
         errors.push("invalid_name");
     }
 
+    //faz a verificação do Url da imagem
     if (!verifyURL(image)) {
         errors.push("invalid_image");
     }
 
+    //faz a verificação do tamanho da ocupação
     if (occupation.length < 3 && occupation.length > 25) {
         errors.push("invalid_occupation");
     }
 
+    //faz a verificação do tamanho da localização inicial
     if (initialLocation.length < 3 && initialLocation > 25) {
         errors.push("invalid_initialLocation");
     }
 
+    //faz a verificação do tamanho da descrição
     if (description.length < 10 ){
         errors.push("invalid_description");
     }
 
+    //faz a verificação do tamanho da cor
     if (color.length < 3 && color.length > 25) {
         errors.push("invalid_color");
     }
 
+    //faz a verificação do tamanho do nome
     if (instrument.length <3 && instrument.length > 25) {
         errors.push("invalid_instrument");
     }
 
+    //faz a verificação do tamanho do status
     if (status.length < 3 && status.length > 25 ) {
         errors.push("invalid_status");
     }
 
+    //faz a verificação do Url do video
     if (!verifyVideo(video)) {
         errors.push("invalid_Url");
     }
 
+    //restorna os erros adicionas ao array
     if (errors.length) {
         return errors;
     }
