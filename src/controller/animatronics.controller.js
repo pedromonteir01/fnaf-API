@@ -70,7 +70,7 @@ export const postAnimtronic = (req, res) => {
         })
     }
 
-    //faz a verificação do tamanho do nome
+    //faz a verificação do nome
     if (name.length < 3 && name.length > 25) {
         errors.push("invalid_name");
     }
