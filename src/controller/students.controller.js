@@ -30,7 +30,9 @@ export const getStudent = (req, res) => {
 
 //cadastrar um estudante
 export const createStudent = (req, res) => {
-    const { name, img, age, gender, description } = req.body;
+    let { name, img, age, gender, description } = req.body;
+    gender = gender.toLowerCase();
+    console.log(gender);
     const student = new Student(name, img, age, gender, description);
 
     let numbersErrors = 0;
@@ -46,7 +48,7 @@ export const createStudent = (req, res) => {
         errors.push('O nome deve ter entre 3 e 50 caracteres.');
     }
 
-    if (gender != "feminino" || gender != "masculino") {
+    if (gender != "feminino" && gender != "masculino") {
         numbersErrors++;
         errors.push("O gênero deve ser somente feminino ou masculino.")
     }
@@ -92,7 +94,7 @@ export const updateStudents = (req, res) => {
         errors.push('O nome deve ter entre 3 e 50 caracteres.');
     }
 
-    if (gender.length < 8 || gender.length > 9) {
+    if (gender != 'masculino' && gender != 'feminino') {
         numbersErrors++;
         errors.push("O gênero deve ser somente feminino ou masculino.")
     }
