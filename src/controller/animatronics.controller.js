@@ -15,10 +15,10 @@ const verifyVideo = (url) => {
 //lista dos animatronics
 const list = new AnimatronicList();
 
-    mockedAnimatronic.forEach((animatronic) => {
-        const animatronicMocked = new Animatronic(animatronic.name, animatronic.image, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
-        list.createAnimatronic(animatronicMocked);
-    })
+mockedAnimatronic.forEach((animatronic) => {
+    const animatronicMocked = new Animatronic(animatronic.name, animatronic.image, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
+    list.createAnimatronic(animatronicMocked);
+})
 
 
 //Requisitar todos os animatronics
@@ -69,7 +69,8 @@ export const postAnimtronic = (req, res) => {
         })
     }
 
-    //faz a verificação do tamanho do nome    if (name.length < 3 && name.length > 25) {
+    //faz a verificação do tamanho do nome
+    if (name.length < 3 && name.length > 25) {
         errors.push("invalid_name");
     }
 
@@ -89,7 +90,7 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho da descrição
-    if (description.length < 10 ){
+    if (description.length < 10) {
         errors.push("invalid_description");
     }
 
@@ -99,12 +100,12 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho do nome
-    if (instrument.length <3 && instrument.length > 25) {
+    if (instrument.length < 3 && instrument.length > 25) {
         errors.push("invalid_instrument");
     }
 
     //faz a verificação do tamanho do status
-    if (status.length < 3 && status.length > 25 ) {
+    if (status.length < 3 && status.length > 25) {
         errors.push("invalid_status");
     }
 
@@ -117,15 +118,15 @@ export const postAnimtronic = (req, res) => {
     if (errors.length) {
         return errors;
     }
-    
+
     //cria o animatronic
     const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument, jumpscare);
 
     //adiciona ele na lista
     list.createAnimatronic(animatronic);
     return res.status(201).send({ animatronic });
-}
 
+}
 
 //edita o animatronic pelo ID
 export const putAnimatronic = (req, res) => {
