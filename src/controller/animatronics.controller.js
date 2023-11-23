@@ -1,5 +1,6 @@
 import { AnimatronicList } from "../models/animatronics/animatronics.js";
 import { Animatronic } from "../models/animatronics/animatronic.js";
+import { mockedAnimatronic } from "../data/data.js";
 
 //verificação de imagem
 const verifyURL = (url) => {
@@ -8,12 +9,18 @@ const verifyURL = (url) => {
 
 const verifyVideo = (url) => {
     console.log("Caiu na func video")
-    return url.match(/\.(mp4|mov|wmv|avi|webm|html5)$/) != null;
+    return url.match(/\.(mp4)$/) != null;
 }
 
 
 //lista dos animatronics
 const list = new AnimatronicList();
+
+    mockedAnimatronic.forEach((animatronic) => {
+        const animatronicMocked = new Animatronic(animatronic.name, animatronic.image, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
+        list.createAnimatronic(animatronicMocked);
+    })
+
 
 //Requisitar todos os animatronics
 export const getAnimatronics = (req, res) => {
@@ -63,43 +70,51 @@ export const postAnimtronic = (req, res) => {
         })
     }
 
-    if (name.length < 3 && name.length > 25) {
+    //faz a verificação do tamanho do nome    if (name.length < 3 && name.length > 25) {
         errors.push("invalid_name");
     }
 
+    //faz a verificação do Url da imagem
     if (!verifyURL(image)) {
-        errors.push("invalid_url");
-    } 
-    
-    if (occupation.length < 3 && occupation.length > 50) {
+        errors.push("invalid_image");
+    }
+
+    //faz a verificação do tamanho da ocupação
+    if (occupation.length < 3 && occupation.length > 25) {
         errors.push("invalid_occupation");
     }
-    
-    if (initialLocation.length < 3 && initialLocation.length > 30) {
-        errors.push("invalid_initialLocation");
-    } 
 
-    if (description.length < 10) {
+    //faz a verificação do tamanho da localização inicial
+    if (initialLocation.length < 3 && initialLocation > 25) {
+        errors.push("invalid_initialLocation");
+    }
+
+    //faz a verificação do tamanho da descrição
+    if (description.length < 10 ){
         errors.push("invalid_description");
     }
-    
-    if (color.length < 3 && color.length > 15) {
+
+    //faz a verificação do tamanho da cor
+    if (color.length < 3 && color.length > 25) {
         errors.push("invalid_color");
-    } 
-    
-    if (status.length < 2 && status.length > 15) {
-        errors.push("invalid_status");
     }
-    
-    if (instrument.length > 20) {
+
+    //faz a verificação do tamanho do nome
+    if (instrument.length <3 && instrument.length > 25) {
         errors.push("invalid_instrument");
     }
 
-    if(!verifyVideo(jumpscare)) {
-        console.log("Caiu no video")
-        errors.push("invalid_video");
+    //faz a verificação do tamanho do status
+    if (status.length < 3 && status.length > 25 ) {
+        errors.push("invalid_status");
     }
 
+    //faz a verificação do Url do video
+    if (!verifyVideo(video)) {
+        errors.push("invalid_Url");
+    }
+
+    //restorna os erros adicionas ao array
     if (errors.length) {
         return errors;
     }

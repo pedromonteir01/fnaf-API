@@ -16,6 +16,6 @@ export class Animatronic {
     }
 
     generateId() {
-        uuidv4()
+        return uuidv4()
     }
 }
