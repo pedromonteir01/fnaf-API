@@ -1,5 +1,6 @@
 import { AnimatronicList } from "../models/animatronics/animatronics.js";
 import { Animatronic } from "../models/animatronics/animatronic.js";
+import { mockedAnimatronic } from "../data/data.js";
 
 //verificação de imagem
 const verifyURL = (url) => {
@@ -13,6 +14,12 @@ const verifyVideo = (url) => {
 
 //lista dos animatronics
 const list = new AnimatronicList();
+
+    mockedAnimatronic.forEach((animatronic) => {
+        const animatronicMocked = new Animatronic(animatronic.name, animatronic.image, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
+        list.createAnimatronic(animatronicMocked);
+    })
+
 
 //Requisitar todos os animatronics
 export const getAnimatronics = (req, res) => {

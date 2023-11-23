@@ -1,7 +1,3 @@
-import { mockedAnimatronic } from "../../data/data.js";
-import { Animatronic } from "./animatronic.js";
-
-
 export class AnimatronicList {
     constructor() {
         //lista de todos os animatronics
