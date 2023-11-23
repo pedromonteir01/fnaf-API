@@ -5,11 +5,16 @@ const verifyURL = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
 }
 
+const verifyVideo = (url) => {
+    console.log("Caiu na func video")
+    return url.match(/\.(mp4|mov|wmv|avi|webm|html5)$/) != null;
+}
+
 //lista dos animatronics
 const list = new AnimatronicList();
 
 //Requisitar todos os animatronics
-export const getAnimatronics = (res, res) => {
+export const getAnimatronics = (req, res) => {
     const animatronics = list.getAllAnimatronics();
 
     //verifica se há algum animatronic
@@ -47,9 +52,9 @@ export const postAnimtronic = (req, res) => {
     const errors = [];
 
     //captura as informações
-    const { name, image, occupation, initialLocation, description, color, status, instrument, jumpascare } = req.body;
+    const { name, image, occupation, initialLocation, description, color, status, instrument, jumpscare } = req.body;
 
-    if (!name || !image || !occupation || !initialLocation || !description || !color || !status || !instrument || !jumpascare) {
+    if (!name || !image || !occupation || !initialLocation || !description || !color || !status || !instrument || !jumpscare) {
         //retorna erro
         return res.status(400).send({
             message: "incomplete_data"
@@ -88,12 +93,17 @@ export const postAnimtronic = (req, res) => {
         errors.push("invalid_instrument");
     }
 
+    if(!verifyVideo(jumpscare)) {
+        console.log("Caiu no video")
+        errors.push("invalid_video");
+    }
+
     if (errors.length) {
         return errors;
     }
     
     //cria o animatronic
-    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument, jumpascare);
+    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument, jumpscare);
 
     //adiciona ele na lista
     list.createAnimatronic(animatronic);

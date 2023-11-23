@@ -1,3 +1,6 @@
+import { mockedAnimatronic } from "../../data/data.js";
+import { Animatronic } from "./animatronic.js";
+
 
 export class AnimatronicList {
     constructor() {
@@ -21,7 +24,7 @@ export class AnimatronicList {
     }
 
     //editar um animtronic pelo ID
-    putAnimatronic(id, name, image, occupation, initialLocation, description, color, status, instrument) {
+    putAnimatronic(id, name, image, occupation, initialLocation, description, color, status, instrument, jumpscare) {
         const animatronic = this.getAnimtronicById(id);
 
         //verifica se o animtronic encontrado existe
@@ -34,6 +37,7 @@ export class AnimatronicList {
             animatronic.color = color;
             animatronic.status = status;
             animatronic.instrument = instrument;
+            animatronic.jumpscare = jumpscare;
         }
 
         return animatronic;
