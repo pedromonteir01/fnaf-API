@@ -12,6 +12,7 @@ const verifyVideo = (url) => {
     return url.match(/\.(mp4)$/) != null;
 }
 
+
 //lista dos animatronics
 const list = new AnimatronicList();
 
