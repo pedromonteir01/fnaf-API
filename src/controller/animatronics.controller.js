@@ -7,10 +7,11 @@ const verifyURL = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
 }
 
-// const verifyVideo = (url) => {
-//     console.log("Caiu na func video")
-//     return url.match(/\.(mp4)$/) != null;
-// }
+//verificação do vídeo
+const verifyVideo = (url) => {
+    const videosExtensions = ['.mp4', '.avi', '.mkv', '.mov', '.wmv', '.flv'];
+    return videosExtensions.some(extension => url.toLowerCase().endsWith(extension));
+}
 
 
 //lista dos animatronics
@@ -71,7 +72,7 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do nome
-    if (name.length < 3 && name.length > 25) {
+    if (name.length < 3 || name.length > 25) {
         errors.push("invalid_name");
     }
 
@@ -81,12 +82,12 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho da ocupação
-    if (occupation.length < 3 && occupation.length > 25) {
+    if (occupation.length < 3 || occupation.length > 25) {
         errors.push("invalid_occupation");
     }
 
     //faz a verificação do tamanho da localização inicial
-    if (initialLocation.length < 3 && initialLocation > 25) {
+    if (initialLocation.length < 3 || initialLocation > 25) {
         errors.push("invalid_initialLocation");
     }
 
@@ -96,32 +97,31 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho da cor
-    if (color.length < 3 && color.length > 25) {
+    if (color.length < 3 || color.length > 25) {
         errors.push("invalid_color");
     }
 
     //faz a verificação do tamanho do status
-    if (status.length < 3 && status.length > 25) {
+    if (status.length < 3 || status.length > 25) {
         errors.push("invalid_status");
     }
 
     //faz a verificação do tamanho do nome
-    if (instrument.length < 3 && instrument.length > 25) {
+    if (instrument.length < 3 || instrument.length > 25) {
         errors.push("invalid_instrument");
     }
 
-    // //faz a verificação do Url do video
-    // if (!verifyVideo(video)) {
-    //     errors.push("invalid_Url");
-    // }
+    if(!verifyVideo(jumpscare)) {
+        errors.push("invalid_video")
+    }
 
     //restorna os erros adicionas ao array
     if (errors.length) {
-        return errors;
+        return res.status(400).send({ errors, quantity_errors: errors.length});
     }
 
     //cria o animatronic
-    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument);
+    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument, jumpscare);
 
     //adiciona ele na lista
     list.createAnimatronic(animatronic);
