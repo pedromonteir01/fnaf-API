@@ -18,7 +18,7 @@ const verifyVideo = (url) => {
 const list = new AnimatronicList();
 
 mockedAnimatronic.forEach((animatronic) => {
-    const animatronicMocked = new Animatronic(animatronic.name, animatronic.image, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
+    const animatronicMocked = new Animatronic(animatronic.name, animatronic.imageBody, animatronic.imageIcon, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
     list.createAnimatronic(animatronicMocked);
 })
 
@@ -62,9 +62,9 @@ export const postAnimtronic = (req, res) => {
     const errors = [];
 
     //captura as informações
-    const { name, image, occupation, initialLocation, description, color, status, instrument, jumpscare } = req.body;
+    const { name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare } = req.body;
 
-    if (!name || !image || !occupation || !initialLocation || !description || !color || !status || !instrument || !jumpscare) {
+    if (!name || !imageBody || !imageIcon || !occupation || !initialLocation || !description || !color || !status || !instrument || !jumpscare) {
         //retorna erro
         return res.status(400).send({
             message: "incomplete_data"
@@ -77,8 +77,12 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do Url da imagem
-    if (!verifyURL(image)) {
-        errors.push("invalid_image");
+    if (!verifyURL(imageBody)) {
+        errors.push("invalid_imageBody");
+    }
+
+    if (!verifyURL(imageIcon)) {
+        errors.push("invalid_imageIcon");
     }
 
     //faz a verificação do tamanho da ocupação
@@ -121,7 +125,7 @@ export const postAnimtronic = (req, res) => {
     }
 
     //cria o animatronic
-    const animatronic = new Animatronic(name, image, occupation, initialLocation, description, color, status, instrument, jumpscare);
+    const animatronic = new Animatronic(name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare);
 
     //adiciona ele na lista
     list.createAnimatronic(animatronic);
@@ -134,11 +138,11 @@ export const putAnimatronic = (req, res) => {
     //ID por param na requisição
     const { id } = req.params.id;
     //captura os dados
-    const { name, image, occupation, initialLocation, description, color, status, instrument, jumpascare } = req.body;
+    const { name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpascare } = req.body;
     //altera no animatronic
     const animatronic = list.getAnimatronicById(id);
 
-    list.putAnimatronic(id, name, image, occupation, initialLocation, description, color, status, instrument, jumpascare);
+    list.putAnimatronic(id, name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpascare);
 
     //retorna o animatronic
     return res.status(200).send({ animatronic });
