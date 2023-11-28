@@ -1,9 +1,10 @@
 import { v4 as uuidv4 } from "uuid";
 
 export class Animatronic {
-    constructor(name, image, occupation, initialLocation, description, color, status, instrument, jumpscare) {
+    constructor(name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare) {
         this.name = name;
-        this.image = image;
+        this.imageBody = imageBody;
+        this.imageIcon = imageIcon;
         this.occupation = occupation;
         this.initialLocation = initialLocation;
         this.description = description;
