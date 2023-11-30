@@ -10,5 +10,18 @@ export const mockedAnimatronic = [
         "status": "Inteiro, porém com a parte da mão direita quebrada. Durante o jogo, Freddy Fazbear pode se tornar mais ativo e agressivo, especialmente nas noites mais avançadas.", 
         "instrument": "Em algumas aparições, Freddy Fazbear é retratado segurando um microfone, indicando seu papel como animatrônico de entretenimento na pizzaria.", 
         "jumpscare": "../assets/videos/jump-Scare-Freddy-Fazbear.mp4"
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "", 
+        "occupation": "",
+        "initialLocation": "", 
+        "description": "", 
+        "color": "", 
+        "status": "", 
+        "instrument": "", 
+        "jumpscare": ""
     }
 ]
