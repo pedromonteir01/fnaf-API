@@ -637,15 +637,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Security Puppet",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": " Security Puppet está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator e é uma parte importante da narrativa relacionada à Henry's Daughter.",
+        "initialLocation": "Security Puppet é inicialmente encontrado fora da pizzaria, guardando a entrada. Posteriormente, ele é movido para o local interno durante os eventos do jogo.",
+        "description": " Security Puppet é um animatrônico com design de marionete e é notável por sua aparência mais simples em comparação com outros animatrônicos. Ele desempenha um papel crucial na história, sendo responsável por proteger e monitorar a entrada da pizzaria.",
+        "color": "As cores principais de Security Puppet incluem tons de branco, preto e vermelho, destacando-se por sua aparência mais minimalista e funcional.",
+        "status": "Em termos de narrativa, Security Puppet é retratado como um animatrônico funcional, mas com um papel significativo na trama da história relacionada à família Afton e à tragédia envolvendo Henry's Daughter.",
+        "instrument": "Security Puppet não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
