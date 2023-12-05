@@ -520,15 +520,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Nedd Bear",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Nedd Bear está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics",
+        "initialLocation": "Nedd Bear pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
+        "description": "Nedd Bear é um animatrônico urso com uma aparência descontraída e brincalhona. Ele é caracterizado por seu aspecto descontraído e trajes coloridos. Nedd Bear desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Nedd Bear incluem tons de laranja, verde e marrom, destacando-se por sua aparência animada e amigável.",
+        "status": "Em termos de narrativa, Nedd Bear não é retratado como quebrado ou danificado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
+        "instrument": "Nedd Bear está associado a um banjo, sugerindo que ele pode ter uma função relacionada à música ou entretenimento na pizzaria.",
         "jumpscare": ""
     },
 
