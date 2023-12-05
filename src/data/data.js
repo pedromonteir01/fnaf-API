@@ -377,15 +377,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Baby",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Baby está associada à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Baby pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
+        "description": "Baby é um animatrônico grande e sofisticado com uma aparência elegante e futurista. Ela é caracterizada por cabelos loiros, um vestido roxo e um microfone em sua mão. Baby desempenha um papel significativo na história e nas mecânicas de jogo de determinados jogos da série",
+        "color": "A cor principal de Baby é roxo, destacando-se por sua presença marcante e elegante.",
+        "status": "Em seu estado original, Baby não é retratada como quebrada. No entanto, ao longo da narrativa da série, eventos podem ocorrer que afetam a condição de Baby de diferentes maneiras.",
+        "instrument": "Baby está associada a um microfone em sua mão.",
         "jumpscare": ""
     },
 
