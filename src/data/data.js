@@ -481,15 +481,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Happy Frog",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Happy Frog está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Happy Frog pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
+        "description": "Happy Frog é um animatrônico anfíbio com uma aparência amigável, caracterizado por sua boca grande e olhos expressivos. Ela faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics. Happy Frog desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Happy Frog incluem tons de verde, amarelo e vermelho, destacando-se por sua aparência vibrante e alegre.",
+        "status": "Em termos de narrativa, Happy Frog não é retratada como quebrada ou danificada. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
+        "instrument": "Happy Frog não está associada a um instrumento musical específico.",
         "jumpscare": ""
     },
 
