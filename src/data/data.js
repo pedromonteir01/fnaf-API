@@ -2,7 +2,7 @@ export const mockedAnimatronic = [
     {
         "name": "Freddy FazBear",
         "imageBody": "#",
-        "imageIcon": "../assets/images/FreddyFazbear.png", 
+        "imageIcon": "../assets/images/Freddy/FreddyFazbear-Icon.png", 
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Geralmente, Freddy Fazbear começa sua noite na Sala de Show Principal, mas ao longo da noite, ele se move para outras áreas da pizzaria, como o Corredor Leste e o Corredor Oeste.", 
         "description": "Freddy Fazbear é um animatrônico gigante e principal personagem da franquia 'Five Nights at Freddy's'. Ele é um urso marrom com uma cartola preta, uma gravata borboleta preta e botões pretos no peito. Freddy é conhecido por sua aparência amigável, mas se torna perigoso à noite quando os animatrônicos ficam ativos.", 
