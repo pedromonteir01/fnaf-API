@@ -676,15 +676,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Trash and the Gang",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Trash and the Gang aparece em Freddy Fazbear's Pizzeria Simulator. No entanto, eles não são animatrônicos tradicionais e sim um grupo de objetos encontrados no Back Alley (beco dos fundos), que faz parte do jogo.",
+        "initialLocation": "Os membros de Trash and the Gang não têm uma localização específica no início do jogo, pois são objetos descartados que o jogador pode escolher para adicionar à sua pizzaria.",
+        "description": "Trash and the Gang é composto por vários objetos descartados, como uma lata de lixo, um balde, uma bola, uma xícara e um saco de papel. Eles não têm movimentos animatrônicos tradicionais e não representam uma ameaça ao jogador.",
+        "color": "As cores principais de Trash and the Gang variam dependendo dos objetos individuais, incluindo tons de verde, amarelo, azul e marrom.",
+        "status": "Trash and the Gang não são retratados como quebrados ou danificados, pois são simplesmente objetos descartados.",
+        "instrument": "Trash and the Gang não estão associados a instrumentos musicais",
         "jumpscare": ""
     },
 
