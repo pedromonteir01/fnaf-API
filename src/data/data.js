@@ -234,15 +234,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Nightmare Chica",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Nightmare Chica é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "initialLocation": "Durante a jogabilidade, Nightmare Chica pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ela geralmente se aproxima do jogador ao longo da noite.",
+        "description": "Nightmare Chica é uma versão aterrorizante e distorcida do personagem Chica, um dos animatrônicos originais da série. Ela apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
+        "color": "A cor principal de Nightmare Chica é uma mistura de tons escuros, incluindo preto, amarelo escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
+        "status": "Nightmare Chica não é retratada como quebrada ou danificada no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ela está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
+        "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
         "jumpscare": ""
     },
 
