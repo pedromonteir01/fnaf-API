@@ -494,15 +494,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Mr. Hippo",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Mr. Hippo está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como "Rockstar Animatronics".",
+        "initialLocation": "Mr. Hippo pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
+        "description": "Mr. Hippo é um animatrônico hipopótamo com uma personalidade eloquente e gosto por contar histórias longas e filosóficas. Ele é caracterizado por sua aparência robusta e uma bengala que segura enquanto fala. Mr. Hippo desempenha um papel específico na narrativa e nas interações com o jogador.",
+        "color": "As cores principais de Mr. Hippo incluem tons de azul, roxo e branco, destacando-se por sua aparência distintiva.",
+        "status": "Em termos de narrativa, Mr. Hippo não é retratado como quebrado ou danificado. Sua participação na jogabilidade está mais relacionada às interações verbais e às histórias que ele compartilha com o jogador.",
+        "instrument": "Mr. Hippo não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
