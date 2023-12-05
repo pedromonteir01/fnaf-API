@@ -48,7 +48,7 @@ export const mockedAnimatronic = [
         "color": "Vermelho",
         "status": "Em alguns jogos da franquia, Foxy pode ser representado como quebrado ou desgastado devido ao uso constante. Sua condição pode variar, mas geralmente ele é retratado como um animatrônico mais deteriorado.",
         "instrument": "Foxy não é associado a um instrumento musical específico. Sua ênfase está mais na temática de piratas, com seu gancho e seu comportamento agressivo.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Foxy.mp4"
     },
 
     {
@@ -61,7 +61,7 @@ export const mockedAnimatronic = [
         "color": "Dourado",
         "status": " Golden Freddy é frequentemente representado como quebrado e desgastado. Sua condição pode variar entre os diferentes jogos, mas a tonalidade dourada geralmente sugere um estado de animatrônico mais antigo e deteriorado.",
         "instrument": "Golden Freddy não é associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Golden-Freddy.mp4"
     },
 
     {
@@ -74,7 +74,7 @@ export const mockedAnimatronic = [
         "color": "Marrom claro com detalhes em rosa e azul",
         "status": "Ao contrário dos animatrônicos originais, Toy Freddy geralmente não é retratado como quebrado. No entanto, sua agressividade aumenta ao longo das noites, representando um desafio crescente para o jogador.",
         "instrument": "Toy Freddy é frequentemente associado a um controle de videogame. Em alguns jogos, ele é visto segurando um controle como parte de sua caracterização, destacando sua natureza mais moderna e tecnológica.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Toy-Freddy.mp4"
     },
 
     {
@@ -87,7 +87,7 @@ export const mockedAnimatronic = [
         "color": "Branco/roxo",
         "status": "Assim como outros animatrônicos Toy, Toy Bonnie geralmente não é retratado como quebrado. Sua agressividade aumenta à medida que as noites progridem, apresentando um desafio crescente para o jogador.",
         "instrument": "Toy Bonnie é frequentemente associado a uma guitarra elétrica, destacando seu papel como um animatrônico de entretenimento. Ele é retratado segurando uma guitarra em algumas aparições nos jogos.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Toy-Bonnie.mp4"
     },
 
     {
