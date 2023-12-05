@@ -416,15 +416,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Lefty",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Lefty está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Lefty pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é designado para contornar ou capturar outros animatrônicos.",
+        "description": "Lefty é um animatrônico grande e esguio, com uma aparência de urso. Ele é caracterizado por sua pelagem escura, olhos brilhantes e uma presença imponente. Lefty desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "A cor principal de Lefty é escura, geralmente apresentando tons de preto ou marrom escuro.",
+        "status": "Em termos de narrativa, Lefty é frequentemente associado a situações de risco ou contornando protocolos de segurança. Sua condição pode variar dependendo do contexto do jogo, mas ele não é retratado como quebrado ou danificado no sentido tradicional.",
+        "instrument": "Lefty não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
