@@ -429,15 +429,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Scrap Baby",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Scrap Baby está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Scrap Baby pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
+        "description": "Scrap Baby é uma versão modificada e danificada do animatrônico Circus Baby. Ela é caracterizada por sua aparência assustadora e perturbadora, com partes do exosqueleto expostas. Scrap Baby desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Scrap Baby incluem tons de branco, rosa e roxo. Sua aparência destaca-se por ser uma versão mais sinistra e deteriorada de Circus Baby.",
+        "status": "Scrap Baby é retratada como quebrada e danificada. Sua condição reflete as modificações e danos sofridos ao longo da narrativa da série.",
+        "instrument": "Scrap Baby não está associada a um instrumento musical específico.",
         "jumpscare": ""
     },
 
