@@ -325,15 +325,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Funtime Foxy",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Funtime Foxy está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Funtime Foxy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
+        "description": "Funtime Foxy é um animatrônico moderno e elegante, com um design mais futurista em comparação com os animatrônicos originais da série. Ele é caracterizado por sua aparência andrógina e uma cauda que remete a uma raposa. Funtime Foxy é parte do entretenimento oferecido na pizzaria.",
+        "color": "As cores principais de Funtime Foxy incluem branco, rosa, roxo e amarelo. Seu design é vibrante e atrativo para o público infantil.",
+        "status": "Em seu estado original, Funtime Foxy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
+        "instrument": "Funtime Foxy não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
