@@ -650,15 +650,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Candy Cadet",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Candy Cadet não está associado a uma pizzaria específica, pois ele é apresentado como uma máquina de histórias e não como um animatrônico tradicional. Ele aparece em Freddy Fazbear's Pizzeria Simulator.",
+        "initialLocation": "Candy Cadet está localizado na sala de jogos de Freddy Fazbear's Pizzeria Simulator, onde os jogadores podem interagir com a máquina para ouvir suas histórias.",
+        "description": "Candy Cadet é uma máquina que parece uma versão de um animatrônico, mas sua função principal é contar histórias curtas e, eventualmente, fundir pequenos animatrônicos em um novo. Ele é mais uma peça única na jogabilidade de Freddy Fazbear's Pizzeria Simulator, proporcionando momentos narrativos únicos.",
+        "color": " As cores principais de Candy Cadet incluem tons de vermelho, azul e branco, destacando-se por sua aparência brilhante e colorida.",
+        "status": "Candy Cadet não é retratado como quebrado ou danificado, pois sua função principal é contar histórias e não participar ativamente das mecânicas de horror do jogo.",
+        "instrument": "Candy Cadet não está associado a um instrumento musical.",
         "jumpscare": ""
     },
 
