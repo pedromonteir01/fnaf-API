@@ -455,15 +455,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Molten Freddy",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Molten Freddy está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Molten Freddy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
+        "description": "Molten Freddy é uma versão alterada e composta de vários animatrônicos, incluindo Funtime Freddy e Funtime Foxy. Ele é caracterizado por uma aparência fundida e distorcida, com partes expostas e uma atmosfera ameaçadora. Molten Freddy desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Molten Freddy incluem tons de branco, rosa, azul e amarelo, destacando-se por sua aparência distorcida e fundida.  ",
+        "status": "Molten Freddy é retratado como quebrado e danificado, refletindo sua condição alterada e a fusão de diferentes animatrônicos. Sua presença é associada a eventos perturbadores na narrativa.",
+        "instrument": "Molten Freddy não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
