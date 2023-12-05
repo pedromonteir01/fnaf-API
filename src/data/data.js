@@ -624,15 +624,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Funtime Chica",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Funtime Chica está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ela faz parte do grupo de animatrônicos conhecido como Funtime Animatronics e é especificamente apresentada em Sister Location",
+        "initialLocation": "Funtime Chica é encontrada na sala chamada Funtime Auditorium em Sister Location, onde ela é uma das ameaças aos jogadores.",
+        "description": "Funtime Chica é um animatrônico galinha com uma aparência moderna e polida. Ela possui características semelhantes às de outros animatrônicos da linha Funtime, com uma estética mais futurista e tecnológica. Funtime Chica desempenha um papel específico na narrativa de Sister Location, sendo uma das animatrônicas perigosas no jogo.",
+        "color": "As cores principais de Funtime Chica incluem tons de branco, amarelo e rosa, destacando-se por sua aparência moderna e futurista.",
+        "status": "Em termos de narrativa, Funtime Chica é retratada como funcional e não quebrada. No entanto, como muitos animatrônicos em Sister Location, ela representa uma ameaça aos jogadores durante a jogabilidade.",
+        "instrument": "Funtime Chica não está associada a um instrumento musical específico.",
         "jumpscare": ""
     },
 
