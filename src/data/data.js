@@ -247,15 +247,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Nightmare Foxy",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Nightmare Foxy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "initialLocation": "Durante a jogabilidade, Nightmare Foxy pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
+        "description": "Nightmare Foxy é uma versão aterrorizante e distorcida do personagem Foxy, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
+        "color": "A cor principal de Nightmare Foxy é uma mistura de tons escuros, incluindo preto, vermelho escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
+        "status": "Nightmare Foxy não é retratado como quebrado ou danificado no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ele está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
+        "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
         "jumpscare": ""
     },
 
