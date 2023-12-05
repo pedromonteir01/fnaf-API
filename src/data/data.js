@@ -663,19 +663,6 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
-        "jumpscare": ""
-    },
-
-    {
         "name": "Trash and the Gang",
         "imageBody": "",
         "imageIcon": "",
@@ -685,58 +672,6 @@ export const mockedAnimatronic = [
         "color": "As cores principais de Trash and the Gang variam dependendo dos objetos individuais, incluindo tons de verde, amarelo, azul e marrom.",
         "status": "Trash and the Gang não são retratados como quebrados ou danificados, pois são simplesmente objetos descartados.",
         "instrument": "Trash and the Gang não estão associados a instrumentos musicais",
-        "jumpscare": ""
-    },
-
-    {
-        "name": "",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
-        "jumpscare": ""
-    },
-
-    {
-        "name": "",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
-        "jumpscare": ""
-    },
-
-    {
-        "name": "",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
-        "jumpscare": ""
-    },
-
-    {
-        "name": "",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
         "jumpscare": ""
     },
 ]
