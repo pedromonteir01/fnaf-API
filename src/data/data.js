@@ -403,15 +403,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Fredbear",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Fredbear está associado à pizzaria fictícia Fredbear's Family Diner, que é precursora da Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Fredbear pode ser encontrado em diferentes áreas da Fredbear's Family Diner, dependendo do jogo específico. Sua presença é mais notável nas versões mais antigas da narrativa da série",
+        "description": "Fredbear é um animatrônico urso, caracterizado por sua pelagem dourada, laço borboleta preto e uma aparência amigável. Ele é a versão original do personagem Freddy Fazbear. A narrativa revela que Fredbear está associado a eventos trágicos e perturbadores",
+        "color": "A cor principal de Fredbear é dourada, destacando-se por sua aparência única e marcante.",
+        "status": "Ao longo da narrativa, Fredbear é retratado como quebrado e danificado, especialmente durante os eventos trágicos que ocorrem na Fredbear's Family Diner. A presença de Fredbear é muitas vezes associada a eventos assustadores e perturbadores.",
+        "instrument": "Fredbear não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
