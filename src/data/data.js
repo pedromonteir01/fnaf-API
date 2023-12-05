@@ -611,15 +611,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "El Chip",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "El Chip está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator.",
+        "initialLocation": "El Chip pode ser encontrado em diferentes áreas de Freddy Fazbear's Pizzeria Simulator, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
+        "description": "El Chip é um animatrônico mexicano com uma aparência amigável e trajes coloridos. Ele é caracterizado por sua personalidade festiva e elementos relacionados à culinária mexicana. El Chip desempenha um papel específico na narrativa e nas interações com o jogador",
+        "color": "As cores principais de El Chip incluem tons de verde, vermelho, branco e amarelo, destacando-se por sua aparência festiva e vibrante.",
+        "status": "Em termos de narrativa, El Chip não é retratado como quebrado ou danificado. Ele representa um animatrônico funcional projetado para entretenimento e interações amigáveis",
+        "instrument": "El Chip não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
