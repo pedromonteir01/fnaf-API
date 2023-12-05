@@ -338,15 +338,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Ballora",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Ballora está associada à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's",
+        "initialLocation": "Ballora geralmente é encontrada na área chamada Ballora Gallery dentro da Circus Baby's Pizza World, dependendo do jogo específico. Ela tem um papel específico na narrativa e nas mecânicas de jogo.",
+        "description": "Ballora é um animatrônico gracioso e elegante, projetado para se assemelhar a uma bailarina. Ela é conhecida por sua movimentação suave e graciosa. Ballora desempenha um papel significativo na história e na jogabilidade de determinados jogos da série.",
+        "color": "As cores principais de Ballora incluem tons de roxo, azul e branco. Sua aparência é sofisticada e atrativa, complementando seu papel como uma animatrônica de entretenimento.",
+        "status": "Ballora, em seu estado original, não é retratada como quebrada ou danificada. No entanto, a narrativa da série pode apresentar eventos que afetam a condição dos animatrônicos ao longo do tempo.",
+        "instrument": "Ballora não está associada a um instrumento musical específico.",
         "jumpscare": ""
     },
 
