@@ -468,15 +468,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Helpy",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Helpy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.   ",
+        "initialLocation": "Helpy geralmente é encontrado nas proximidades do escritório do jogador, desempenhando um papel de assistência. Ele é introduzido principalmente em Freddy Fazbear's Pizzeria Simulator.",
+        "description": "Helpy é um animatrônico pequeno e simplificado, com uma aparência semelhante à de um miniatrônico de Freddy Fazbear. Ele serve como uma versão mais amigável e auxiliar do personagem principal. Sua função principal é fornecer dicas e assistência ao jogador",
+        "color": "As cores principais de Helpy incluem tons de marrom, branco e preto. Sua aparência é projetada para ser mais amigável e menos ameaçadora em comparação com outros animatrônicos da série",
+        "status": "Em termos de narrativa, Helpy não é retratado como quebrado ou danificado. Sua condição geralmente é funcional e orientada para ajudar o jogador.",
+        "instrument": "Helpy não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
