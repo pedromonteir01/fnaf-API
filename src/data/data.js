@@ -364,15 +364,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Minireena",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Minireena está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Minireena pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, especialmente nas proximidades de Ballora, dependendo do jogo específico. Sua presença geralmente está relacionada às áreas onde Ballora opera",
+        "description": "Minireena é um animatrônico pequeno com aparência de marionete ou dançarina. Eles têm braços finos e longos, além de uma cabeça semelhante a uma máscara. Minireena é parte integrante da jogabilidade e narrativa específicas de determinados jogos da série.",
+        "color": "A cor principal de Minireena é geralmente branca, destacando-se pela sua aparência esbelta e elegante.",
+        "status": "Em seu estado original, Minireena não é retratado como quebrado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
+        "instrument": "Minireena não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
