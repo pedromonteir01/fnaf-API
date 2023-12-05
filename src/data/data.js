@@ -390,15 +390,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Spring Bonnie",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Spring Bonnie está associado à pizzaria fictícia Fredbear's Family Diner, que é precursora da Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
+        "initialLocation": "Spring Bonnie pode ser encontrado em diferentes áreas da Fredbear's Family Diner, dependendo do jogo específico. Sua presença é mais notável nas versões mais antigas da narrativa da série.",
+        "description": "Spring Bonnie é um animatrônico coelho, caracterizado por sua pelagem amarela, colete roxo e uma aparência amigável. No entanto, a narrativa revela que esse animatrônico tem uma história sombria e está associado a eventos perturbadores.",
+        "color": "A cor principal de Spring Bonnie é amarelo, destacando-se por sua aparência vibrante e amigável.",
+        "status": "Ao longo da narrativa, Spring Bonnie é retratado como quebrado e danificado, especialmente durante os eventos trágicos que ocorrem na Fredbear's Family Diner. A presença de Spring Bonnie é muitas vezes associada a eventos assustadores e perturbadores.",
+        "instrument": "Spring Bonnie não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
