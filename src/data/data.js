@@ -442,15 +442,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Scraptrap",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Scraptrap, originalmente conhecido como Springtrap, está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's",
+        "initialLocation": "Scraptrap pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Ele é uma versão modificada e danificada do animatrônico Spring Bonnie.",
+        "description": "Scraptrap é a forma danificada e modificada de Spring Bonnie, caracterizado por sua aparência deteriorada, partes expostas do exosqueleto e uma expressão ameaçadora. Ele desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Scraptrap incluem tons de amarelo, marrom e vermelho, destacando-se por sua aparência sombria e danificada.",
+        "status": "Scraptrap é retratado como quebrado e danificado, refletindo as modificações e os danos sofridos ao longo da narrativa da série. Ele é uma versão alterada do animatrônico original Spring Bonnie.",
+        "instrument": "Springtrap não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
