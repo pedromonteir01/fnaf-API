@@ -598,15 +598,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Music Man",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Music Man está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator.",
+        "initialLocation": "Music Man pode ser encontrado em diferentes áreas de Freddy Fazbear's Pizzeria Simulator, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
+        "description": "Music Man é um animatrônico esquelético com uma aparência assustadora e um design que se assemelha a um palhaço. Ele é caracterizado por sua natureza perturbadora e pelos instrumentos musicais que carrega. Music Man desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Music Man incluem tons de branco, preto e vermelho, destacando-se por sua aparência esquelética e ameaçadora.",
+        "status": "Em termos de narrativa, Music Man não é retratado como quebrado ou danificado. Ele é representado como um animatrônico funcional, mas sua presença é destinada a causar desconforto e tensão no jogo.",
+        "instrument": "Music Man não está associado a um instrumento musical tradicional.",
         "jumpscare": ""
     },
 
