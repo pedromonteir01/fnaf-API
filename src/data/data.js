@@ -572,15 +572,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Rockstar Chica",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Rockstar Chica está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ela faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "initialLocation": "Rockstar Chica pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
+        "description": "Rockstar Chica é um animatrônico galinha com uma aparência moderna e polida. Ela é caracterizada por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Chica desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Rockstar Chica incluem tons de amarelo, laranja e preto, destacando-se por sua aparência mais atualizada e refinada.",
+        "status": "Em termos de narrativa, Rockstar Chica não é retratada como quebrada ou danificada. Ela representa uma versão modernizada dos animatrônicos originais.",
+        "instrument": "Rockstar Chica não está associada a um instrumento musical específico.",
         "jumpscare": ""
     },
 
