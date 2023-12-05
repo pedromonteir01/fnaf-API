@@ -310,4 +310,433 @@ export const mockedAnimatronic = [
         "instrument": "Funtime Freddy não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
+
+    {
+        "name": "Bon-Bon",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "Bon-Bon faz parte do animatrônico Funtime Freddy e está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's",
+        "initialLocation": "Bon-Bon está geralmente presente no braço direito de Funtime Freddy e é usado por ele para interagir com o jogador. Ele participa ativamente na jogabilidade de certos jogos da série.",
+        "description": "Bon-Bon é uma versão menor e mais amigável de um animatrônico, assemelhando-se a uma pequena marionete ou pelúcia. Ele é manipulado e usado por Funtime Freddy durante as interações com o jogador. Bon-Bon desempenha um papel específico nas mecânicas de jogo e na narrativa.",
+        "color": "As cores principais de Bon-Bon variam, mas frequentemente incluem tons de rosa e branco. Sua aparência é projetada para ser atraente e amigável, contrastando com a presença mais imponente de Funtime Freddy.",
+        "status": "Bon-Bon, em seu estado original, não é retratado como quebrado ou danificado. Sua condição pode variar dependendo dos eventos específicos do jogo e da narrativa.",
+        "instrument": "Bon-Bon não está associado a um instrumento musical específico.",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+
+    {
+        "name": "",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
 ]
