@@ -351,15 +351,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Ennard",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Ennard não está associado a uma pizzaria específica, mas é um personagem importante na narrativa de Five Nights at Freddy's: Sister Location.",
+        "initialLocation": "Ao longo do jogo Sister Location, Ennard assume diferentes formas e ocupa diferentes áreas da pizzaria fictícia Circus Baby's Pizza World.",
+        "description": "Ennard é um animatrônico complexo que é, na verdade, uma composição de vários animatrônicos, incluindo Circus Baby, Ballora, Funtime Foxy, e Funtime Freddy. Ele é conhecido por seu design assustador e desgastado, combinando elementos de vários personagens.",
+        "color": "As cores principais de Ennard incluem tons de branco, amarelo, roxo e vermelho. Sua aparência é uma mistura caótica de diferentes partes de animatrônicos.",
+        "status": "Ennard é representado como um animatrônico que passou por modificações significativas, não apenas em termos de sua composição, mas também em relação à sua condição. Ele pode ser considerado quebrado devido à fusão de vários animatrônicos em um corpo único",
+        "instrument": "Ennard não está associado a um instrumento musical específico.",
         "jumpscare": ""
     },
 
