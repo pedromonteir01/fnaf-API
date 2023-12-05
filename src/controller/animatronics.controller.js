@@ -138,11 +138,11 @@ export const putAnimatronic = (req, res) => {
     //ID por param na requisição
     const { id } = req.params;
     //captura os dados
-    const { name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpascare } = req.body;
+    const { name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare } = req.body;
     //altera no animatronic
     const animatronic = list.getAnimtronicById(id);
 
-    list.putAnimatronic(id, name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpascare);
+    list.putAnimatronic(name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare, id);
 
     //retorna o animatronic
     return res.status(200).send({ animatronic });
