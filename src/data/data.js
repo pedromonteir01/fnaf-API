@@ -507,15 +507,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Pigpatch",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Pigpatch está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "initialLocation": "Pigpatch pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
+        "description": "Pigpatch é um animatrônico porco com uma aparência engraçada e peculiar. Ele é caracterizado por seu aspecto simpático e trajes coloridos. Pigpatch desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Pigpatch incluem tons de rosa, marrom e verde, destacando-se por sua aparência animada e amigável. ",
+        "status": "Em termos de narrativa, Pigpatch não é retratado como quebrado ou danificado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
+        "instrument": "Pigpatch está associado a um banjo, sugerindo que ele pode ter uma função relacionada à música ou entretenimento na pizzaria.",
         "jumpscare": ""
     },
 
