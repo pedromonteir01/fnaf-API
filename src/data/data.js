@@ -585,15 +585,15 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "",
+        "name": "Rockstar Foxy",
         "imageBody": "",
         "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
+        "occupation": "Rockstar Foxy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "initialLocation": "Rockstar Foxy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
+        "description": "Rockstar Foxy é um animatrônico pirata com uma aparência moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Foxy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
+        "color": "As cores principais de Rockstar Foxy incluem tons de vermelho, marrom e preto, destacando-se por sua aparência mais atualizada e refinada.",
+        "status": "Em termos de narrativa, Rockstar Foxy não é retratado como quebrado ou danificado. Ele representa uma versão modernizada dos animatrônicos originais.",
+        "instrument": "Rockstar Foxy está associado a um gancho, representando sua característica pirata.",
         "jumpscare": ""
     },
 
