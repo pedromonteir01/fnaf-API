@@ -51,19 +51,19 @@ export const createPizzeria = (req, res) => {
     // Verificação de dados
     if (!name || !img || !franchise || !description || !animatronics) {
         numbersErrors++;
-        errors.push("Dados insuficientes");
+        errors.push("Dados insuficientes.");
     }
     
     // Verificação de caracteres do nome
     if (name.length < 10 || name.length > 50) {
         numbersErrors++;
-        errors.push('O nome da pizzaria deve ter entre 10 e 50 caracteres');
+        errors.push('O nome da pizzaria deve ter entre 10 e 50 caracteres.');
     }
     
     // Verificação de caracteres da franquia
-    if (franchise.length != 6) {
+    if (franchise.length > 7) {
         numbersErrors++;
-        errors.push('A franquia deve ter 6 caracteres.');
+        errors.push('A franquia deve ter até 7 caracteres.');
     }
     
     // Verificação de URL da imagem
