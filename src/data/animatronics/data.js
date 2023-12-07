@@ -53,7 +53,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Golden Freddy",
-        "imageBody": "../assets/images/GoldenFreddy/Golden Freddy.png/",
+        "imageBody": "../assets/images/GoldenFreddy/Golden Freddy.png",
         "imageIcon": "../assets/images/GoldenFreddy/Sp-Golden-Freddy.jpg",
         "occupation": "Golden Freddy é um animatrônico que pode ser encontrado em diversas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Golden Freddy não tem um ponto de início fixo, e suas aparições muitas vezes são imprevisíveis. Ele pode se materializar em várias partes da pizzaria, incluindo a Sala de Segurança, sem um padrão específico.",
