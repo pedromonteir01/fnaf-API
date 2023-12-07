@@ -41,7 +41,7 @@ export const getAnimatronics = (req, res) => {
 //requisita o animatronic pelo ID
 export const getAnimatronicById = (req, res) => {
     //ID por param na requisição
-    const { id } = req.params.id;
+    const { id } = req.params;
     //busca o animatronic
     const animatronic = list.getAnimtronicById(id);
 
@@ -86,12 +86,12 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho da ocupação
-    if (occupation.length < 3 || occupation.length > 25) {
+    if (occupation.length < 3 || occupation.length > 35) {
         errors.push("invalid_occupation");
     }
 
     //faz a verificação do tamanho da localização inicial
-    if (initialLocation.length < 3 || initialLocation > 25) {
+    if (initialLocation.length < 3 || initialLocation > 250) {
         errors.push("invalid_initialLocation");
     }
 
@@ -106,12 +106,12 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho do status
-    if (status.length < 3 || status.length > 25) {
+    if (status.length < 3 || status.length > 225) {
         errors.push("invalid_status");
     }
 
     //faz a verificação do tamanho do nome
-    if (instrument.length < 3 || instrument.length > 25) {
+    if (instrument.length < 3 || instrument.length > 150) {
         errors.push("invalid_instrument");
     }
 
@@ -136,13 +136,13 @@ export const postAnimtronic = (req, res) => {
 //edita o animatronic pelo ID
 export const putAnimatronic = (req, res) => {
     //ID por param na requisição
-    const { id } = req.params.id;
+    const { id } = req.params;
     //captura os dados
-    const { name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpascare } = req.body;
+    const { name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare } = req.body;
     //altera no animatronic
-    const animatronic = list.getAnimatronicById(id);
+    const animatronic = list.getAnimtronicById(id);
 
-    list.putAnimatronic(id, name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpascare);
+    list.putAnimatronic(name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare, id);
 
     //retorna o animatronic
     return res.status(200).send({ animatronic });
@@ -152,7 +152,7 @@ export const putAnimatronic = (req, res) => {
 //deleta o animatronic pelo ID
 export const deleteAnimatronic = (req, res) => {
     //ID por param na requisição
-    const { id } = req.params.id;
+    const { id } = req.params;
     //cria para passar na mensgame
     const animatronic = list.deleteAnimatronic(id);
 

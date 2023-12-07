@@ -20,7 +20,7 @@ export class AnimatronicList {
     }
 
     //editar um animtronic pelo ID
-    putAnimatronic(id, name, image, occupation, initialLocation, description, color, status, instrument, jumpscare) {
+    putAnimatronic(name, imageBody, imageIcon, occupation, initialLocation, description, color, status, instrument, jumpscare, id) {
         const animatronic = this.getAnimtronicById(id);
 
         //verifica se o animtronic encontrado existe

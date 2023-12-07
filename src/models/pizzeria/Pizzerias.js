@@ -5,7 +5,7 @@ export class Pizzerias {
     }
 
     // Método de mostrar todas as pizzarias
-    getPizzerias() {
+    getPizzerias() { 
         return this.pizzerias;
     }
 

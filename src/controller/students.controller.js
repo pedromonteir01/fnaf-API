@@ -32,7 +32,6 @@ export const getStudent = (req, res) => {
 export const createStudent = (req, res) => {
     let { name, img, age, gender, description } = req.body;
     gender = gender.toLowerCase();
-    console.log(gender);
     const student = new Student(name, img, age, gender, description);
 
     let numbersErrors = 0;
@@ -53,15 +52,6 @@ export const createStudent = (req, res) => {
         errors.push("O gênero deve ser somente feminino ou masculino.")
     }
 
-    if (age < 0 || !(Number.isInteger(age))) {
-        numbersErrors++;
-        errors.push("A idade do estudante deve ser um número inteiro.");
-    }
-
-    if ((verifyUrl(img))) {
-        numbersErrors++;
-        errors.push("O formato da imagem é inválido.");
-    }
 
     if (numbersErrors > 0) {
         return res.status(400).send({
@@ -70,6 +60,7 @@ export const createStudent = (req, res) => {
         });
     } else {
         studentsList.addStudent(student);
+        console.log("AAAAAAAAAAAAAAAA");
         return res.status(201).send(student);
     }
 };
