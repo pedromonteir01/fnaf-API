@@ -651,7 +651,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Candy Cadet",
-        "imageBody": "",
+        "imageBody": "../assets/images/CandyCadet-icon.png",
         "imageIcon": "",
         "occupation": "Candy Cadet não está associado a uma pizzaria específica, pois ele é apresentado como uma máquina de histórias e não como um animatrônico tradicional. Ele aparece em Freddy Fazbear's Pizzeria Simulator.",
         "initialLocation": "Candy Cadet está localizado na sala de jogos de Freddy Fazbear's Pizzeria Simulator, onde os jogadores podem interagir com a máquina para ouvir suas histórias.",
@@ -659,19 +659,19 @@ export const mockedAnimatronic = [
         "color": " As cores principais de Candy Cadet incluem tons de vermelho, azul e branco, destacando-se por sua aparência brilhante e colorida.",
         "status": "Candy Cadet não é retratado como quebrado ou danificado, pois sua função principal é contar histórias e não participar ativamente das mecânicas de horror do jogo.",
         "instrument": "Candy Cadet não está associado a um instrumento musical.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Candy-Cadet.mp4"
     },
 
     {
         "name": "Trash and the Gang",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/TrashAndTheGang-icon.png",
+        "imageIcon": "../assets/images/TrashAndTheGang.png",
         "occupation": "Trash and the Gang aparece em Freddy Fazbear's Pizzeria Simulator. No entanto, eles não são animatrônicos tradicionais e sim um grupo de objetos encontrados no Back Alley (beco dos fundos), que faz parte do jogo.",
         "initialLocation": "Os membros de Trash and the Gang não têm uma localização específica no início do jogo, pois são objetos descartados que o jogador pode escolher para adicionar à sua pizzaria.",
         "description": "Trash and the Gang é composto por vários objetos descartados, como uma lata de lixo, um balde, uma bola, uma xícara e um saco de papel. Eles não têm movimentos animatrônicos tradicionais e não representam uma ameaça ao jogador.",
         "color": "As cores principais de Trash and the Gang variam dependendo dos objetos individuais, incluindo tons de verde, amarelo, azul e marrom.",
         "status": "Trash and the Gang não são retratados como quebrados ou danificados, pois são simplesmente objetos descartados.",
         "instrument": "Trash and the Gang não estão associados a instrumentos musicais",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Trash-and-the-Gang.mp4"
     },
 ]
