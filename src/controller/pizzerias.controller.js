@@ -17,7 +17,13 @@ mockedPizzeria.forEach((pizzeria) => {
 
 // Função de mostrar todas as pizzarias
 export const getPizzerias = (req, res) => {
-    const pizzerias = pizzeriasList.getPizzerias();
+    const  { franchise } = req.query;
+    console.log(franchise);
+
+    const data = {
+        franchise,
+    }
+    const pizzerias = pizzeriasList.getPizzerias(data);
     if (pizzerias.length) {
         return res.status(200).send({ pizzerias, totalPizzerias: pizzerias.length });
     }
