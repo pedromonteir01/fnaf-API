@@ -144,8 +144,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Springtrap",
-        "imageBody": "../assets/images/Springtrap-icon.png",
-        "imageIcon": "../assets/images/Springtrap.png",
+        "imageBody": "../assets/images/Springtrap/Springtrap.png",
+        "imageIcon": "../assets/images/Springtrap/Sp-Springtrap.jpg",
         "occupation": "Springtrap é encontrado na pizzaria Freddy Fazbear's Pizza, especialmente na localização conhecida como Fazbear's Fright: The Horror Attraction, em alguns jogos da franquia",
         "initialLocation": " Springtrap geralmente começa em áreas específicas da pizzaria ou da atração, como Salas de Manutenção ou Corredores, dependendo do jogo específico. Ele é um dos animatrônicos mais ameaçadores da série.",
         "description": " Springtrap é o resultado de um humano (William Afton) que se fundiu com um traje animatrônico. Ele tem uma aparência de coelho deteriorada, com partes do traje revelando partes orgânicas do corpo. Springtrap é notável por sua natureza hostil e seu comportamento agressivo em relação ao jogador.",
@@ -157,8 +157,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Phantom Freddy",
-        "imageBody": "../assets/images/PhantomFreddy-icon.png",
-        "imageIcon": "../assets/images/PhantomFreddy.png",
+        "imageBody": "../assets/images/PhantomFreddy/Phantom Freddy.png",
+        "imageIcon": "../assets/images/PhantomFreddy/Sp-Phantom-Freddy.jpg",
         "occupation": "Ele é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Ele é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "description": " Phantom Freddy é um animatrônico assombrado e deteriorado. Ele é uma versão fantasma de Freddy Fazbear, exibindo danos visíveis e uma aparência mais sombria. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
@@ -170,8 +170,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Phantom Chica",
-        "imageBody": "../assets/images/PhantomChica-icon.png",
-        "imageIcon": "../assets/images/PhantomChica.png",
+        "imageBody": "../assets/images/PhantomChica/Phantom Chica.png",
+        "imageIcon": "../assets/images/PhantomChica/Sp-Phantom-Chica.jpg",
         "occupation": "Phantom Chica é encontrada na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": " Durante a jogabilidade, Phantom Chica pode ser encontrada em várias áreas da pizzaria, incluindo o escritório do jogador e outros lugares estratégicos.",
         "description": "Phantom Chica é uma versão phantom de Chica, um dos animatrônicos originais da franquia. Assim como outros animatrônicos phantom, ela exibe sinais de deterioração e uma aparência mais fantasmagórica. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
@@ -183,8 +183,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Phantom Foxy",
-        "imageBody": "../assets/images/PhantomFoxy-icon.png",
-        "imageIcon": "../assets/images/PhantomFoxy.png",
+        "imageBody": "../assets/images/PhantomFoxy/Phantom Foxy.png",
+        "imageIcon": "../assets/images/PhantomFoxy/Sp-Phantom-Foxy.jpg",
         "occupation": "Phantom Foxy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que serve como o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Phantom Foxy pode ser encontrado em várias áreas da pizzaria, incluindo o escritório do jogador e outros locais estratégicos.",
         "description": "Phantom Foxy é uma versão phantom do personagem Foxy, um dos animatrônicos originais da série. Assim como outros animatrônicos phantom, ele exibe sinais de deterioração e uma aparência mais fantasmagórica. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
