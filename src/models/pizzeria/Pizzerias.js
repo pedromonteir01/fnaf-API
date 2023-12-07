@@ -5,10 +5,31 @@ export class Pizzerias {
     }
 
     // Método de mostrar todas as pizzarias
-    getPizzerias() { 
+    getPizzerias(data) {
+        console.log('class data', data)
+        const { franchise } = data;
+
+        if(franchise){
+            return this.getPizzeriasbyFranchise(franchise)
+        }
+        
         return this.pizzerias;
     }
 
+    getPizzeriasbyFranchise(franchise){
+        if(franchise){
+            franchise = franchise.toUpperCase();
+        }
+
+        const pizzeriasFilt = this.pizzerias.filter((pizzeria) =>{
+            const franchiseCondition = franchise == undefined || pizzeria.franchise.toUpperCase() == franchise;
+
+            return franchiseCondition;
+        });
+
+        return pizzeriasFilt;
+
+    }
     // Método de mostrar uma pizzaria específica por ID
     getPizzeriasById(id) {
         return this.pizzerias.find((pizzeria) => pizzeria.id === id);
