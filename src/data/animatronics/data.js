@@ -79,8 +79,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Bonnie",
-        "imageBody": "../assets/images/ToyBonnie-icon.png",
-        "imageIcon": "../assets/images/ToyBonnie.png",
+        "imageBody": "../assets/images/ToyBonnie/Toy Bonnie.png",
+        "imageIcon": "../assets/images/ToyBonnie/Sp-Toy-Bonnie.jpg",
         "occupation": "Toy Bonnie é um animatrônico que pode ser encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": "Toy Bonnie geralmente começa suas noites em áreas destinadas aos animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. À medida que a noite avança, ele se movimenta por outras partes da pizzaria em busca do jogador.",
         "description": "Toy Bonnie é uma versão atualizada do personagem original Bonnie. Ele tem uma aparência mais moderna e amigável, com pele de coelho de cor clara, olhos azuis brilhantes e detalhes em roxo. Ao contrário do Bonnie original, Toy Bonnie não tem uma faixa preta na parte superior da cabeça.",
