@@ -391,197 +391,197 @@ export const mockedAnimatronic = [
 
     {
         "name": "Spring Bonnie",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/SpringBonnie-icon.png",
+        "imageIcon": "../assets/images/SpringBonnie.png",
         "occupation": "Spring Bonnie está associado à pizzaria fictícia Fredbear's Family Diner, que é precursora da Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Spring Bonnie pode ser encontrado em diferentes áreas da Fredbear's Family Diner, dependendo do jogo específico. Sua presença é mais notável nas versões mais antigas da narrativa da série.",
         "description": "Spring Bonnie é um animatrônico coelho, caracterizado por sua pelagem amarela, colete roxo e uma aparência amigável. No entanto, a narrativa revela que esse animatrônico tem uma história sombria e está associado a eventos perturbadores.",
         "color": "A cor principal de Spring Bonnie é amarelo, destacando-se por sua aparência vibrante e amigável.",
         "status": "Ao longo da narrativa, Spring Bonnie é retratado como quebrado e danificado, especialmente durante os eventos trágicos que ocorrem na Fredbear's Family Diner. A presença de Spring Bonnie é muitas vezes associada a eventos assustadores e perturbadores.",
         "instrument": "Spring Bonnie não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Spring-Bonnie.mp4"
     },
 
     {
         "name": "Fredbear",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Fredbear-icon.png",
+        "imageIcon": "../assets/images/Fredbear.png",
         "occupation": "Fredbear está associado à pizzaria fictícia Fredbear's Family Diner, que é precursora da Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Fredbear pode ser encontrado em diferentes áreas da Fredbear's Family Diner, dependendo do jogo específico. Sua presença é mais notável nas versões mais antigas da narrativa da série",
         "description": "Fredbear é um animatrônico urso, caracterizado por sua pelagem dourada, laço borboleta preto e uma aparência amigável. Ele é a versão original do personagem Freddy Fazbear. A narrativa revela que Fredbear está associado a eventos trágicos e perturbadores",
         "color": "A cor principal de Fredbear é dourada, destacando-se por sua aparência única e marcante.",
         "status": "Ao longo da narrativa, Fredbear é retratado como quebrado e danificado, especialmente durante os eventos trágicos que ocorrem na Fredbear's Family Diner. A presença de Fredbear é muitas vezes associada a eventos assustadores e perturbadores.",
         "instrument": "Fredbear não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Fredbear.mp4"
     },
 
     {
         "name": "Lefty",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Lefty-icon.png",
+        "imageIcon": "../assets/images/Lefty.png",
         "occupation": "Lefty está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Lefty pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é designado para contornar ou capturar outros animatrônicos.",
         "description": "Lefty é um animatrônico grande e esguio, com uma aparência de urso. Ele é caracterizado por sua pelagem escura, olhos brilhantes e uma presença imponente. Lefty desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "A cor principal de Lefty é escura, geralmente apresentando tons de preto ou marrom escuro.",
         "status": "Em termos de narrativa, Lefty é frequentemente associado a situações de risco ou contornando protocolos de segurança. Sua condição pode variar dependendo do contexto do jogo, mas ele não é retratado como quebrado ou danificado no sentido tradicional.",
         "instrument": "Lefty não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Lefty.mp4"
     },
 
     {
         "name": "Scrap Baby",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/ScrapBaby-icon.png",
+        "imageIcon": "../assets/images/ScrapBaby.png",
         "occupation": "Scrap Baby está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Scrap Baby pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
         "description": "Scrap Baby é uma versão modificada e danificada do animatrônico Circus Baby. Ela é caracterizada por sua aparência assustadora e perturbadora, com partes do exosqueleto expostas. Scrap Baby desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Scrap Baby incluem tons de branco, rosa e roxo. Sua aparência destaca-se por ser uma versão mais sinistra e deteriorada de Circus Baby.",
         "status": "Scrap Baby é retratada como quebrada e danificada. Sua condição reflete as modificações e danos sofridos ao longo da narrativa da série.",
         "instrument": "Scrap Baby não está associada a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Scrap-Baby.mp4"
     },
 
     {
         "name": "Scraptrap",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Scraptrap-icon.png",
+        "imageIcon": "../assets/images/Scraptrap.png",
         "occupation": "Scraptrap, originalmente conhecido como Springtrap, está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's",
         "initialLocation": "Scraptrap pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Ele é uma versão modificada e danificada do animatrônico Spring Bonnie.",
         "description": "Scraptrap é a forma danificada e modificada de Spring Bonnie, caracterizado por sua aparência deteriorada, partes expostas do exosqueleto e uma expressão ameaçadora. Ele desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Scraptrap incluem tons de amarelo, marrom e vermelho, destacando-se por sua aparência sombria e danificada.",
         "status": "Scraptrap é retratado como quebrado e danificado, refletindo as modificações e os danos sofridos ao longo da narrativa da série. Ele é uma versão alterada do animatrônico original Spring Bonnie.",
         "instrument": "Springtrap não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Scraptrap.mp4"
     },
 
     {
         "name": "Molten Freddy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/MoltenFreddy-icon.png",
+        "imageIcon": "../assets/images/MoltenFreddy.png",
         "occupation": "Molten Freddy está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Molten Freddy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Molten Freddy é uma versão alterada e composta de vários animatrônicos, incluindo Funtime Freddy e Funtime Foxy. Ele é caracterizado por uma aparência fundida e distorcida, com partes expostas e uma atmosfera ameaçadora. Molten Freddy desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Molten Freddy incluem tons de branco, rosa, azul e amarelo, destacando-se por sua aparência distorcida e fundida.  ",
         "status": "Molten Freddy é retratado como quebrado e danificado, refletindo sua condição alterada e a fusão de diferentes animatrônicos. Sua presença é associada a eventos perturbadores na narrativa.",
         "instrument": "Molten Freddy não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Molten-Freddy.mp4"
     },
 
     {
         "name": "Helpy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Helpy-icon.png",
+        "imageIcon": "../assets/images/Helpy.png",
         "occupation": "Helpy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.   ",
         "initialLocation": "Helpy geralmente é encontrado nas proximidades do escritório do jogador, desempenhando um papel de assistência. Ele é introduzido principalmente em Freddy Fazbear's Pizzeria Simulator.",
         "description": "Helpy é um animatrônico pequeno e simplificado, com uma aparência semelhante à de um miniatrônico de Freddy Fazbear. Ele serve como uma versão mais amigável e auxiliar do personagem principal. Sua função principal é fornecer dicas e assistência ao jogador",
         "color": "As cores principais de Helpy incluem tons de marrom, branco e preto. Sua aparência é projetada para ser mais amigável e menos ameaçadora em comparação com outros animatrônicos da série",
         "status": "Em termos de narrativa, Helpy não é retratado como quebrado ou danificado. Sua condição geralmente é funcional e orientada para ajudar o jogador.",
         "instrument": "Helpy não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Helpy.mp4"
     },
 
     {
         "name": "Happy Frog",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/HappyFrog-icon.png",
+        "imageIcon": "../assets/images/HappyFrog.png",
         "occupation": "Happy Frog está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Happy Frog pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Happy Frog é um animatrônico anfíbio com uma aparência amigável, caracterizado por sua boca grande e olhos expressivos. Ela faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics. Happy Frog desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Happy Frog incluem tons de verde, amarelo e vermelho, destacando-se por sua aparência vibrante e alegre.",
         "status": "Em termos de narrativa, Happy Frog não é retratada como quebrada ou danificada. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
         "instrument": "Happy Frog não está associada a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Happy-Frog.mp4"
     },
 
     {
         "name": "Mr. Hippo",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/MrHippo-icon.png",
+        "imageIcon": "../assets/images/MrHippo.png",
         "occupation": "Mr. Hippo está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Mr. Hippo pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
         "description": "Mr. Hippo é um animatrônico hipopótamo com uma personalidade eloquente e gosto por contar histórias longas e filosóficas. Ele é caracterizado por sua aparência robusta e uma bengala que segura enquanto fala. Mr. Hippo desempenha um papel específico na narrativa e nas interações com o jogador.",
         "color": "As cores principais de Mr. Hippo incluem tons de azul, roxo e branco, destacando-se por sua aparência distintiva.",
         "status": "Em termos de narrativa, Mr. Hippo não é retratado como quebrado ou danificado. Sua participação na jogabilidade está mais relacionada às interações verbais e às histórias que ele compartilha com o jogador.",
         "instrument": "Mr. Hippo não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Mr-Hippo.mp4"
     },
 
     {
         "name": "Pigpatch",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Pigpatch-icon.png",
+        "imageIcon": "../assets/images/Pigpatch.png",
         "occupation": "Pigpatch está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Pigpatch pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Pigpatch é um animatrônico porco com uma aparência engraçada e peculiar. Ele é caracterizado por seu aspecto simpático e trajes coloridos. Pigpatch desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Pigpatch incluem tons de rosa, marrom e verde, destacando-se por sua aparência animada e amigável. ",
         "status": "Em termos de narrativa, Pigpatch não é retratado como quebrado ou danificado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
         "instrument": "Pigpatch está associado a um banjo, sugerindo que ele pode ter uma função relacionada à música ou entretenimento na pizzaria.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Pigpatch.mp4"
     },
 
     {
         "name": "Nedd Bear",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/NeddBear-icon.png",
+        "imageIcon": "../assets/images/NeddBear.png",
         "occupation": "Nedd Bear está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics",
         "initialLocation": "Nedd Bear pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Nedd Bear é um animatrônico urso com uma aparência descontraída e brincalhona. Ele é caracterizado por seu aspecto descontraído e trajes coloridos. Nedd Bear desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Nedd Bear incluem tons de laranja, verde e marrom, destacando-se por sua aparência animada e amigável.",
         "status": "Em termos de narrativa, Nedd Bear não é retratado como quebrado ou danificado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
         "instrument": "Nedd Bear está associado a um banjo, sugerindo que ele pode ter uma função relacionada à música ou entretenimento na pizzaria.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Nedd-Bear.mp4"
     },
 
     {
         "name": "Orville Elephant",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/OrvilleElephant-icon.png",
+        "imageIcon": "../assets/images/OrvilleElephant.png",
         "occupation": "Orville Elephant está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Orville Elephant pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
         "description": "Orville Elephant é um animatrônico elefante com uma aparência amigável e expressiva. Ele é caracterizado por suas orelhas grandes e trajes coloridos. Orville Elephant desempenha um papel específico na narrativa e nas interações com o jogador.",
         "color": "As cores principais de Orville Elephant incluem tons de azul, verde e amarelo, destacando-se por sua aparência animada e amigável.",
         "status": "Em termos de narrativa, Orville Elephant não é retratado como quebrado ou danificado. Sua participação na jogabilidade está mais relacionada às interações verbais e ao papel que desempenha nas interações durante o jogo.",
         "instrument": "Orville Elephant não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Orville-Elephant.mp4"
     },
 
     {
         "name": "Rockstar Freddy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/RockstarFreddy-icon.png",
+        "imageIcon": "../assets/images/RockstarFreddy.png",
         "occupation": "Rockstar Freddy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Rockstar Freddy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Rockstar Freddy é um animatrônico urso com uma aparência mais moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Freddy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Freddy incluem tons de marrom, dourado e preto, destacando-se por sua aparência mais refinada e atualizada.   ",
         "status": "Em termos de narrativa, Rockstar Freddy não é retratado como quebrado ou danificado. Ele representa uma versão modernizada dos animatrônicos originais.",
         "instrument": "Rockstar Freddy não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Rockstar-Freddy.mp4"
     },
 
     {
         "name": "Rockstar Bonnie",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/RockstarBonnie-icon.png",
+        "imageIcon": "../assets/images/RockstarBonnie.png",
         "occupation": "Rockstar Bonnie está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Rockstar Bonnie pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Rockstar Bonnie é um animatrônico coelho com uma aparência moderna e refinada. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Bonnie desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Bonnie incluem tons de roxo, azul e preto, destacando-se por sua aparência mais atualizada e polida.",
         "status": "Em termos de narrativa, Rockstar Bonnie não é retratado como quebrado ou danificado. Ele representa uma versão modernizada dos animatrônicos originais.",
         "instrument": "Rockstar Bonnie não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Rockstar-Bonnie.mp4"
     },
 
     {
         "name": "Rockstar Chica",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/RockstarChica-icon.png",
+        "imageIcon": "../assets/images/RockstarChica.png",
         "occupation": "Rockstar Chica está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ela faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Rockstar Chica pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
         "description": "Rockstar Chica é um animatrônico galinha com uma aparência moderna e polida. Ela é caracterizada por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Chica desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Chica incluem tons de amarelo, laranja e preto, destacando-se por sua aparência mais atualizada e refinada.",
         "status": "Em termos de narrativa, Rockstar Chica não é retratada como quebrada ou danificada. Ela representa uma versão modernizada dos animatrônicos originais.",
         "instrument": "Rockstar Chica não está associada a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Rockstar-Chica.mp4"
     },
 
     {
