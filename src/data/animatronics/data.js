@@ -40,7 +40,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Foxy the Pirate Fox",
-        "imageBody": "../assets/images/Foxy-icon.png",
+        "imageBody": "../assets/images/FoxythePirateFox/Foxy-icon.png",
         "imageIcon": "../assets/images/FoxythePirateFox/SP-Foxy-the-Pirate-Fox.jpg",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Foxy começa suas noites na Sala de Piratas ou na Câmara de Segurança, dependendo do jogo específico. Ele é conhecido por ser mais ativo ao longo da noite, correndo em direção ao jogador.",
@@ -53,8 +53,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Golden Freddy",
-        "imageBody": "../assets/images/GoldenFreddy/",
-        "imageIcon": "../assets/images/GoldenFreddy.png",
+        "imageBody": "../assets/images/GoldenFreddy/Golden Freddy.png/",
+        "imageIcon": "../assets/images/GoldenFreddy/Sp-Golden-Freddy.jpg",
         "occupation": "Golden Freddy é um animatrônico que pode ser encontrado em diversas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Golden Freddy não tem um ponto de início fixo, e suas aparições muitas vezes são imprevisíveis. Ele pode se materializar em várias partes da pizzaria, incluindo a Sala de Segurança, sem um padrão específico.",
         "description": "Golden Freddy é uma versão dourada e mais deteriorada de Freddy Fazbear. Ele compartilha muitas semelhanças com o Freddy original, incluindo a cartola preta e a gravata borboleta, mas sua cor dourada indica um estado diferente. Golden Freddy é conhecido por suas aparições surpresa e comportamento assustador.",
