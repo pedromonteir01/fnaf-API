@@ -53,8 +53,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Golden Freddy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/GoldenFreddy-icon.png",
+        "imageIcon": "../assets/images/GoldenFreddy.png",
         "occupation": "Golden Freddy é um animatrônico que pode ser encontrado em diversas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Golden Freddy não tem um ponto de início fixo, e suas aparições muitas vezes são imprevisíveis. Ele pode se materializar em várias partes da pizzaria, incluindo a Sala de Segurança, sem um padrão específico.",
         "description": "Golden Freddy é uma versão dourada e mais deteriorada de Freddy Fazbear. Ele compartilha muitas semelhanças com o Freddy original, incluindo a cartola preta e a gravata borboleta, mas sua cor dourada indica um estado diferente. Golden Freddy é conhecido por suas aparições surpresa e comportamento assustador.",
