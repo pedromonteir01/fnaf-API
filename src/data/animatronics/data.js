@@ -53,7 +53,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Golden Freddy",
-        "imageBody": "../assets/images/GoldenFreddy-icon.png",
+        "imageBody": "../assets/images/GoldenFreddy/",
         "imageIcon": "../assets/images/GoldenFreddy.png",
         "occupation": "Golden Freddy é um animatrônico que pode ser encontrado em diversas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Golden Freddy não tem um ponto de início fixo, e suas aparições muitas vezes são imprevisíveis. Ele pode se materializar em várias partes da pizzaria, incluindo a Sala de Segurança, sem um padrão específico.",
@@ -66,8 +66,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Freddy",
-        "imageBody": "../assets/images/ToyFreddy-icon.png",
-        "imageIcon": "../assets/images/ToyFreddy.png",
+        "imageBody": "../assets/images/ToyFreddy/Toy Freddy.png",
+        "imageIcon": "../assets/images/ToyFreddy/ToyFreddy-icon.png",
         "occupation": "Toy Freddy é um animatrônico que pode ser encontrado na pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Toy Freddy geralmente começa a noite em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. Ao longo da noite, ele se move para outras partes da pizzaria em busca do jogador.",
         "description": " Toy Freddy é uma versão atualizada do personagem original Freddy Fazbear. Ele tem uma aparência mais moderna e amigável, com uma pelagem de cor mais clara, olhos azuis brilhantes e um laço de gravata borboleta rosa. Assim como o Freddy original, ele é um animatrônico de urso.",
