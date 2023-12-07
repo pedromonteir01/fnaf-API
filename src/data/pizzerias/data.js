@@ -1,4 +1,4 @@
-const mockedPizzeria = [
+export const mockedPizzeria = [
   {
     "name": "Pizzaria Freddy Fazbear",
     "img": "../assets/imagens-Pizzerias/pizzaria-Freddy-Fazbear1.png",
