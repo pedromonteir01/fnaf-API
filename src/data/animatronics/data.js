@@ -14,8 +14,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Bonnie the Bunny",
-        "imageBody": "../assets/images/Bonnie-icon.png",
-        "imageIcon": "../assets/images/Bonnie.png",
+        "imageBody": "../assets/images/BonnietheBunny/BonnietheBunny.png",
+        "imageIcon": "../assets/images/BonnietheBunny/Sp-Bonnie-the-Bunny.jpg",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Bonnie geralmente começa a noite na Sala de Show Principal ou em áreas próximas, mas como outros animatrônicos, ele se move para diferentes partes da pizzaria ao longo da noite.",
         "description": "Bonnie é um coelho animatrônico com pele azul, olhos grandes e uma guitarra elétrica. Ele é conhecido por sua natureza agressiva à noite, perseguindo o jogador pelo ambiente da pizzaria.",
@@ -27,8 +27,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Chica the Chicken",
-        "imageBody": "../assets/images/Chica-icon.png",
-        "imageIcon": "../assets/images/Chica.png",
+        "imageBody": "../assets/images/ChicatheChicken/Chica-icon.png",
+        "imageIcon": "../assets/images/ChicatheChicken/Chica_icon_fnaf1.png",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Chica geralmente começa a noite na Sala de Show Principal ou em áreas próximas, mas durante a noite, ela se movimenta por diferentes partes da pizzaria em busca do jogador.",
         "description": " Chica é um animatrônico em forma de galinha com penas amarelas, um bico laranja e olhos grandes. Ela é um dos personagens principais da banda animatrônica da pizzaria e é conhecida por sua natureza agressiva durante a noite.",
@@ -40,8 +40,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Foxy the Pirate Fox",
-        "imageBody": "../assets/images/Foxy-icon.png",
-        "imageIcon": "../assets/images/Foxy.png",
+        "imageBody": "../assets/images/FoxythePirateFox/Foxy-icon.png",
+        "imageIcon": "../assets/images/FoxythePirateFox/SP-Foxy-the-Pirate-Fox.jpg",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Foxy começa suas noites na Sala de Piratas ou na Câmara de Segurança, dependendo do jogo específico. Ele é conhecido por ser mais ativo ao longo da noite, correndo em direção ao jogador.",
         "description": " Foxy é um animatrônico em forma de raposa com pele vermelha, olhos amarelos e uma pata de gancho. Ele veste uma faixa preta e uma bermuda rasgada, dando-lhe uma aparência de pirata. Foxy é notável por sua natureza agressiva e por se mover rapidamente em direção ao jogador.",
@@ -53,8 +53,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Golden Freddy",
-        "imageBody": "../assets/images/GoldenFreddy-icon.png",
-        "imageIcon": "../assets/images/GoldenFreddy.png",
+        "imageBody": "../assets/images/GoldenFreddy/Golden Freddy.png",
+        "imageIcon": "../assets/images/GoldenFreddy/Sp-Golden-Freddy.jpg",
         "occupation": "Golden Freddy é um animatrônico que pode ser encontrado em diversas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Golden Freddy não tem um ponto de início fixo, e suas aparições muitas vezes são imprevisíveis. Ele pode se materializar em várias partes da pizzaria, incluindo a Sala de Segurança, sem um padrão específico.",
         "description": "Golden Freddy é uma versão dourada e mais deteriorada de Freddy Fazbear. Ele compartilha muitas semelhanças com o Freddy original, incluindo a cartola preta e a gravata borboleta, mas sua cor dourada indica um estado diferente. Golden Freddy é conhecido por suas aparições surpresa e comportamento assustador.",
@@ -66,8 +66,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Freddy",
-        "imageBody": "../assets/images/ToyFreddy-icon.png",
-        "imageIcon": "../assets/images/ToyFreddy.png",
+        "imageBody": "../assets/images/ToyFreddy/Toy Freddy.png",
+        "imageIcon": "../assets/images/ToyFreddy/Sp-Toy-Freddy.jpg",
         "occupation": "Toy Freddy é um animatrônico que pode ser encontrado na pizzaria Freddy Fazbear's Pizza",
         "initialLocation": " Toy Freddy geralmente começa a noite em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. Ao longo da noite, ele se move para outras partes da pizzaria em busca do jogador.",
         "description": " Toy Freddy é uma versão atualizada do personagem original Freddy Fazbear. Ele tem uma aparência mais moderna e amigável, com uma pelagem de cor mais clara, olhos azuis brilhantes e um laço de gravata borboleta rosa. Assim como o Freddy original, ele é um animatrônico de urso.",
@@ -79,8 +79,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Bonnie",
-        "imageBody": "../assets/images/ToyBonnie-icon.png",
-        "imageIcon": "../assets/images/ToyBonnie.png",
+        "imageBody": "../assets/images/ToyBonnie/Toy Bonnie.png",
+        "imageIcon": "../assets/images/ToyBonnie/Sp-Toy-Bonnie.jpg",
         "occupation": "Toy Bonnie é um animatrônico que pode ser encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": "Toy Bonnie geralmente começa suas noites em áreas destinadas aos animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. À medida que a noite avança, ele se movimenta por outras partes da pizzaria em busca do jogador.",
         "description": "Toy Bonnie é uma versão atualizada do personagem original Bonnie. Ele tem uma aparência mais moderna e amigável, com pele de coelho de cor clara, olhos azuis brilhantes e detalhes em roxo. Ao contrário do Bonnie original, Toy Bonnie não tem uma faixa preta na parte superior da cabeça.",
@@ -92,8 +92,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Chica",
-        "imageBody": "../assets/images/ToyChica-icon.png",
-        "imageIcon": "../assets/images/ToyChica.png",
+        "imageBody": "../assets/images/ToyChica/Toy Chica.png",
+        "imageIcon": "../assets/images/ToyChica/Sp-Toy-Chica.jpg",
         "occupation": "Toy Chica é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza ",
         "initialLocation": "Toy Chica geralmente começa suas noites em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. À medida que a noite avança, ela se move para outras partes da pizzaria em busca do jogador.",
         "description": "Toy Chica é uma versão atualizada do personagem original Chica. Ela tem uma aparência mais moderna e amigável, com penas amarelas, olhos azuis brilhantes e detalhes em rosa. Ao contrário da Chica original, Toy Chica não tem um bico completo e em alguns jogos, ela é retratada sem seu bico e sem olhos.",
@@ -105,8 +105,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Mangle (Toy Foxy)",
-        "imageBody": "../assets/images/Mangle-icon.png",
-        "imageIcon": "../assets/images/Mangle.png",
+        "imageBody": "../assets/images/Mangle(Toy Foxy)/Sp-Mangle.jpg",
+        "imageIcon": "../assets/images/Mangle(Toy Foxy)/Mangle (Toy Foxy).png",
         "occupation": "Mangle é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza ",
         "initialLocation": " Mangle geralmente começa suas noites em áreas designadas para os animatrônicos Toy, como a Sala de Festas 3 ou o Corredor Leste. Ao longo da noite, ela se move para diferentes partes da pizzaria em busca do jogador.",
         "description": "Mangle, também conhecida como Toy Foxy, é uma versão atualizada do personagem original Foxy. Ela é caracterizada por uma aparência mais desmontada, com partes do corpo soltas e penduradas. Mangle tem uma pelagem de cor rosa e branca, olhos azuis brilhantes e uma boca cheia de dentes afiados. Ela é notável por sua natureza mais errática e desorganizada em comparação com outros animatrônicos.",
@@ -118,8 +118,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Balloon Boy (BB)",
-        "imageBody": "../assets/images/BalloonBoy-icon.png",
-        "imageIcon": "../assets/images/BalloonBoy.png",
+        "imageBody": "../assets/images/BalloonBoy(BB)/Balloon Boy.png",
+        "imageIcon": "../assets/images/BalloonBoy(BB)/Sp-Balloon-Boy.jpg",
         "occupation": " Balloon Boy é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": "Balloon Boy geralmente começa suas noites em áreas específicas, como a Sala de Jogos ou o Corredor Oeste. Ele tem uma função distintiva de deslocar-se para áreas onde o jogador está, emitindo risadas características.",
         "description": " Balloon Boy é um animatrônico pequeno com pele clara e grandes olhos azuis. Ele é conhecido por segurar balões coloridos e tem uma aparência mais infantil em comparação com outros animatrônicos da pizzaria. Balloon Boy é caracterizado por sua risada única, que muitas vezes o identifica quando está próximo.",
@@ -131,8 +131,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Puppet (Marionette)",
-        "imageBody": "../assets/images/Puppet-icon.png",
-        "imageIcon": "../assets/images/Puppet.png",
+        "imageBody": "../assets/images/Puppet(Marionette)/Puppet (Marionette).png",
+        "imageIcon": "../assets/images/Puppet(Marionette)/Sp-Puppet-(Marionette).jpg",
         "occupation": " O Puppet geralmente começa em uma área central, como o Salão Principal ou o Centro de Atendimento, dependendo do jogo específico. Ele é notável por seu comportamento único, envolvendo a necessidade do jogador de manter um olho constante nele para evitar que se torne ativo.",
         "initialLocation": " O Puppet, também conhecido como Marionette, é um animatrônico com uma aparência de marionete. Ele tem uma cabeça branca com olhos pretos, uma boca com dentes afiados e é frequentemente representado usando uma caixa de música. O Puppet é conhecido por ser um dos animatrônicos mais singulares e desafiadores da franquia.",
         "description": "O Puppet, também conhecido como Marionette, é um animatrônico com uma aparência de marionete. Ele tem uma cabeça branca com olhos pretos, uma boca com dentes afiados e é frequentemente representado usando uma caixa de música. O Puppet é conhecido por ser um dos animatrônicos mais singulares e desafiadores da franquia.",
