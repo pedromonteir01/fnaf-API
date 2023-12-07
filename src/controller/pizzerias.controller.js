@@ -1,3 +1,4 @@
+import { mockedPizzeria } from '../data/pizzerias/data.js'
 import { Pizzeria } from '../models/pizzeria/Pizzeria.js';
 import { Pizzerias } from '../models/pizzeria/Pizzerias.js';
 
@@ -8,6 +9,11 @@ const pizzeriasList = new Pizzerias();
 const verifyUrl = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) == null;
 }
+
+mockedPizzeria.forEach((pizzeria) => {
+    const pizzeriaMocked = new Pizzeria(pizzeria.name, pizzeria.img, pizzeria.franchise, pizzeria.animatronics, pizzeria.description);
+    pizzeriasList.addPizzeria(pizzeriaMocked);
+})
 
 // Função de mostrar todas as pizzarias
 export const getPizzerias = (req, res) => {
