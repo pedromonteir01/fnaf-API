@@ -92,8 +92,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Chica",
-        "imageBody": "../assets/images/ToyChica-icon.png",
-        "imageIcon": "../assets/images/ToyChica.png",
+        "imageBody": "../assets/images/ToyChica/Toy Chica.png",
+        "imageIcon": "../assets/images/ToyChica/Sp-Toy-Chica.jpg",
         "occupation": "Toy Chica é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza ",
         "initialLocation": "Toy Chica geralmente começa suas noites em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. À medida que a noite avança, ela se move para outras partes da pizzaria em busca do jogador.",
         "description": "Toy Chica é uma versão atualizada do personagem original Chica. Ela tem uma aparência mais moderna e amigável, com penas amarelas, olhos azuis brilhantes e detalhes em rosa. Ao contrário da Chica original, Toy Chica não tem um bico completo e em alguns jogos, ela é retratada sem seu bico e sem olhos.",
@@ -105,8 +105,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Mangle (Toy Foxy)",
-        "imageBody": "../assets/images/Mangle-icon.png",
-        "imageIcon": "../assets/images/Mangle.png",
+        "imageBody": "../assets/images/Mangle(Toy Foxy)/Sp-Mangle.jpg",
+        "imageIcon": "../assets/images/Mangle(Toy Foxy)/Mangle (Toy Foxy).png",
         "occupation": "Mangle é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza ",
         "initialLocation": " Mangle geralmente começa suas noites em áreas designadas para os animatrônicos Toy, como a Sala de Festas 3 ou o Corredor Leste. Ao longo da noite, ela se move para diferentes partes da pizzaria em busca do jogador.",
         "description": "Mangle, também conhecida como Toy Foxy, é uma versão atualizada do personagem original Foxy. Ela é caracterizada por uma aparência mais desmontada, com partes do corpo soltas e penduradas. Mangle tem uma pelagem de cor rosa e branca, olhos azuis brilhantes e uma boca cheia de dentes afiados. Ela é notável por sua natureza mais errática e desorganizada em comparação com outros animatrônicos.",
@@ -118,8 +118,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Balloon Boy (BB)",
-        "imageBody": "../assets/images/BalloonBoy-icon.png",
-        "imageIcon": "../assets/images/BalloonBoy.png",
+        "imageBody": "../assets/images/BalloonBoy(BB)/Balloon Boy.png",
+        "imageIcon": "../assets/images/BalloonBoy(BB)/Sp-Balloon-Boy.jpg",
         "occupation": " Balloon Boy é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza",
         "initialLocation": "Balloon Boy geralmente começa suas noites em áreas específicas, como a Sala de Jogos ou o Corredor Oeste. Ele tem uma função distintiva de deslocar-se para áreas onde o jogador está, emitindo risadas características.",
         "description": " Balloon Boy é um animatrônico pequeno com pele clara e grandes olhos azuis. Ele é conhecido por segurar balões coloridos e tem uma aparência mais infantil em comparação com outros animatrônicos da pizzaria. Balloon Boy é caracterizado por sua risada única, que muitas vezes o identifica quando está próximo.",
@@ -131,8 +131,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Puppet (Marionette)",
-        "imageBody": "../assets/images/Puppet-icon.png",
-        "imageIcon": "../assets/images/Puppet.png",
+        "imageBody": "../assets/images/Puppet(Marionette)/Puppet (Marionette).png",
+        "imageIcon": "../assets/images/Puppet(Marionette)/Sp-Puppet-(Marionette).jpg",
         "occupation": " O Puppet geralmente começa em uma área central, como o Salão Principal ou o Centro de Atendimento, dependendo do jogo específico. Ele é notável por seu comportamento único, envolvendo a necessidade do jogador de manter um olho constante nele para evitar que se torne ativo.",
         "initialLocation": " O Puppet, também conhecido como Marionette, é um animatrônico com uma aparência de marionete. Ele tem uma cabeça branca com olhos pretos, uma boca com dentes afiados e é frequentemente representado usando uma caixa de música. O Puppet é conhecido por ser um dos animatrônicos mais singulares e desafiadores da franquia.",
         "description": "O Puppet, também conhecido como Marionette, é um animatrônico com uma aparência de marionete. Ele tem uma cabeça branca com olhos pretos, uma boca com dentes afiados e é frequentemente representado usando uma caixa de música. O Puppet é conhecido por ser um dos animatrônicos mais singulares e desafiadores da franquia.",
