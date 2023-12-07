@@ -91,7 +91,7 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho da localização inicial
-    if (initialLocation.length < 3 || initialLocation > 75) {
+    if (initialLocation.length < 3 || initialLocation > 250) {
         errors.push("invalid_initialLocation");
     }
 
@@ -106,12 +106,12 @@ export const postAnimtronic = (req, res) => {
     }
 
     //faz a verificação do tamanho do status
-    if (status.length < 3 || status.length > 50) {
+    if (status.length < 3 || status.length > 225) {
         errors.push("invalid_status");
     }
 
     //faz a verificação do tamanho do nome
-    if (instrument.length < 3 || instrument.length > 25) {
+    if (instrument.length < 3 || instrument.length > 150) {
         errors.push("invalid_instrument");
     }
 
