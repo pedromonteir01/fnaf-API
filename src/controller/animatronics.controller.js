@@ -1,6 +1,6 @@
 import { AnimatronicList } from "../models/animatronics/animatronics.js";
 import { Animatronic } from "../models/animatronics/animatronic.js";
-import { mockedAnimatronic } from "../data/data.js";
+import { mockedAnimatronic } from "../data/animatronics/data.js";
 
 //verificação de imagem
 const verifyURL = (url) => {
