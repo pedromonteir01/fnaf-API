@@ -196,8 +196,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Phantom Balloon Boy",
-        "imageBody": "../assets/images/PhantomBalloonBoy-icon.png",
-        "imageIcon": "../assets/images/PhantomBalloonBoy.png",
+        "imageBody": "../assets/images/PhantomBalloonBoy/Phantom Balloon Boy.png",
+        "imageIcon": "../assets/images/PhantomBalloonBoy/Sp-Phantom-Balloon-Boy.jpg",
         "occupation": "Phantom Balloon Boy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza.",
         "initialLocation": "Durante a jogabilidade, Phantom Balloon Boy pode ser encontrado em diferentes áreas da pizzaria, incluindo o escritório do jogador e outros locais estratégicos.",
         "description": "Phantom Balloon Boy é uma versão phantom do personagem Balloon Boy, um dos animatrônicos introduzidos na série. Assim como outros animatrônicos phantom, ele exibe sinais de deterioração e uma aparência mais fantasmagórica. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
@@ -209,8 +209,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare Freddy",
-        "imageBody": "../assets/images/NightmareFreddy-icon.png",
-        "imageIcon": "../assets/images/NightmareFreddy.png",
+        "imageBody": "../assets/images/NightmareFreddy/Nightmare Freddy.png",
+        "imageIcon": "../assets/images/NightmareFreddy/Sp-Nightmare-Fredbear.jpg",
         "occupation": "Nightmare Freddy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que serve como o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Freddy pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Freddy é uma versão aterrorizante e distorcida do personagem Freddy Fazbear. Ele apresenta garras afiadas, dentes ameaçadores e uma presença geralmente mais assustadora do que seu homólogo original. Sua imagem reflete a natureza pesadelo do personagem.",
@@ -222,8 +222,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare Bonnie",
-        "imageBody": "../assets/images/NightmareBonnie-icon.png",
-        "imageIcon": "../assets/images/NightmareBonnie.png",
+        "imageBody": "../assets/images/NightmareBonnie/Nightmare Bonnie.png",
+        "imageIcon": "../assets/images/NightmareBonnie/Sp-Nightmare-Bonnie.jpg",
         "occupation": "Nightmare Bonnie é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Bonnie pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Bonnie é uma versão aterrorizante e distorcida do personagem Bonnie, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
@@ -235,8 +235,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare Chica",
-        "imageBody": "../assets/images/NightmareChica-icon.png",
-        "imageIcon": "../assets/images/NightmareChica.png",
+        "imageBody": "../assets/images/NightmareChica/Nightmare Chica.png",
+        "imageIcon": "../assets/images/NightmareChica/Sp-Nightmare-Chica.jpg",
         "occupation": "Nightmare Chica é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Chica pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ela geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Chica é uma versão aterrorizante e distorcida do personagem Chica, um dos animatrônicos originais da série. Ela apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
@@ -248,8 +248,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare Foxy",
-        "imageBody": "../assets/images/NightmareFoxy-icon.png",
-        "imageIcon": "../assets/images/NightmareFoxy.png",
+        "imageBody": "../assets/images/NightmareFoxy/Nightmare Foxy.png",
+        "imageIcon": "../assets/images/NightmareFoxy/Sp-Nightmare-Foxy.jpg",
         "occupation": "Nightmare Foxy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Foxy pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Foxy é uma versão aterrorizante e distorcida do personagem Foxy, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
@@ -261,8 +261,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare Fredbear",
-        "imageBody": "../assets/images/NightmareFredbear-icon.png",
-        "imageIcon": "../assets/images/NightmareFredbear.png",
+        "imageBody": "../assets/images/NightmareFredbear/Nightmare Fredbear.png",
+        "imageIcon": "../assets/images/NightmareFredbear/Sp-Nightmare-Fredbear.jpg",
         "occupation": "Nightmare Fredbear é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Fredbear pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Fredbear é uma versão aterrorizante e distorcida do personagem Fredbear, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
@@ -274,8 +274,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare",
-        "imageBody": "../assets/images/Nightmare-icon.png",
-        "imageIcon": "../assets/images/Nightmare.png",
+        "imageBody": "../assets/images/Nightmare/Nightmare.jpg",
+        "imageIcon": "../assets/images/Nightmare/Sp-Nightmare.jpg",
         "occupation": "Nightmare é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare é uma versão aterrorizante e distorcida de Freddy Fazbear, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados, garras e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
