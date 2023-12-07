@@ -26,7 +26,8 @@ export class AnimatronicList {
         //verifica se o animtronic encontrado existe
         if(animatronic) {
             animatronic.name = name;
-            animatronic.image = image;
+            animatronic.imageIcon = imageIcon;
+            animatronic.imageBody = imageBody;
             animatronic.occupation = occupation;
             animatronic.initialLocation = initialLocation;
             animatronic.description = description;
