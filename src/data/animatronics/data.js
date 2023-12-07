@@ -222,171 +222,171 @@ export const mockedAnimatronic = [
 
     {
         "name": "Nightmare Bonnie",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/NightmareBonnie-icon.png",
+        "imageIcon": "../assets/images/NightmareBonnie.png",
         "occupation": "Nightmare Bonnie é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Bonnie pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Bonnie é uma versão aterrorizante e distorcida do personagem Bonnie, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Bonnie é uma mistura de tons escuros, incluindo preto, roxo escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
         "status": "Nightmare Bonnie não é retratado como quebrado ou danificado no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ele está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
         "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Nightmare-Bonnie.mp4"
     },
 
     {
         "name": "Nightmare Chica",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/NightmareChica-icon.png",
+        "imageIcon": "../assets/images/NightmareChica.png",
         "occupation": "Nightmare Chica é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Chica pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ela geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Chica é uma versão aterrorizante e distorcida do personagem Chica, um dos animatrônicos originais da série. Ela apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Chica é uma mistura de tons escuros, incluindo preto, amarelo escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
         "status": "Nightmare Chica não é retratada como quebrada ou danificada no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ela está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
         "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Nightmare-Chica.mp4"
     },
 
     {
         "name": "Nightmare Foxy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/NightmareFoxy-icon.png",
+        "imageIcon": "../assets/images/NightmareFoxy.png",
         "occupation": "Nightmare Foxy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Foxy pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Foxy é uma versão aterrorizante e distorcida do personagem Foxy, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Foxy é uma mistura de tons escuros, incluindo preto, vermelho escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
         "status": "Nightmare Foxy não é retratado como quebrado ou danificado no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ele está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
         "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Nightmare-Foxy.mp4"
     },
 
     {
         "name": "Nightmare Fredbear",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/NightmareFredbear-icon.png",
+        "imageIcon": "../assets/images/NightmareFredbear.png",
         "occupation": "Nightmare Fredbear é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare Fredbear pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Fredbear é uma versão aterrorizante e distorcida do personagem Fredbear, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Fredbear é uma mistura de tons escuros, incluindo preto, dourado e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
         "status": "Nightmare Fredbear não é retratado como quebrado ou danificado no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ele está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
         "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Nightmare-Fredbear.mp4"
     },
 
     {
         "name": "Nightmare",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Nightmare-icon.png",
+        "imageIcon": "../assets/images/Nightmare.png",
         "occupation": "Nightmare é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "initialLocation": "Durante a jogabilidade, Nightmare pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare é uma versão aterrorizante e distorcida de Freddy Fazbear, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados, garras e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare é uma mistura de tons escuros, incluindo preto, marrom escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
         "status": "Nightmare não é retratado como quebrado ou danificado no sentido tradicional. No entanto, sua forma distorcida e aterrorizante indicam claramente que ele está em um estado diferente dos animatrônicos normais, refletindo a natureza dos pesadelos.",
         "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Nightmare.mp4"
     },
 
     {
         "name": "Plushtrap",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Plushtrap-icon.png",
+        "imageIcon": "../assets/images/Plushtrap.png",
         "occupation": "Plushtrap não está associado a uma pizzaria específica, mas é encontrado em mini-games na série Five Nights at Freddy's.",
         "initialLocation": "Plushtrap geralmente é encontrado em mini-games específicos, como o Fun with Plushtrap, onde o jogador tenta controlar sua posição para ganhar vantagens na jogabilidade principal.",
         "description": "Plushtrap é uma versão em miniatura e mais adorável dos animatrônicos principais da série, especificamente do personagem Springtrap. Apesar de sua aparência fofa, ele ainda mantém um toque de inquietação e mistério.",
         "color": "A cor principal de Plushtrap varia, mas geralmente inclui tons de verde e amarelo, as cores características de Springtrap.",
         "status": "Plushtrap não é retratado como quebrado ou danificado. Ele é uma versão menor e aparentemente mais inofensiva dos animatrônicos, mas sua presença nos mini-games pode ter implicações narrativas.",
         "instrument": "Plushtrap não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Plushtrap.mp4"
     },
 
     {
         "name": "Funtime Freddy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/FuntimeFreddy-icon.png",
+        "imageIcon": "../assets/images/FuntimeFreddy.png",
         "occupation": "Funtime Freddy é associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Funtime Freddy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Ele é parte integrante da narrativa e dos desafios do jogo.",
         "description": "Funtime Freddy é um animatrônico grande e colorido que faz parte da nova geração de animatrônicos introduzidos na série. Ele possui um design mais moderno e amigável, com uma versão de pelúcia chamada Bon-Bon que está frequentemente presente em seu braço direito. Funtime Freddy é associado ao entretenimento infantil na pizzaria.",
         "color": "As cores principais de Funtime Freddy incluem branco, rosa, azul e amarelo. Seu design vibrante e alegre é destinado a atrair o público infantil.",
         "status": "Em seu estado original, Funtime Freddy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
         "instrument": "Funtime Freddy não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Funtime-Freddy.mp4"
     },
 
     {
         "name": "Bon-Bon",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/BonBon-icon.png",
+        "imageIcon": "../assets/images/BonBon.png",
         "occupation": "Bon-Bon faz parte do animatrônico Funtime Freddy e está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's",
         "initialLocation": "Bon-Bon está geralmente presente no braço direito de Funtime Freddy e é usado por ele para interagir com o jogador. Ele participa ativamente na jogabilidade de certos jogos da série.",
         "description": "Bon-Bon é uma versão menor e mais amigável de um animatrônico, assemelhando-se a uma pequena marionete ou pelúcia. Ele é manipulado e usado por Funtime Freddy durante as interações com o jogador. Bon-Bon desempenha um papel específico nas mecânicas de jogo e na narrativa.",
         "color": "As cores principais de Bon-Bon variam, mas frequentemente incluem tons de rosa e branco. Sua aparência é projetada para ser atraente e amigável, contrastando com a presença mais imponente de Funtime Freddy.",
         "status": "Bon-Bon, em seu estado original, não é retratado como quebrado ou danificado. Sua condição pode variar dependendo dos eventos específicos do jogo e da narrativa.",
         "instrument": "Bon-Bon não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Bon-Bon.mp4"
     },
 
     {
         "name": "Funtime Foxy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/FuntimeFoxy-icon.png",
+        "imageIcon": "../assets/images/FuntimeFoxy.png",
         "occupation": "Funtime Foxy está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Funtime Foxy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
         "description": "Funtime Foxy é um animatrônico moderno e elegante, com um design mais futurista em comparação com os animatrônicos originais da série. Ele é caracterizado por sua aparência andrógina e uma cauda que remete a uma raposa. Funtime Foxy é parte do entretenimento oferecido na pizzaria.",
         "color": "As cores principais de Funtime Foxy incluem branco, rosa, roxo e amarelo. Seu design é vibrante e atrativo para o público infantil.",
         "status": "Em seu estado original, Funtime Foxy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
         "instrument": "Funtime Foxy não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Funtime-Foxy.mp4"
     },
 
     {
         "name": "Ballora",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Ballora-icon.png",
+        "imageIcon": "../assets/images/Ballora.png",
         "occupation": "Ballora está associada à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's",
         "initialLocation": "Ballora geralmente é encontrada na área chamada Ballora Gallery dentro da Circus Baby's Pizza World, dependendo do jogo específico. Ela tem um papel específico na narrativa e nas mecânicas de jogo.",
         "description": "Ballora é um animatrônico gracioso e elegante, projetado para se assemelhar a uma bailarina. Ela é conhecida por sua movimentação suave e graciosa. Ballora desempenha um papel significativo na história e na jogabilidade de determinados jogos da série.",
         "color": "As cores principais de Ballora incluem tons de roxo, azul e branco. Sua aparência é sofisticada e atrativa, complementando seu papel como uma animatrônica de entretenimento.",
         "status": "Ballora, em seu estado original, não é retratada como quebrada ou danificada. No entanto, a narrativa da série pode apresentar eventos que afetam a condição dos animatrônicos ao longo do tempo.",
         "instrument": "Ballora não está associada a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Ballora.mp4"
     },
 
     {
         "name": "Ennard",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Ennard-icon.png",
+        "imageIcon": "../assets/images/Ennard.png",
         "occupation": "Ennard não está associado a uma pizzaria específica, mas é um personagem importante na narrativa de Five Nights at Freddy's: Sister Location.",
         "initialLocation": "Ao longo do jogo Sister Location, Ennard assume diferentes formas e ocupa diferentes áreas da pizzaria fictícia Circus Baby's Pizza World.",
         "description": "Ennard é um animatrônico complexo que é, na verdade, uma composição de vários animatrônicos, incluindo Circus Baby, Ballora, Funtime Foxy, e Funtime Freddy. Ele é conhecido por seu design assustador e desgastado, combinando elementos de vários personagens.",
         "color": "As cores principais de Ennard incluem tons de branco, amarelo, roxo e vermelho. Sua aparência é uma mistura caótica de diferentes partes de animatrônicos.",
         "status": "Ennard é representado como um animatrônico que passou por modificações significativas, não apenas em termos de sua composição, mas também em relação à sua condição. Ele pode ser considerado quebrado devido à fusão de vários animatrônicos em um corpo único",
         "instrument": "Ennard não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Ennard.mp4"
     },
 
     {
         "name": "Minireena",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Minireena-icon.png",
+        "imageIcon": "../assets/images/Minireena.png",
         "occupation": "Minireena está associado à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Minireena pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, especialmente nas proximidades de Ballora, dependendo do jogo específico. Sua presença geralmente está relacionada às áreas onde Ballora opera",
         "description": "Minireena é um animatrônico pequeno com aparência de marionete ou dançarina. Eles têm braços finos e longos, além de uma cabeça semelhante a uma máscara. Minireena é parte integrante da jogabilidade e narrativa específicas de determinados jogos da série.",
         "color": "A cor principal de Minireena é geralmente branca, destacando-se pela sua aparência esbelta e elegante.",
         "status": "Em seu estado original, Minireena não é retratado como quebrado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
         "instrument": "Minireena não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Minireena.mp4"
     },
 
     {
         "name": "Baby",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Baby-icon.png",
+        "imageIcon": "../assets/images/Baby.png",
         "occupation": "Baby está associada à pizzaria fictícia Circus Baby's Pizza World, introduzida na série Five Nights at Freddy's.",
         "initialLocation": "Baby pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
         "description": "Baby é um animatrônico grande e sofisticado com uma aparência elegante e futurista. Ela é caracterizada por cabelos loiros, um vestido roxo e um microfone em sua mão. Baby desempenha um papel significativo na história e nas mecânicas de jogo de determinados jogos da série",
         "color": "A cor principal de Baby é roxo, destacando-se por sua presença marcante e elegante.",
         "status": "Em seu estado original, Baby não é retratada como quebrada. No entanto, ao longo da narrativa da série, eventos podem ocorrer que afetam a condição de Baby de diferentes maneiras.",
         "instrument": "Baby está associada a um microfone em sua mão.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Baby.mp4"
     },
 
     {
