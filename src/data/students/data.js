@@ -1,41 +1,41 @@
 export const mockedStudents = [
     {
-        "name": "",
+        "name": "Pedro Monteiro",
         "img": "",
-        "age": "",
-        "gender": "",
-        "description": ""
+        "age": "17",
+        "gender": "Masculino",
+        "description": "Nascido em 2006, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
     },
 
     {
-        "name": "",
+        "name": "João Pedro",
         "img": "",
-        "age": "",
-        "gender": "",
-        "description": ""
+        "age": "17",
+        "gender": "Masculino",
+        "description": "Nascido em 2006, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
     },
 
     {
-        "name": "",
+        "name": "Livia Souza",
         "img": "",
-        "age": "",
-        "gender": "",
-        "description": ""
+        "age": "16",
+        "gender": "Femonino",
+        "description": "Nascido em 2007, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
     },
 
     {
-        "name": "",
+        "name": "Felipe Miotto",
         "img": "",
-        "age": "",
-        "gender": "",
-        "description": ""
+        "age": "17",
+        "gender": "Masculino",
+        "description": "Nascido em 2006, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
     },
 
     {
-        "name": "",
+        "name": "Daniel Santos",
         "img": "",
-        "age": "",
-        "gender": "",
-        "description": ""
+        "age": "17",
+        "gender": "Masculino",
+        "description": "Nascido em 2006, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
     },
 ];
