@@ -40,8 +40,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Foxy the Pirate Fox",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/Foxy-icon.png",
+        "imageIcon": "../assets/images/Foxy.png",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Foxy começa suas noites na Sala de Piratas ou na Câmara de Segurança, dependendo do jogo específico. Ele é conhecido por ser mais ativo ao longo da noite, correndo em direção ao jogador.",
         "description": " Foxy é um animatrônico em forma de raposa com pele vermelha, olhos amarelos e uma pata de gancho. Ele veste uma faixa preta e uma bermuda rasgada, dando-lhe uma aparência de pirata. Foxy é notável por sua natureza agressiva e por se mover rapidamente em direção ao jogador.",
