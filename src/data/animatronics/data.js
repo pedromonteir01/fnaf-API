@@ -586,67 +586,67 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Foxy",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/RockstarFoxy-icon.png",
+        "imageIcon": "../assets/images/RockstarFoxy.png",
         "occupation": "Rockstar Foxy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
         "initialLocation": "Rockstar Foxy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
         "description": "Rockstar Foxy é um animatrônico pirata com uma aparência moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Foxy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Foxy incluem tons de vermelho, marrom e preto, destacando-se por sua aparência mais atualizada e refinada.",
         "status": "Em termos de narrativa, Rockstar Foxy não é retratado como quebrado ou danificado. Ele representa uma versão modernizada dos animatrônicos originais.",
         "instrument": "Rockstar Foxy está associado a um gancho, representando sua característica pirata.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Rockstar-Foxy.mp4"
     },
 
     {
         "name": "Music Man",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/MusicMan-icon.png",
+        "imageIcon": "../assets/images/MusicMan.png",
         "occupation": "Music Man está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator.",
         "initialLocation": "Music Man pode ser encontrado em diferentes áreas de Freddy Fazbear's Pizzeria Simulator, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Music Man é um animatrônico esquelético com uma aparência assustadora e um design que se assemelha a um palhaço. Ele é caracterizado por sua natureza perturbadora e pelos instrumentos musicais que carrega. Music Man desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Music Man incluem tons de branco, preto e vermelho, destacando-se por sua aparência esquelética e ameaçadora.",
         "status": "Em termos de narrativa, Music Man não é retratado como quebrado ou danificado. Ele é representado como um animatrônico funcional, mas sua presença é destinada a causar desconforto e tensão no jogo.",
         "instrument": "Music Man não está associado a um instrumento musical tradicional.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Music-Man.mp4"
     },
 
     {
         "name": "El Chip",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/ElChip-icon.png",
+        "imageIcon": "../assets/images/ElChip.png",
         "occupation": "El Chip está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator.",
         "initialLocation": "El Chip pode ser encontrado em diferentes áreas de Freddy Fazbear's Pizzeria Simulator, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
         "description": "El Chip é um animatrônico mexicano com uma aparência amigável e trajes coloridos. Ele é caracterizado por sua personalidade festiva e elementos relacionados à culinária mexicana. El Chip desempenha um papel específico na narrativa e nas interações com o jogador",
         "color": "As cores principais de El Chip incluem tons de verde, vermelho, branco e amarelo, destacando-se por sua aparência festiva e vibrante.",
         "status": "Em termos de narrativa, El Chip não é retratado como quebrado ou danificado. Ele representa um animatrônico funcional projetado para entretenimento e interações amigáveis",
         "instrument": "El Chip não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-El-Chip.mp4"
     },
 
     {
         "name": "Funtime Chica",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/FuntimeChica-icon.png",
+        "imageIcon": "../assets/images/FuntimeChica.png",
         "occupation": "Funtime Chica está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ela faz parte do grupo de animatrônicos conhecido como Funtime Animatronics e é especificamente apresentada em Sister Location",
         "initialLocation": "Funtime Chica é encontrada na sala chamada Funtime Auditorium em Sister Location, onde ela é uma das ameaças aos jogadores.",
         "description": "Funtime Chica é um animatrônico galinha com uma aparência moderna e polida. Ela possui características semelhantes às de outros animatrônicos da linha Funtime, com uma estética mais futurista e tecnológica. Funtime Chica desempenha um papel específico na narrativa de Sister Location, sendo uma das animatrônicas perigosas no jogo.",
         "color": "As cores principais de Funtime Chica incluem tons de branco, amarelo e rosa, destacando-se por sua aparência moderna e futurista.",
         "status": "Em termos de narrativa, Funtime Chica é retratada como funcional e não quebrada. No entanto, como muitos animatrônicos em Sister Location, ela representa uma ameaça aos jogadores durante a jogabilidade.",
         "instrument": "Funtime Chica não está associada a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Funtime-Chica.mp4"
     },
 
     {
         "name": "Security Puppet",
-        "imageBody": "",
-        "imageIcon": "",
+        "imageBody": "../assets/images/SecurityPuppet-icon.png",
+        "imageIcon": "../assets/images/SecurityPuppet.png",
         "occupation": " Security Puppet está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator e é uma parte importante da narrativa relacionada à Henry's Daughter.",
         "initialLocation": "Security Puppet é inicialmente encontrado fora da pizzaria, guardando a entrada. Posteriormente, ele é movido para o local interno durante os eventos do jogo.",
         "description": " Security Puppet é um animatrônico com design de marionete e é notável por sua aparência mais simples em comparação com outros animatrônicos. Ele desempenha um papel crucial na história, sendo responsável por proteger e monitorar a entrada da pizzaria.",
         "color": "As cores principais de Security Puppet incluem tons de branco, preto e vermelho, destacando-se por sua aparência mais minimalista e funcional.",
         "status": "Em termos de narrativa, Security Puppet é retratado como um animatrônico funcional, mas com um papel significativo na trama da história relacionada à família Afton e à tragédia envolvendo Henry's Daughter.",
         "instrument": "Security Puppet não está associado a um instrumento musical específico.",
-        "jumpscare": ""
+        "jumpscare": "../assets/videos/jump-Scare-Security-Puppet.mp4"
     },
 
     {
