@@ -53,9 +53,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Golden Freddy",
-        "imageBody": "../assets/images/GoldenFreddy/Golden Freddy.png",
-        "imageIcon": "../assets/images/GoldenFreddy/Sp-Golden-Freddy.jpg",
-        "occupation": "Golden Freddy é um animatrônico que pode ser encontrado em diversas localizações da pizzaria Freddy Fazbear's Pizza",
+        "imageBody": "../assets/images/GoldenFreddy/FullGoldenFreddy.png",
+        "imageIcon": "../assets/images/GoldenFreddy/GoldenFreddyIcon.png",
+        "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": " Golden Freddy não tem um ponto de início fixo, e suas aparições muitas vezes são imprevisíveis. Ele pode se materializar em várias partes da pizzaria, incluindo a Sala de Segurança, sem um padrão específico.",
         "description": "Golden Freddy é uma versão dourada e mais deteriorada de Freddy Fazbear. Ele compartilha muitas semelhanças com o Freddy original, incluindo a cartola preta e a gravata borboleta, mas sua cor dourada indica um estado diferente. Golden Freddy é conhecido por suas aparições surpresa e comportamento assustador.",
         "color": "Dourado",
@@ -66,9 +66,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Freddy",
-        "imageBody": "../assets/images/ToyFreddy/Toy Freddy.png",
-        "imageIcon": "../assets/images/ToyFreddy/Sp-Toy-Freddy.jpg",
-        "occupation": "Toy Freddy é um animatrônico que pode ser encontrado na pizzaria Freddy Fazbear's Pizza",
+        "imageBody": "../assets/images/ToyFreddy/FullToyFreddy.png",
+        "imageIcon": "../assets/images/ToyFreddy/ToyFreddyIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
         "initialLocation": " Toy Freddy geralmente começa a noite em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. Ao longo da noite, ele se move para outras partes da pizzaria em busca do jogador.",
         "description": " Toy Freddy é uma versão atualizada do personagem original Freddy Fazbear. Ele tem uma aparência mais moderna e amigável, com uma pelagem de cor mais clara, olhos azuis brilhantes e um laço de gravata borboleta rosa. Assim como o Freddy original, ele é um animatrônico de urso.",
         "color": "Marrom claro com detalhes em rosa e azul",
@@ -79,9 +79,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Bonnie",
-        "imageBody": "../assets/images/ToyBonnie/Toy Bonnie.png",
-        "imageIcon": "../assets/images/ToyBonnie/Sp-Toy-Bonnie.jpg",
-        "occupation": "Toy Bonnie é um animatrônico que pode ser encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza",
+        "imageBody": "../assets/images/ToyBonnie/ToyBonnie.png",
+        "imageIcon": "../assets/images/ToyBonnie/ToyBonnieIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
         "initialLocation": "Toy Bonnie geralmente começa suas noites em áreas destinadas aos animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. À medida que a noite avança, ele se movimenta por outras partes da pizzaria em busca do jogador.",
         "description": "Toy Bonnie é uma versão atualizada do personagem original Bonnie. Ele tem uma aparência mais moderna e amigável, com pele de coelho de cor clara, olhos azuis brilhantes e detalhes em roxo. Ao contrário do Bonnie original, Toy Bonnie não tem uma faixa preta na parte superior da cabeça.",
         "color": "Branco/roxo",
@@ -93,8 +93,8 @@ export const mockedAnimatronic = [
     {
         "name": "Toy Chica",
         "imageBody": "../assets/images/ToyChica/Toy Chica.png",
-        "imageIcon": "../assets/images/ToyChica/Sp-Toy-Chica.jpg",
-        "occupation": "Toy Chica é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza ",
+        "imageIcon": "../assets/images/ToyChica/ToyChicaIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
         "initialLocation": "Toy Chica geralmente começa suas noites em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. À medida que a noite avança, ela se move para outras partes da pizzaria em busca do jogador.",
         "description": "Toy Chica é uma versão atualizada do personagem original Chica. Ela tem uma aparência mais moderna e amigável, com penas amarelas, olhos azuis brilhantes e detalhes em rosa. Ao contrário da Chica original, Toy Chica não tem um bico completo e em alguns jogos, ela é retratada sem seu bico e sem olhos.",
         "color": "Amarelo/rosa",
@@ -104,10 +104,10 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "Mangle (Toy Foxy)",
-        "imageBody": "../assets/images/Mangle(Toy Foxy)/Sp-Mangle.jpg",
-        "imageIcon": "../assets/images/Mangle(Toy Foxy)/Mangle (Toy Foxy).png",
-        "occupation": "Mangle é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza ",
+        "name": "Mangle",
+        "imageBody": "../assets/images/Mangle(Toy Foxy)/Mangle.png",
+        "imageIcon": "../assets/images/Mangle(Toy Foxy)/MangleIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
         "initialLocation": " Mangle geralmente começa suas noites em áreas designadas para os animatrônicos Toy, como a Sala de Festas 3 ou o Corredor Leste. Ao longo da noite, ela se move para diferentes partes da pizzaria em busca do jogador.",
         "description": "Mangle, também conhecida como Toy Foxy, é uma versão atualizada do personagem original Foxy. Ela é caracterizada por uma aparência mais desmontada, com partes do corpo soltas e penduradas. Mangle tem uma pelagem de cor rosa e branca, olhos azuis brilhantes e uma boca cheia de dentes afiados. Ela é notável por sua natureza mais errática e desorganizada em comparação com outros animatrônicos.",
         "color": "Rosa/branco",
@@ -118,9 +118,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Balloon Boy (BB)",
-        "imageBody": "../assets/images/BalloonBoy(BB)/Balloon Boy.png",
-        "imageIcon": "../assets/images/BalloonBoy(BB)/Sp-Balloon-Boy.jpg",
-        "occupation": " Balloon Boy é um animatrônico encontrado em algumas localizações da pizzaria Freddy Fazbear's Pizza",
+        "imageBody": "../assets/images/BalloonBoy(BB)/BalloonBoy.png",
+        "imageIcon": "../assets/images/BalloonBoy(BB)/BalloonBoy.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
         "initialLocation": "Balloon Boy geralmente começa suas noites em áreas específicas, como a Sala de Jogos ou o Corredor Oeste. Ele tem uma função distintiva de deslocar-se para áreas onde o jogador está, emitindo risadas características.",
         "description": " Balloon Boy é um animatrônico pequeno com pele clara e grandes olhos azuis. Ele é conhecido por segurar balões coloridos e tem uma aparência mais infantil em comparação com outros animatrônicos da pizzaria. Balloon Boy é caracterizado por sua risada única, que muitas vezes o identifica quando está próximo.",
         "color": "Pele clara",
@@ -132,8 +132,8 @@ export const mockedAnimatronic = [
     {
         "name": "Puppet (Marionette)",
         "imageBody": "../assets/images/Puppet(Marionette)/Puppet (Marionette).png",
-        "imageIcon": "../assets/images/Puppet(Marionette)/Sp-Puppet-(Marionette).jpg",
-        "occupation": " O Puppet geralmente começa em uma área central, como o Salão Principal ou o Centro de Atendimento, dependendo do jogo específico. Ele é notável por seu comportamento único, envolvendo a necessidade do jogador de manter um olho constante nele para evitar que se torne ativo.",
+        "imageIcon": "../assets/images/Puppet(Marionette)/PuppetIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
         "initialLocation": " O Puppet, também conhecido como Marionette, é um animatrônico com uma aparência de marionete. Ele tem uma cabeça branca com olhos pretos, uma boca com dentes afiados e é frequentemente representado usando uma caixa de música. O Puppet é conhecido por ser um dos animatrônicos mais singulares e desafiadores da franquia.",
         "description": "O Puppet, também conhecido como Marionette, é um animatrônico com uma aparência de marionete. Ele tem uma cabeça branca com olhos pretos, uma boca com dentes afiados e é frequentemente representado usando uma caixa de música. O Puppet é conhecido por ser um dos animatrônicos mais singulares e desafiadores da franquia.",
         "color": "Branco",
@@ -143,10 +143,114 @@ export const mockedAnimatronic = [
     },
 
     {
+        "name": "Withered FreddyFazBear",
+        "imageBody": "../assets/images/WitheredFreddy/WitheredFreddy.png",
+        "imageIcon": "../assets/images/WitheredFreddy/WitheredFreddyIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "O Withered Freddy se encontra na sala Part's and Services do restaurante, apenas sua cabeça é vista nas câmeras.",
+        "description": "Comparado aos outros animatrônicos originais, Withered Freddy parece estar um pouco menos danificado, talvez o menos. Possuído pela alma de uma criança desde 1983, onde se encontra desativado desde então, atacando somente pelo corredor principal.",
+        "color": "Marrom",
+        "status": "Quebrado e abandonado",
+        "instrument": "Seu instrumento é um microfone e permanece com o mesmo até sair da sala de serviços para matar o guarda.",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "Withered Bonnie",
+        "imageBody": "../assets/images/WitheredBonnie/WitheredBonnie.png",
+        "imageIcon": "../assets/images/WitheredBonnie/WitheredBonnieIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "O Withered Bonnie se encontra na sala Part's and Services do restaurante, seu corpo inteiro é visto nas câmeras.",
+        "description": "Comparado aos outros animatrônicos originais, Withered Bonnie é um dos mais danificados, perdendo apenas para o Foxy, sem sua face e um dos braços, além dos rasgos e fios soltos. Possuído pela alma de uma criança desde 1983, onde se encontra desativado e com o passar dos anos, se deteriorando. Ataca somente pela ventilação direita.",
+        "color": "Roxo",
+        "status": "Muito quebrado e abandonado",
+        "instrument": "Não há evidência do Withered Bonnie possuir um instrumento quando ativo, porém se acredita ser uma guitarra",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "Withered Chica",
+        "imageBody": "../assets/images/WitheredChica/WitheredChica.png",
+        "imageIcon": "../assets/images/WitheredChica/WitheredChicaIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "A Withered Chica se encontra na sala Part's and Services do restaurante, apenas sua cabeça é vista nas câmeras.",
+        "description": "Whitered Chica tem um dos designs mais diferentes dos quebrados, em vez de mãos revelam-se inúmeros fios, além de sua boca ser o dobro do tamanho dos demais animatrônicos. Possuída pela alma de uma criança desde 1983, onde se encontra desativada e com o passar dos anos, deteriorando-se. Ataca somente pela ventilação esquerda.",
+        "color": "Amarela",
+        "status": "Quebrada e abandonada",
+        "instrument": "Ela não possuí nenhum instrumento(afinal não consegue segurar)",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "Withered Foxy",
+        "imageBody": "../assets/images/WitheredFoxy/WitheredFoxy.png",
+        "imageIcon": "../assets/images/WitheredFoxy/WitheredFoxyIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "O Withered Foxy se encontra na sala Part's and Services do restaurante, ele não é visto pelas câmeras, porém, pode vir a ser quando não houver outro animatrônico na sala.",
+        "description": "Whitered Foxy é o mais quebrado dos demais, ele possui todos os membros diferente de Bonnie e Chica, mas ele está completamente despedaçado, com parte de sua cabeça quebrada e pernas despidas(além dos inúmero buracos em seu corpo). Possuído pela alma de uma criança desde 1983, onde se encontra desativado e com o passar dos anos, deteriorando-se. Ataca pelo corredor principal e só pode ser evitado apontando a lanterna na sua cara.",
+        "color": "Vermelho",
+        "status": "Quebrado e abandonado",
+        "instrument": "Não possui instrumento, apenas acessórios que remetem a piratas",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "Withered Golden Freddy",
+        "imageBody": "../assets/images/WitheredGF/WitheredGF.png",
+        "imageIcon": "../assets/images/WitheredGF/WitheredGFIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "Ele não aparece em nenhum momento nas camêras, mas pela lógica, permanece na Part's and Services.",
+        "description": "Withered Golden Freddy é um enigma aqui também, ele não anda pelo local, apenas por azar aparece no escritório aleatóriamente, se não evitá-lo com a máscara, ele irá se transformar em uma enorme cabeça e te matar. Também possuído por uma criança desde 1983, ele consta com um endoesqueleto (diferente do FNAF1).",
+        "color": "Amarelo(Dourado)",
+        "status": "Quebrado e abandonado",
+        "instrument": "Possuí apenas um microfone",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "ENDO-02",
+        "imageBody": "../assets/images/ENDO-02/ENDO02.png",
+        "imageIcon": "../assets/images/ENDO-02/ENDO02Icon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "Não tem localização apenas pode aparecer ao lado da caixa de som da puppet, mas é um animatrônico de rara aparição",
+        "description": "Seu corpo foi projetado com seis nervuras e discos de metal para ajudar a preencher o terno de pelúcia. Tem membros de cilindro com molas em espiral, uma boca larga cheia de dentes quadrados e pés planos de três dedos.",
+        "color": "Prateado",
+        "status": "Desconhecido",
+        "instrument": "ENDO-02 não possuí instrumentos",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "RWQFSFASXC (Shadow Bonnie)",
+        "imageBody": "../assets/images/ShadowBonnie/ShadowBonnie.png",
+        "imageIcon": "../assets/images/ShadowBonnie/ShadowBonnieIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "Escritório",
+        "description": "A aparência de RWQFSFASXC é a mesma que a de Toy Bonnie, de cor preta e com olhos e dentes brancos brilhantes. Não aparenta ter pelos pelo corpo, tendo sua superfície totalmente lisa. Em FNaF2, ele aparece no canto esquerdo do escritório perto da ventilação e na frente dos monitores; após um evento raro na programação do jogo decidir que o mesmo apareça lá. Ele não possui nenhuma animação no jogo, permanecendo estático até o jogador decidir o ignorar. Caso o jogador não desvie a atenção de 'Shadow Bonnie', ele irá desaparecer travando o jogo.",
+        "color": "Preto",
+        "status": "Desconhecido",
+        "instrument": "RWQFSFASXC não possuí instrumentos",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
+        "name": "Shadow Freddy",
+        "imageBody": "../assets/images/ShadowFreddy/ShadowFreddy.png",
+        "imageIcon": "../assets/images/ShadowFreddy/ShadowFreddyIcon.png",
+        "occupation": "Freddy Fazbear's Pizza(1987)",
+        "initialLocation": "É encontrado na sala Part's and Services sentado onde deveria estar Withered Bonnie",
+        "description": "Sua aparência em geral não mudou em comparação com sua versão original, mas pequenas diferenças são visíveis - principalmente o tom de pele e olhos. Não é uma alucinação e nem possui jumpscare, apenas um evento raro do jogo.",
+        "color": "Roxo",
+        "status": "Desconhecido",
+        "instrument": "Shadow Freddy não possuí instrumentos",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
         "name": "Springtrap",
         "imageBody": "../assets/images/Springtrap/Springtrap.png",
-        "imageIcon": "../assets/images/Springtrap/Sp-Springtrap.jpg",
-        "occupation": "Springtrap é encontrado na pizzaria Freddy Fazbear's Pizza, especialmente na localização conhecida como Fazbear's Fright: The Horror Attraction, em alguns jogos da franquia",
+        "imageIcon": "../assets/images/Springtrap/SpringTrapIcon.png",
+        "occupation": "Fazbear's Fright: The Horror Attraction(2023)",
         "initialLocation": " Springtrap geralmente começa em áreas específicas da pizzaria ou da atração, como Salas de Manutenção ou Corredores, dependendo do jogo específico. Ele é um dos animatrônicos mais ameaçadores da série.",
         "description": " Springtrap é o resultado de um humano (William Afton) que se fundiu com um traje animatrônico. Ele tem uma aparência de coelho deteriorada, com partes do traje revelando partes orgânicas do corpo. Springtrap é notável por sua natureza hostil e seu comportamento agressivo em relação ao jogador.",
         "color": " Verde/Amarelo Deteriorado",
@@ -159,7 +263,7 @@ export const mockedAnimatronic = [
         "name": "Phantom Freddy",
         "imageBody": "../assets/images/PhantomFreddy/Phantom Freddy.png",
         "imageIcon": "../assets/images/PhantomFreddy/Sp-Phantom-Freddy.jpg",
-        "occupation": "Ele é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "occupation": "Fazbear's Fright: The Horror Attraction(2023)",
         "initialLocation": "Ele é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
         "description": " Phantom Freddy é um animatrônico assombrado e deteriorado. Ele é uma versão fantasma de Freddy Fazbear, exibindo danos visíveis e uma aparência mais sombria. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
         "color": " A cor principal de Phantom Freddy é uma mistura de tons escuros, incluindo preto, cinza e tons desbotados de marrom. Sua aparência reflete o estado de deterioração e abandono.",
@@ -172,7 +276,7 @@ export const mockedAnimatronic = [
         "name": "Phantom Chica",
         "imageBody": "../assets/images/PhantomChica/Phantom Chica.png",
         "imageIcon": "../assets/images/PhantomChica/Sp-Phantom-Chica.jpg",
-        "occupation": "Phantom Chica é encontrada na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "occupation": "Fazbear's Fright: The Horror Attraction(2023)",
         "initialLocation": " Durante a jogabilidade, Phantom Chica pode ser encontrada em várias áreas da pizzaria, incluindo o escritório do jogador e outros lugares estratégicos.",
         "description": "Phantom Chica é uma versão phantom de Chica, um dos animatrônicos originais da franquia. Assim como outros animatrônicos phantom, ela exibe sinais de deterioração e uma aparência mais fantasmagórica. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
         "color": "A cor principal de Phantom Chica é uma mistura de tons escuros, incluindo preto, cinza e tons desbotados de amarelo e laranja. A aparência desgastada e sombria reflete o estado assombrado e abandonado do animatrônico.",
@@ -185,7 +289,7 @@ export const mockedAnimatronic = [
         "name": "Phantom Foxy",
         "imageBody": "../assets/images/PhantomFoxy/Phantom Foxy.png",
         "imageIcon": "../assets/images/PhantomFoxy/Sp-Phantom-Foxy.jpg",
-        "occupation": "Phantom Foxy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que serve como o cenário principal da franquia Five Nights at Freddy's.",
+        "occupation": "Fazbear's Fright: The Horror Attraction(2023)",
         "initialLocation": "Durante a jogabilidade, Phantom Foxy pode ser encontrado em várias áreas da pizzaria, incluindo o escritório do jogador e outros locais estratégicos.",
         "description": "Phantom Foxy é uma versão phantom do personagem Foxy, um dos animatrônicos originais da série. Assim como outros animatrônicos phantom, ele exibe sinais de deterioração e uma aparência mais fantasmagórica. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
         "color": "A cor principal de Phantom Foxy é uma mistura de tons escuros, incluindo preto, cinza e tons desbotados de vermelho e marrom. Sua aparência desgastada reflete o estado assombrado e abandonado do animatrônico.",
@@ -198,7 +302,7 @@ export const mockedAnimatronic = [
         "name": "Phantom Balloon Boy",
         "imageBody": "../assets/images/PhantomBalloonBoy/Phantom Balloon Boy.png",
         "imageIcon": "../assets/images/PhantomBalloonBoy/Sp-Phantom-Balloon-Boy.jpg",
-        "occupation": "Phantom Balloon Boy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza.",
+        "occupation": "Fazbear's Fright: The Horror Attraction(2023)",
         "initialLocation": "Durante a jogabilidade, Phantom Balloon Boy pode ser encontrado em diferentes áreas da pizzaria, incluindo o escritório do jogador e outros locais estratégicos.",
         "description": "Phantom Balloon Boy é uma versão phantom do personagem Balloon Boy, um dos animatrônicos introduzidos na série. Assim como outros animatrônicos phantom, ele exibe sinais de deterioração e uma aparência mais fantasmagórica. Sua presença muitas vezes é acompanhada por efeitos visuais perturbadores.",
         "color": "A cor principal de Phantom Balloon Boy é uma mistura de tons escuros, incluindo preto, cinza e tons desbotados de azul e laranja. Sua aparência desgastada reflete o estado assombrado e abandonado do animatrônico.",
@@ -210,8 +314,8 @@ export const mockedAnimatronic = [
     {
         "name": "Nightmare Freddy",
         "imageBody": "../assets/images/NightmareFreddy/Nightmare Freddy.png",
-        "imageIcon": "../assets/images/NightmareFreddy/Sp-Nightmare-Fredbear.jpg",
-        "occupation": "Nightmare Freddy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que serve como o cenário principal da franquia Five Nights at Freddy's.",
+        "imageIcon": "../assets/images/NightmareFreddy/NightmareFreddyIcon.png",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Durante a jogabilidade, Nightmare Freddy pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Freddy é uma versão aterrorizante e distorcida do personagem Freddy Fazbear. Ele apresenta garras afiadas, dentes ameaçadores e uma presença geralmente mais assustadora do que seu homólogo original. Sua imagem reflete a natureza pesadelo do personagem.",
         "color": "A cor principal de Nightmare Freddy é uma mistura de tons escuros, incluindo preto, marrom escuro e tons desbotados. Sua aparência sombria e ameaçadora destaca-se em relação aos animatrônicos mais normais da série.",
@@ -224,7 +328,7 @@ export const mockedAnimatronic = [
         "name": "Nightmare Bonnie",
         "imageBody": "../assets/images/NightmareBonnie/Nightmare Bonnie.png",
         "imageIcon": "../assets/images/NightmareBonnie/Sp-Nightmare-Bonnie.jpg",
-        "occupation": "Nightmare Bonnie é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Durante a jogabilidade, Nightmare Bonnie pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Bonnie é uma versão aterrorizante e distorcida do personagem Bonnie, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Bonnie é uma mistura de tons escuros, incluindo preto, roxo escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
@@ -236,8 +340,8 @@ export const mockedAnimatronic = [
     {
         "name": "Nightmare Chica",
         "imageBody": "../assets/images/NightmareChica/Nightmare Chica.png",
-        "imageIcon": "../assets/images/NightmareChica/Sp-Nightmare-Chica.jpg",
-        "occupation": "Nightmare Chica é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "imageIcon": "../assets/images/NightmareChica/NightmareChicaIcon.png",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Durante a jogabilidade, Nightmare Chica pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ela geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Chica é uma versão aterrorizante e distorcida do personagem Chica, um dos animatrônicos originais da série. Ela apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Chica é uma mistura de tons escuros, incluindo preto, amarelo escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
@@ -249,8 +353,8 @@ export const mockedAnimatronic = [
     {
         "name": "Nightmare Foxy",
         "imageBody": "../assets/images/NightmareFoxy/Nightmare Foxy.png",
-        "imageIcon": "../assets/images/NightmareFoxy/Sp-Nightmare-Foxy.jpg",
-        "occupation": "Nightmare Foxy é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "imageIcon": "../assets/images/NightmareFoxy/NightmareFoxyIcon.png",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Durante a jogabilidade, Nightmare Foxy pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Foxy é uma versão aterrorizante e distorcida do personagem Foxy, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Foxy é uma mistura de tons escuros, incluindo preto, vermelho escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
@@ -262,8 +366,8 @@ export const mockedAnimatronic = [
     {
         "name": "Nightmare Fredbear",
         "imageBody": "../assets/images/NightmareFredbear/Nightmare Fredbear.png",
-        "imageIcon": "../assets/images/NightmareFredbear/Sp-Nightmare-Fredbear.jpg",
-        "occupation": "Nightmare Fredbear é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "imageIcon": "../assets/images/NightmareFredbear/NightmareFredBearIcon.png",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Durante a jogabilidade, Nightmare Fredbear pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare Fredbear é uma versão aterrorizante e distorcida do personagem Fredbear, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare Fredbear é uma mistura de tons escuros, incluindo preto, dourado e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
@@ -275,8 +379,8 @@ export const mockedAnimatronic = [
     {
         "name": "Nightmare",
         "imageBody": "../assets/images/Nightmare/Nightmare.jpg",
-        "imageIcon": "../assets/images/Nightmare/Sp-Nightmare.jpg",
-        "occupation": "Nightmare é encontrado na pizzaria fictícia Freddy Fazbear's Pizza, que é o cenário principal da franquia Five Nights at Freddy's.",
+        "imageIcon": "../assets/images/Nightmare/NightmareIcon.png",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Durante a jogabilidade, Nightmare pode começar em diferentes áreas da pizzaria, dependendo do jogo específico. Ele geralmente se aproxima do jogador ao longo da noite.",
         "description": "Nightmare é uma versão aterrorizante e distorcida de Freddy Fazbear, um dos animatrônicos originais da série. Ele apresenta características assustadoras, como dentes afiados, garras e uma aparência geralmente mais ameaçadora. Sua imagem reflete a natureza dos pesadelos.",
         "color": "A cor principal de Nightmare é uma mistura de tons escuros, incluindo preto, marrom escuro e tons desbotados. Sua aparência sombria e distorcida destaca-se em relação aos animatrônicos mais normais da série.",
@@ -288,8 +392,8 @@ export const mockedAnimatronic = [
     {
         "name": "Plushtrap",
         "imageBody": "../assets/images/Plushtrap-icon.png",
-        "imageIcon": "../assets/images/Plushtrap.png",
-        "occupation": "Plushtrap não está associado a uma pizzaria específica, mas é encontrado em mini-games na série Five Nights at Freddy's.",
+        "imageIcon": "../assets/images/Plushtrap/PlushtrapIcon.png",
+        "occupation": "Casa William Afton (1983)",
         "initialLocation": "Plushtrap geralmente é encontrado em mini-games específicos, como o Fun with Plushtrap, onde o jogador tenta controlar sua posição para ganhar vantagens na jogabilidade principal.",
         "description": "Plushtrap é uma versão em miniatura e mais adorável dos animatrônicos principais da série, especificamente do personagem Springtrap. Apesar de sua aparência fofa, ele ainda mantém um toque de inquietação e mistério.",
         "color": "A cor principal de Plushtrap varia, mas geralmente inclui tons de verde e amarelo, as cores características de Springtrap.",
@@ -468,84 +572,6 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "Helpy",
-        "imageBody": "../assets/images/Helpy-icon.png",
-        "imageIcon": "../assets/images/Helpy.png",
-        "occupation": "Helpy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.   ",
-        "initialLocation": "Helpy geralmente é encontrado nas proximidades do escritório do jogador, desempenhando um papel de assistência. Ele é introduzido principalmente em Freddy Fazbear's Pizzeria Simulator.",
-        "description": "Helpy é um animatrônico pequeno e simplificado, com uma aparência semelhante à de um miniatrônico de Freddy Fazbear. Ele serve como uma versão mais amigável e auxiliar do personagem principal. Sua função principal é fornecer dicas e assistência ao jogador",
-        "color": "As cores principais de Helpy incluem tons de marrom, branco e preto. Sua aparência é projetada para ser mais amigável e menos ameaçadora em comparação com outros animatrônicos da série",
-        "status": "Em termos de narrativa, Helpy não é retratado como quebrado ou danificado. Sua condição geralmente é funcional e orientada para ajudar o jogador.",
-        "instrument": "Helpy não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Helpy.mp4"
-    },
-
-    {
-        "name": "Happy Frog",
-        "imageBody": "../assets/images/HappyFrog-icon.png",
-        "imageIcon": "../assets/images/HappyFrog.png",
-        "occupation": "Happy Frog está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's.",
-        "initialLocation": "Happy Frog pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
-        "description": "Happy Frog é um animatrônico anfíbio com uma aparência amigável, caracterizado por sua boca grande e olhos expressivos. Ela faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics. Happy Frog desempenha um papel específico na narrativa e nas mecânicas de jogo.",
-        "color": "As cores principais de Happy Frog incluem tons de verde, amarelo e vermelho, destacando-se por sua aparência vibrante e alegre.",
-        "status": "Em termos de narrativa, Happy Frog não é retratada como quebrada ou danificada. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
-        "instrument": "Happy Frog não está associada a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Happy-Frog.mp4"
-    },
-
-    {
-        "name": "Mr. Hippo",
-        "imageBody": "../assets/images/MrHippo-icon.png",
-        "imageIcon": "../assets/images/MrHippo.png",
-        "occupation": "Mr. Hippo está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
-        "initialLocation": "Mr. Hippo pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
-        "description": "Mr. Hippo é um animatrônico hipopótamo com uma personalidade eloquente e gosto por contar histórias longas e filosóficas. Ele é caracterizado por sua aparência robusta e uma bengala que segura enquanto fala. Mr. Hippo desempenha um papel específico na narrativa e nas interações com o jogador.",
-        "color": "As cores principais de Mr. Hippo incluem tons de azul, roxo e branco, destacando-se por sua aparência distintiva.",
-        "status": "Em termos de narrativa, Mr. Hippo não é retratado como quebrado ou danificado. Sua participação na jogabilidade está mais relacionada às interações verbais e às histórias que ele compartilha com o jogador.",
-        "instrument": "Mr. Hippo não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Mr-Hippo.mp4"
-    },
-
-    {
-        "name": "Pigpatch",
-        "imageBody": "../assets/images/Pigpatch-icon.png",
-        "imageIcon": "../assets/images/Pigpatch.png",
-        "occupation": "Pigpatch está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
-        "initialLocation": "Pigpatch pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
-        "description": "Pigpatch é um animatrônico porco com uma aparência engraçada e peculiar. Ele é caracterizado por seu aspecto simpático e trajes coloridos. Pigpatch desempenha um papel específico na narrativa e nas mecânicas de jogo.",
-        "color": "As cores principais de Pigpatch incluem tons de rosa, marrom e verde, destacando-se por sua aparência animada e amigável. ",
-        "status": "Em termos de narrativa, Pigpatch não é retratado como quebrado ou danificado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
-        "instrument": "Pigpatch está associado a um banjo, sugerindo que ele pode ter uma função relacionada à música ou entretenimento na pizzaria.",
-        "jumpscare": "../assets/videos/jump-Scare-Pigpatch.mp4"
-    },
-
-    {
-        "name": "Nedd Bear",
-        "imageBody": "../assets/images/NeddBear-icon.png",
-        "imageIcon": "../assets/images/NeddBear.png",
-        "occupation": "Nedd Bear está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics",
-        "initialLocation": "Nedd Bear pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
-        "description": "Nedd Bear é um animatrônico urso com uma aparência descontraída e brincalhona. Ele é caracterizado por seu aspecto descontraído e trajes coloridos. Nedd Bear desempenha um papel específico na narrativa e nas mecânicas de jogo.",
-        "color": "As cores principais de Nedd Bear incluem tons de laranja, verde e marrom, destacando-se por sua aparência animada e amigável.",
-        "status": "Em termos de narrativa, Nedd Bear não é retratado como quebrado ou danificado. No entanto, sua participação na jogabilidade pode representar desafios específicos para o jogador.",
-        "instrument": "Nedd Bear está associado a um banjo, sugerindo que ele pode ter uma função relacionada à música ou entretenimento na pizzaria.",
-        "jumpscare": "../assets/videos/jump-Scare-Nedd-Bear.mp4"
-    },
-
-    {
-        "name": "Orville Elephant",
-        "imageBody": "../assets/images/OrvilleElephant-icon.png",
-        "imageIcon": "../assets/images/OrvilleElephant.png",
-        "occupation": "Orville Elephant está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
-        "initialLocation": "Orville Elephant pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
-        "description": "Orville Elephant é um animatrônico elefante com uma aparência amigável e expressiva. Ele é caracterizado por suas orelhas grandes e trajes coloridos. Orville Elephant desempenha um papel específico na narrativa e nas interações com o jogador.",
-        "color": "As cores principais de Orville Elephant incluem tons de azul, verde e amarelo, destacando-se por sua aparência animada e amigável.",
-        "status": "Em termos de narrativa, Orville Elephant não é retratado como quebrado ou danificado. Sua participação na jogabilidade está mais relacionada às interações verbais e ao papel que desempenha nas interações durante o jogo.",
-        "instrument": "Orville Elephant não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Orville-Elephant.mp4"
-    },
-
-    {
         "name": "Rockstar Freddy",
         "imageBody": "../assets/images/RockstarFreddy-icon.png",
         "imageIcon": "../assets/images/RockstarFreddy.png",
@@ -598,32 +624,6 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "Music Man",
-        "imageBody": "../assets/images/MusicMan-icon.png",
-        "imageIcon": "../assets/images/MusicMan.png",
-        "occupation": "Music Man está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator.",
-        "initialLocation": "Music Man pode ser encontrado em diferentes áreas de Freddy Fazbear's Pizzeria Simulator, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
-        "description": "Music Man é um animatrônico esquelético com uma aparência assustadora e um design que se assemelha a um palhaço. Ele é caracterizado por sua natureza perturbadora e pelos instrumentos musicais que carrega. Music Man desempenha um papel específico na narrativa e nas mecânicas de jogo.",
-        "color": "As cores principais de Music Man incluem tons de branco, preto e vermelho, destacando-se por sua aparência esquelética e ameaçadora.",
-        "status": "Em termos de narrativa, Music Man não é retratado como quebrado ou danificado. Ele é representado como um animatrônico funcional, mas sua presença é destinada a causar desconforto e tensão no jogo.",
-        "instrument": "Music Man não está associado a um instrumento musical tradicional.",
-        "jumpscare": "../assets/videos/jump-Scare-Music-Man.mp4"
-    },
-
-    {
-        "name": "El Chip",
-        "imageBody": "../assets/images/ElChip-icon.png",
-        "imageIcon": "../assets/images/ElChip.png",
-        "occupation": "El Chip está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator.",
-        "initialLocation": "El Chip pode ser encontrado em diferentes áreas de Freddy Fazbear's Pizzeria Simulator, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
-        "description": "El Chip é um animatrônico mexicano com uma aparência amigável e trajes coloridos. Ele é caracterizado por sua personalidade festiva e elementos relacionados à culinária mexicana. El Chip desempenha um papel específico na narrativa e nas interações com o jogador",
-        "color": "As cores principais de El Chip incluem tons de verde, vermelho, branco e amarelo, destacando-se por sua aparência festiva e vibrante.",
-        "status": "Em termos de narrativa, El Chip não é retratado como quebrado ou danificado. Ele representa um animatrônico funcional projetado para entretenimento e interações amigáveis",
-        "instrument": "El Chip não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-El-Chip.mp4"
-    },
-
-    {
         "name": "Funtime Chica",
         "imageBody": "../assets/images/FuntimeChica-icon.png",
         "imageIcon": "../assets/images/FuntimeChica.png",
@@ -634,44 +634,5 @@ export const mockedAnimatronic = [
         "status": "Em termos de narrativa, Funtime Chica é retratada como funcional e não quebrada. No entanto, como muitos animatrônicos em Sister Location, ela representa uma ameaça aos jogadores durante a jogabilidade.",
         "instrument": "Funtime Chica não está associada a um instrumento musical específico.",
         "jumpscare": "../assets/videos/jump-Scare-Funtime-Chica.mp4"
-    },
-
-    {
-        "name": "Security Puppet",
-        "imageBody": "../assets/images/SecurityPuppet-icon.png",
-        "imageIcon": "../assets/images/SecurityPuppet.png",
-        "occupation": " Security Puppet está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele aparece especificamente em Freddy Fazbear's Pizzeria Simulator e é uma parte importante da narrativa relacionada à Henry's Daughter.",
-        "initialLocation": "Security Puppet é inicialmente encontrado fora da pizzaria, guardando a entrada. Posteriormente, ele é movido para o local interno durante os eventos do jogo.",
-        "description": " Security Puppet é um animatrônico com design de marionete e é notável por sua aparência mais simples em comparação com outros animatrônicos. Ele desempenha um papel crucial na história, sendo responsável por proteger e monitorar a entrada da pizzaria.",
-        "color": "As cores principais de Security Puppet incluem tons de branco, preto e vermelho, destacando-se por sua aparência mais minimalista e funcional.",
-        "status": "Em termos de narrativa, Security Puppet é retratado como um animatrônico funcional, mas com um papel significativo na trama da história relacionada à família Afton e à tragédia envolvendo Henry's Daughter.",
-        "instrument": "Security Puppet não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Security-Puppet.mp4"
-    },
-
-    {
-        "name": "Candy Cadet",
-        "imageBody": "../assets/images/CandyCadet-icon.png",
-        "imageIcon": "",
-        "occupation": "Candy Cadet não está associado a uma pizzaria específica, pois ele é apresentado como uma máquina de histórias e não como um animatrônico tradicional. Ele aparece em Freddy Fazbear's Pizzeria Simulator.",
-        "initialLocation": "Candy Cadet está localizado na sala de jogos de Freddy Fazbear's Pizzeria Simulator, onde os jogadores podem interagir com a máquina para ouvir suas histórias.",
-        "description": "Candy Cadet é uma máquina que parece uma versão de um animatrônico, mas sua função principal é contar histórias curtas e, eventualmente, fundir pequenos animatrônicos em um novo. Ele é mais uma peça única na jogabilidade de Freddy Fazbear's Pizzeria Simulator, proporcionando momentos narrativos únicos.",
-        "color": " As cores principais de Candy Cadet incluem tons de vermelho, azul e branco, destacando-se por sua aparência brilhante e colorida.",
-        "status": "Candy Cadet não é retratado como quebrado ou danificado, pois sua função principal é contar histórias e não participar ativamente das mecânicas de horror do jogo.",
-        "instrument": "Candy Cadet não está associado a um instrumento musical.",
-        "jumpscare": "../assets/videos/jump-Scare-Candy-Cadet.mp4"
-    },
-
-    {
-        "name": "Trash and the Gang",
-        "imageBody": "../assets/images/TrashAndTheGang-icon.png",
-        "imageIcon": "../assets/images/TrashAndTheGang.png",
-        "occupation": "Trash and the Gang aparece em Freddy Fazbear's Pizzeria Simulator. No entanto, eles não são animatrônicos tradicionais e sim um grupo de objetos encontrados no Back Alley (beco dos fundos), que faz parte do jogo.",
-        "initialLocation": "Os membros de Trash and the Gang não têm uma localização específica no início do jogo, pois são objetos descartados que o jogador pode escolher para adicionar à sua pizzaria.",
-        "description": "Trash and the Gang é composto por vários objetos descartados, como uma lata de lixo, um balde, uma bola, uma xícara e um saco de papel. Eles não têm movimentos animatrônicos tradicionais e não representam uma ameaça ao jogador.",
-        "color": "As cores principais de Trash and the Gang variam dependendo dos objetos individuais, incluindo tons de verde, amarelo, azul e marrom.",
-        "status": "Trash and the Gang não são retratados como quebrados ou danificados, pois são simplesmente objetos descartados.",
-        "instrument": "Trash and the Gang não estão associados a instrumentos musicais",
-        "jumpscare": "../assets/videos/jump-Scare-Trash-and-the-Gang.mp4"
-    },
+    }
 ]

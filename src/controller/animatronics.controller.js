@@ -20,7 +20,7 @@ const list = new AnimatronicList();
 mockedAnimatronic.forEach((animatronic) => {
     const animatronicMocked = new Animatronic(animatronic.name, animatronic.imageBody, animatronic.imageIcon, animatronic.occupation, animatronic.initialLocation, animatronic.description, animatronic.color, animatronic.status, animatronic.instrument, animatronic.jumpscare);
     list.createAnimatronic(animatronicMocked);
-})
+}) 
 
 
 //Requisitar todos os animatronics
