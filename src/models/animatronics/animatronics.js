@@ -10,8 +10,50 @@ export class AnimatronicList {
     }
 
     //retornar todos os animatronics
-    getAllAnimatronics() {
+    getAllAnimatronics(data) {
+        const { name } = data;
+        console.log(name);
+        const { franchise } = data;
+        console.log(franchise);
+
+        if(franchise) {
+            this.getAnimatronicByFranchise(franchise);
+        }
+
+        if(name) {
+            this.getAnimtronicByName(name);
+        }
+
         return this.animatronics;
+    }
+
+    //métodos do filtro
+    getAnimatronicByFranchise(franchise) {
+        if(franchise) {
+            franchise = franchise.toUpperCase();
+        }
+
+        const animatronicsFilter = this.animatronics.filter((animatronic) => {
+            const animatronicFranchise = franchise == undefined || animatronic.occupation.toUpperCase() == franchise;
+
+            return animatronicFranchise;
+        })
+        
+        return animatronicsFilter;
+    }
+
+    getAnimtronicByName(name) {
+        if(name) {
+            name = name.toLowerCase();
+        }
+
+        const animatronicFilter = this.animatronics.filter((animatronic) => {
+            const animatronicName = name == undefined || animatronic.name.toLowerCase() == name;
+
+            return animatronicName;
+        })
+
+        return animatronicFilter;
     }
 
     //retornar um único animatronic por ID

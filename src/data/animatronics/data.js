@@ -410,7 +410,7 @@ export const mockedAnimatronic = [
         "initialLocation": "Funtime Freddy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Ele é parte integrante da narrativa e dos desafios do jogo.",
         "description": "Funtime Freddy é um animatrônico grande e colorido que faz parte da nova geração de animatrônicos introduzidos na série. Ele possui um design mais moderno e amigável, com uma versão de pelúcia chamada Bon-Bon que está frequentemente presente em seu braço direito. Funtime Freddy é associado ao entretenimento infantil na pizzaria.",
         "color": "As cores principais de Funtime Freddy incluem branco, rosa, azul e amarelo. Seu design vibrante e alegre é destinado a atrair o público infantil.",
-        "status": "Em seu estado original, Funtime Freddy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
+        "status": "Branco",
         "instrument": "Microfone",
         "jumpscare": "../assets/videos/jump-Scare-Funtime-Freddy.mp4"
     },
@@ -422,7 +422,7 @@ export const mockedAnimatronic = [
         "occupation": "Circus Baby's Pizza World (1995)",
         "initialLocation": "Funtime Foxy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
         "description": "Funtime Foxy é um animatrônico moderno e elegante, com um design mais futurista em comparação com os animatrônicos originais da série. Ele é caracterizado por sua aparência andrógina e uma cauda que remete a uma raposa. Funtime Foxy é parte do entretenimento oferecido na pizzaria.",
-        "color": "As cores principais de Funtime Foxy incluem branco, rosa, roxo e amarelo. Seu design é vibrante e atrativo para o público infantil.",
+        "color": "Branco",
         "status": "Em seu estado original, Funtime Foxy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
         "instrument": "Funtime Foxy não está associado a um instrumento musical específico.",
         "jumpscare": "../assets/videos/jump-Scare-Funtime-Foxy.mp4"
@@ -436,7 +436,7 @@ export const mockedAnimatronic = [
         "initialLocation": "Ballora geralmente é encontrada na área chamada Ballora Gallery dentro da Circus Baby's Pizza World, dependendo do jogo específico. Ela tem um papel específico na narrativa e nas mecânicas de jogo.",
         "description": "Ballora é um animatrônico gracioso e elegante, projetado para se assemelhar a uma bailarina. Ela é conhecida por sua movimentação suave e graciosa. Ballora desempenha um papel significativo na história e na jogabilidade de determinados jogos da série.",
         "color": "As cores principais de Ballora incluem tons de roxo, azul e branco. Sua aparência é sofisticada e atrativa, complementando seu papel como uma animatrônica de entretenimento.",
-        "status": "Ballora, em seu estado original, não é retratada como quebrada ou danificada. No entanto, a narrativa da série pode apresentar eventos que afetam a condição dos animatrônicos ao longo do tempo.",
+        "status": "Branco",
         "instrument": "Ballora não está associada a um instrumento musical específico.",
         "jumpscare": "../assets/videos/jump-Scare-Ballora.mp4"
     },
@@ -449,7 +449,7 @@ export const mockedAnimatronic = [
         "initialLocation": "Ao longo do jogo Sister Location, Ennard assume diferentes formas e ocupa diferentes áreas da pizzaria fictícia Circus Baby's Pizza World.",
         "description": "Ennard é um animatrônico complexo que é, na verdade, uma composição de vários animatrônicos, incluindo Circus Baby, Ballora, Funtime Foxy, e Funtime Freddy. Ele é conhecido por seu design assustador e desgastado, combinando elementos de vários personagens.",
         "color": "As cores principais de Ennard incluem tons de branco, amarelo, roxo e vermelho. Sua aparência é uma mistura caótica de diferentes partes de animatrônicos.",
-        "status": "Ennard é representado como um animatrônico que passou por modificações significativas, não apenas em termos de sua composição, mas também em relação à sua condição. Ele pode ser considerado quebrado devido à fusão de vários animatrônicos em um corpo único",
+        "status": "Prata",
         "instrument": "Ennard não está associado a um instrumento musical específico.",
         "jumpscare": "../assets/videos/jump-Scare-Ennard.mp4"
     },
@@ -461,10 +461,23 @@ export const mockedAnimatronic = [
         "occupation": "Circus Baby's Pizza World (1995)",
         "initialLocation": "Baby pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
         "description": "Baby é um animatrônico grande e sofisticado com uma aparência elegante e futurista. Ela é caracterizada por cabelos loiros, um vestido roxo e um microfone em sua mão. Baby desempenha um papel significativo na história e nas mecânicas de jogo de determinados jogos da série",
-        "color": "A cor principal de Baby é roxo, destacando-se por sua presença marcante e elegante.",
+        "color": "Branco",
         "status": "Em seu estado original, Baby não é retratada como quebrada. No entanto, ao longo da narrativa da série, eventos podem ocorrer que afetam a condição de Baby de diferentes maneiras.",
         "instrument": "Baby está associada a um microfone em sua mão.",
         "jumpscare": "../assets/videos/jump-Scare-Baby.mp4"
+    },
+
+    {
+        "name": "Funtime Chica",
+        "imageBody": "../assets/images/FuntimeChica/FuntimeChica-icon.png",
+        "imageIcon": "../assets/images/FuntimeChica/FuntimeChica.png",
+        "occupation": "Chica's Party World (1995)",
+        "initialLocation": "Funtime Chica é encontrada na sala chamada Funtime Auditorium em Sister Location, onde ela é uma das ameaças aos jogadores.",
+        "description": "Funtime Chica é um animatrônico galinha com uma aparência moderna e polida. Ela possui características semelhantes às de outros animatrônicos da linha Funtime, com uma estética mais futurista e tecnológica. Funtime Chica desempenha um papel específico na narrativa de Sister Location, sendo uma das animatrônicas perigosas no jogo.",
+        "color": "As cores principais de Funtime Chica incluem tons de branco, amarelo e rosa, destacando-se por sua aparência moderna e futurista.",
+        "status": "Em termos de narrativa, Funtime Chica é retratada como funcional e não quebrada. No entanto, como muitos animatrônicos em Sister Location, ela representa uma ameaça aos jogadores durante a jogabilidade.",
+        "instrument": "Funtime Chica não está associada a um instrumento musical específico.",
+        "jumpscare": "../assets/videos/jump-Scare-Funtime-Chica.mp4"
     },
 
     {
@@ -547,9 +560,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Freddy",
-        "imageBody": "../assets/images/RockstarFreddy-icon.png",
-        "imageIcon": "../assets/images/RockstarFreddy.png",
-        "occupation": "Rockstar Freddy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "imageBody": "../assets/images/RockstarFreddy/RockstarFreddy-icon.png",
+        "imageIcon": "../assets/images/RockstarFreddy/RockstarFreddy.png",
+        "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Freddy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Rockstar Freddy é um animatrônico urso com uma aparência mais moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Freddy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Freddy incluem tons de marrom, dourado e preto, destacando-se por sua aparência mais refinada e atualizada.   ",
@@ -560,9 +573,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Bonnie",
-        "imageBody": "../assets/images/RockstarBonnie-icon.png",
-        "imageIcon": "../assets/images/RockstarBonnie.png",
-        "occupation": "Rockstar Bonnie está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "imageBody": "../assets/images/RockstarBonnie/RockstarBonnie-icon.png",
+        "imageIcon": "../assets/images/RockstarBonnie/RockstarBonnie.png",
+        "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Bonnie pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Rockstar Bonnie é um animatrônico coelho com uma aparência moderna e refinada. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Bonnie desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Bonnie incluem tons de roxo, azul e preto, destacando-se por sua aparência mais atualizada e polida.",
@@ -573,9 +586,9 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Chica",
-        "imageBody": "../assets/images/RockstarChica-icon.png",
-        "imageIcon": "../assets/images/RockstarChica.png",
-        "occupation": "Rockstar Chica está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ela faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "imageBody": "../assets/images/RockstarChica/RockstarChica-icon.png",
+        "imageIcon": "../assets/images/RockstarChica/RockstarChica.png",
+        "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Chica pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
         "description": "Rockstar Chica é um animatrônico galinha com uma aparência moderna e polida. Ela é caracterizada por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Chica desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Chica incluem tons de amarelo, laranja e preto, destacando-se por sua aparência mais atualizada e refinada.",
@@ -586,27 +599,14 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Foxy",
-        "imageBody": "../assets/images/RockstarFoxy-icon.png",
-        "imageIcon": "../assets/images/RockstarFoxy.png",
-        "occupation": "Rockstar Foxy está associado à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ele faz parte do grupo de animatrônicos conhecido como Rockstar Animatronics.",
+        "imageBody": "../assets/images/RockstarFoxy/RockstarFoxy-icon.png",
+        "imageIcon": "../assets/images/RockstarFoxy/RockstarFoxy.png",
+        "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Foxy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
         "description": "Rockstar Foxy é um animatrônico pirata com uma aparência moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Foxy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
         "color": "As cores principais de Rockstar Foxy incluem tons de vermelho, marrom e preto, destacando-se por sua aparência mais atualizada e refinada.",
         "status": "Em termos de narrativa, Rockstar Foxy não é retratado como quebrado ou danificado. Ele representa uma versão modernizada dos animatrônicos originais.",
         "instrument": "Rockstar Foxy está associado a um gancho, representando sua característica pirata.",
         "jumpscare": "../assets/videos/jump-Scare-Rockstar-Foxy.mp4"
-    },
-
-    {
-        "name": "Funtime Chica",
-        "imageBody": "../assets/images/FuntimeChica-icon.png",
-        "imageIcon": "../assets/images/FuntimeChica.png",
-        "occupation": "Funtime Chica está associada à pizzaria fictícia Freddy Fazbear's Pizza, introduzida na série Five Nights at Freddy's. Ela faz parte do grupo de animatrônicos conhecido como Funtime Animatronics e é especificamente apresentada em Sister Location",
-        "initialLocation": "Funtime Chica é encontrada na sala chamada Funtime Auditorium em Sister Location, onde ela é uma das ameaças aos jogadores.",
-        "description": "Funtime Chica é um animatrônico galinha com uma aparência moderna e polida. Ela possui características semelhantes às de outros animatrônicos da linha Funtime, com uma estética mais futurista e tecnológica. Funtime Chica desempenha um papel específico na narrativa de Sister Location, sendo uma das animatrônicas perigosas no jogo.",
-        "color": "As cores principais de Funtime Chica incluem tons de branco, amarelo e rosa, destacando-se por sua aparência moderna e futurista.",
-        "status": "Em termos de narrativa, Funtime Chica é retratada como funcional e não quebrada. No entanto, como muitos animatrônicos em Sister Location, ela representa uma ameaça aos jogadores durante a jogabilidade.",
-        "instrument": "Funtime Chica não está associada a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Funtime-Chica.mp4"
     }
 ]
