@@ -49,7 +49,7 @@ export const mockedPizzeria = [
 
   {
     "name": "Ultimate Custom Night",
-    "img": "../assets/imagens-Pizzerias/unc7.png.png",
+    "img": "../assets/imagens-Pizzerias/unc7.png",
     "franchise": "UNC",
     "animatronics": "Dee Dee, RWQFSFASXC, Lefty (UCN), Chica (UCN), Fredbear (UCN), Lolbit (UCN), Ballora (UCN)",
     "description": "Em Ultimate Custom Night (UCN), os jogadores encontram-se em um ambiente virtual composto por um escritório claustrofóbico e uma série de câmeras de segurança. Diferentemente dos jogos anteriores, UCN é um simulador personalizável, permitindo que os jogadores escolham entre uma extensa lista de animatrônicos de toda a série Five Nights at Freddy's. O jogo oferece uma experiência desafiadora, onde os jogadores podem ajustar a dificuldade de cada animatrônico individualmente, tornando-o uma verdadeira noite personalizada. A tarefa principal é sobreviver a uma série de ataques de animatrônicos, cada um com seus próprios padrões e comportamentos únicos. O escritório é equipado com portas, luzes e um sistema de ventilação, elementos tradicionais da série, que os jogadores podem usar estrategicamente para se proteger dos animatrônicos que tentam atacar. Além disso, há também a presença do animatrônico Fredbear, que desempenha um papel significativo na história e nas reviravoltas narrativas do jogo. Ultimate Custom Night é conhecido pela sua intensidade e pela sua abordagem flexível, permitindo aos jogadores criar desafios personalizados. O local virtual serve como o palco para a última e mais desafiadora noite, reunindo uma ampla variedade de personagens icônicos da série para um confronto final."
