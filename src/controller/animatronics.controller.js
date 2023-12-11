@@ -26,12 +26,11 @@ mockedAnimatronic.forEach((animatronic) => {
 //Requisitar todos os animatronics
 export const getAnimatronics = (req, res) => {
     //Filtro
-    const { franchise } = req.query;
-    const { name } = req.query;
+    const { franchise, name } = req.query;
 
     const data = {
-        name,
         franchise,
+        name
     }
 
     const animatronics = list.getAllAnimatronics(data);

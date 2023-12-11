@@ -11,17 +11,14 @@ export class AnimatronicList {
 
     //retornar todos os animatronics
     getAllAnimatronics(data) {
-        const { name } = data;
-        console.log(name);
-        const { franchise } = data;
-        console.log(franchise);
+        const { franchise, name } = data;
 
         if(franchise) {
-            this.getAnimatronicByFranchise(franchise);
+            return this.getAnimatronicByFranchise(franchise);
         }
 
         if(name) {
-            this.getAnimtronicByName(name);
+            return this.getAnimtronicByName(name);
         }
 
         return this.animatronics;
@@ -29,15 +26,13 @@ export class AnimatronicList {
 
     //métodos do filtro
     getAnimatronicByFranchise(franchise) {
-        if(franchise) {
-            franchise = franchise.toUpperCase();
-        }
 
         const animatronicsFilter = this.animatronics.filter((animatronic) => {
-            const animatronicFranchise = franchise == undefined || animatronic.occupation.toUpperCase() == franchise;
+            const animatronicFranchise = franchise == undefined || animatronic.occupation == franchise;
 
             return animatronicFranchise;
-        })
+        });
+
         
         return animatronicsFilter;
     }
@@ -48,7 +43,7 @@ export class AnimatronicList {
         }
 
         const animatronicFilter = this.animatronics.filter((animatronic) => {
-            const animatronicName = name == undefined || animatronic.name.toLowerCase() == name;
+            const animatronicName = name == undefined || animatronic.name.toLowerCase() === name;
 
             return animatronicName;
         })
