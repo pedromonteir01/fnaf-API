@@ -1,5 +1,6 @@
 import { Student } from "../models/students/Student.js"
 import { Students } from "../models/students/Students.js"
+import{ mockedStudents } from "../data/students/data.js"
 
 //lista de estudante
 const studentsList = new Students();
@@ -8,6 +9,11 @@ const studentsList = new Students();
 const verifyUrl = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) == null;
 }
+
+mockedStudents.forEach((student) => {
+    const studentsMocked = new Student(student.name, student.img, student.age, student.gender, student.description);
+    studentsList.addStudent(studentsMocked);
+})
 
 //pegar todos estudante 
 export const getStudents = (req, res) => {
