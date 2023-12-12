@@ -621,5 +621,43 @@ export const mockedAnimatronic = [
         "status": "Em termos de narrativa, Rockstar Foxy não é retratado como quebrado ou danificado. Ele representa uma versão modernizada dos animatrônicos originais.",
         "instrument": "Rockstar Foxy está associado a um gancho, representando sua característica pirata.",
         "jumpscare": "../assets/videos/jump-Scare-Rockstar-Foxy.mp4"
+    },
+
+    {
+        "name": "Lolbit",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
+    },
+    {
+        "name": "Music Man",
+        "imageBody": "../assets/images/MusicMan/MusicMan.png",
+        "imageIcon": "../assets/images/MusicMan/MusicManIcon.png",
+        "occupation": "Freddy Fazbear's Pizza (2023)",
+        "initialLocation": "Palco Principal",
+        "description": "Music Man é um animatrônico animado e carismático projetado para entreter os convidados com seus talentos musicais. Com uma aparência elegante e moderna, Music Man é uma atração favorita no local de entretenimento.",
+        "color": "Cores vibrantes e chamativas, incluindo vermelho, azul e amarelo",
+        "status": "Em termos de narrativa, Music Man não é retratado como quebrado ou danificado.",
+        "instrument": "Guitarra elétrica e bateria",
+        "jumpscare": "../assets/videos/jump-Scare-Music-Man.mp4"
+    },
+
+    {
+        "name": "Yendo",
+        "imageBody": "",
+        "imageIcon": "",
+        "occupation": "",
+        "initialLocation": "",
+        "description": "",
+        "color": "",
+        "status": "",
+        "instrument": "",
+        "jumpscare": ""
     }
 ]
