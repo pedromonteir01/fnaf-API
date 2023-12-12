@@ -65,6 +65,19 @@ export const mockedAnimatronic = [
     },
 
     {
+        "name": "ENDO-01",
+        "imageBody": "../assets/images/ENDO-01/ENDO.png",
+        "imageIcon": "../assets/images/ENDO-01/ENDOIcon.png",
+        "occupation": "Freddy Fazbear's Pizza (1993)",
+        "initialLocation": "Não tem localização apenas pode aparecer na Part's and Services da pizzaria, mas é um animatrônico de rara aparição",
+        "description": "é um endoesqueleto que é projetado como um 'esqueleto' de robô interno para usar no interior dos quatro trajes animatrônicos originais em Freddy Fazbear's Pizza. Embora haja um endoesqueleto extra que existe em Five Nights at Freddy's como sua primeira aparição.",
+        "color": "Prateado",
+        "status": "Desconhecido",
+        "instrument": "ENDO-01 não possuí instrumentos",
+        "jumpscare": "../assets/videos/#.mp4"
+    },
+
+    {
         "name": "Toy Freddy",
         "imageBody": "../assets/images/ToyFreddy/FullToyFreddy.png",
         "imageIcon": "../assets/images/ToyFreddy/ToyFreddyIcon.png",
@@ -410,19 +423,19 @@ export const mockedAnimatronic = [
         "initialLocation": "Funtime Freddy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Ele é parte integrante da narrativa e dos desafios do jogo.",
         "description": "Funtime Freddy é um animatrônico grande e colorido que faz parte da nova geração de animatrônicos introduzidos na série. Ele possui um design mais moderno e amigável, com uma versão de pelúcia chamada Bon-Bon que está frequentemente presente em seu braço direito. Funtime Freddy é associado ao entretenimento infantil na pizzaria.",
         "color": "As cores principais de Funtime Freddy incluem branco, rosa, azul e amarelo. Seu design vibrante e alegre é destinado a atrair o público infantil.",
-        "status": "Branco",
+        "status": "Branco e roxo",
         "instrument": "Microfone",
         "jumpscare": "../assets/videos/jump-Scare-Funtime-Freddy.mp4"
     },
 
     {
         "name": "Funtime Foxy",
-        "imageBody": "../assets/images/FuntimeFoxy/FuntimeFoxy-icon.png",
-        "imageIcon": "../assets/images/FuntimeFoxy/FuntimeFoxy.png",
+        "imageBody": "../assets/images/FuntimeFoxy/FuntimeFoxy.png",
+        "imageIcon": "../assets/images/FuntimeFoxy/FuntimeFoxyIcon.png",
         "occupation": "Circus Baby's Pizza World (1995)",
         "initialLocation": "Funtime Foxy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
         "description": "Funtime Foxy é um animatrônico moderno e elegante, com um design mais futurista em comparação com os animatrônicos originais da série. Ele é caracterizado por sua aparência andrógina e uma cauda que remete a uma raposa. Funtime Foxy é parte do entretenimento oferecido na pizzaria.",
-        "color": "Branco",
+        "color": "Branco e rosa",
         "status": "Em seu estado original, Funtime Foxy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
         "instrument": "Funtime Foxy não está associado a um instrumento musical específico.",
         "jumpscare": "../assets/videos/jump-Scare-Funtime-Foxy.mp4"
@@ -430,21 +443,34 @@ export const mockedAnimatronic = [
 
     {
         "name": "Ballora",
-        "imageBody": "../assets/images/Ballora/Ballora-icon.png",
-        "imageIcon": "../assets/images/Ballora/Ballora.png",
+        "imageBody": "../assets/images/Ballora/Ballora.png",
+        "imageIcon": "../assets/images/Ballora/BalloraIcon.png",
         "occupation": "Circus Baby's Pizza World (1995)",
         "initialLocation": "Ballora geralmente é encontrada na área chamada Ballora Gallery dentro da Circus Baby's Pizza World, dependendo do jogo específico. Ela tem um papel específico na narrativa e nas mecânicas de jogo.",
         "description": "Ballora é um animatrônico gracioso e elegante, projetado para se assemelhar a uma bailarina. Ela é conhecida por sua movimentação suave e graciosa. Ballora desempenha um papel significativo na história e na jogabilidade de determinados jogos da série.",
         "color": "As cores principais de Ballora incluem tons de roxo, azul e branco. Sua aparência é sofisticada e atrativa, complementando seu papel como uma animatrônica de entretenimento.",
-        "status": "Branco",
+        "status": "Branco e roxo",
         "instrument": "Ballora não está associada a um instrumento musical específico.",
         "jumpscare": "../assets/videos/jump-Scare-Ballora.mp4"
     },
 
     {
+        "name": "Baby",
+        "imageBody": "../assets/images/Baby/Baby.png",
+        "imageIcon": "../assets/images/Baby/BabyIcon.png",
+        "occupation": "Circus Baby's Pizza World (1995)",
+        "initialLocation": "Baby pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
+        "description": "Baby é um animatrônico grande e sofisticado com uma aparência elegante e futurista. Ela é caracterizada por cabelos loiros, um vestido roxo e um microfone em sua mão. Baby desempenha um papel significativo na história e nas mecânicas de jogo de determinados jogos da série",
+        "color": "Branco e vermelho",
+        "status": "Em seu estado original, Baby não é retratada como quebrada. No entanto, ao longo da narrativa da série, eventos podem ocorrer que afetam a condição de Baby de diferentes maneiras.",
+        "instrument": "Baby está associada a um microfone em sua mão.",
+        "jumpscare": "../assets/videos/jump-Scare-Baby.mp4"
+    },
+
+    {
         "name": "Ennard",
-        "imageBody": "../assets/images/Ennard/Ennard-icon.png",
-        "imageIcon": "../assets/images/Ennard/Ennard.png",
+        "imageBody": "../assets/images/Ennard/Ennard.png",
+        "imageIcon": "../assets/images/Ennard/EnnardIcon.png",
         "occupation": "Afton Robotics",
         "initialLocation": "Ao longo do jogo Sister Location, Ennard assume diferentes formas e ocupa diferentes áreas da pizzaria fictícia Circus Baby's Pizza World.",
         "description": "Ennard é um animatrônico complexo que é, na verdade, uma composição de vários animatrônicos, incluindo Circus Baby, Ballora, Funtime Foxy, e Funtime Freddy. Ele é conhecido por seu design assustador e desgastado, combinando elementos de vários personagens.",
@@ -455,22 +481,9 @@ export const mockedAnimatronic = [
     },
 
     {
-        "name": "Baby",
-        "imageBody": "../assets/images/Baby/Baby-icon.png",
-        "imageIcon": "../assets/images/Baby/Baby.png",
-        "occupation": "Circus Baby's Pizza World (1995)",
-        "initialLocation": "Baby pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é central para a narrativa e a jogabilidade.",
-        "description": "Baby é um animatrônico grande e sofisticado com uma aparência elegante e futurista. Ela é caracterizada por cabelos loiros, um vestido roxo e um microfone em sua mão. Baby desempenha um papel significativo na história e nas mecânicas de jogo de determinados jogos da série",
-        "color": "Branco",
-        "status": "Em seu estado original, Baby não é retratada como quebrada. No entanto, ao longo da narrativa da série, eventos podem ocorrer que afetam a condição de Baby de diferentes maneiras.",
-        "instrument": "Baby está associada a um microfone em sua mão.",
-        "jumpscare": "../assets/videos/jump-Scare-Baby.mp4"
-    },
-
-    {
         "name": "Funtime Chica",
-        "imageBody": "../assets/images/FuntimeChica/FuntimeChica-icon.png",
-        "imageIcon": "../assets/images/FuntimeChica/FuntimeChica.png",
+        "imageBody": "../assets/images/FuntimeChica/FuntimeChica.png",
+        "imageIcon": "../assets/images/FuntimeChica/FuntimeChicaIcon.png",
         "occupation": "Chica's Party World (1995)",
         "initialLocation": "Funtime Chica é encontrada na sala chamada Funtime Auditorium em Sister Location, onde ela é uma das ameaças aos jogadores.",
         "description": "Funtime Chica é um animatrônico galinha com uma aparência moderna e polida. Ela possui características semelhantes às de outros animatrônicos da linha Funtime, com uma estética mais futurista e tecnológica. Funtime Chica desempenha um papel específico na narrativa de Sister Location, sendo uma das animatrônicas perigosas no jogo.",
@@ -482,8 +495,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Spring Bonnie",
-        "imageBody": "../assets/images/SpringBonnie/SpringBonnie-icon.png",
-        "imageIcon": "../assets/images/SpringBonnie/SpringBonnie.png",
+        "imageBody": "../assets/images/SpringBonnie/SpringBonnie.png",
+        "imageIcon": "../assets/images/SpringBonnie/SpringBonnieIcon.png",
         "occupation": "Fredbear's Family Dinner (1983)",
         "initialLocation": "Spring Bonnie pode ser encontrado em diferentes áreas da Fredbear's Family Diner, dependendo do jogo específico. Sua presença é mais notável nas versões mais antigas da narrativa da série.",
         "description": "Spring Bonnie é um animatrônico coelho, caracterizado por sua pelagem amarela, colete roxo e uma aparência amigável. No entanto, a narrativa revela que esse animatrônico tem uma história sombria e está associado a eventos perturbadores.",
@@ -495,8 +508,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Fredbear",
-        "imageBody": "../assets/images/FredBear/Fredbear-icon.png",
-        "imageIcon": "../assets/images/FredBear/Fredbear.png",
+        "imageBody": "../assets/images/FredBear/Fredbear.png",
+        "imageIcon": "../assets/images/FredBear/FredbearIcon.png",
         "occupation": "Fredbear's Family Dinner (1983)",
         "initialLocation": "Fredbear pode ser encontrado em diferentes áreas da Fredbear's Family Diner, dependendo do jogo específico. Sua presença é mais notável nas versões mais antigas da narrativa da série",
         "description": "Fredbear é um animatrônico urso, caracterizado por sua pelagem dourada, laço borboleta preto e uma aparência amigável. Ele é a versão original do personagem Freddy Fazbear. A narrativa revela que Fredbear está associado a eventos trágicos e perturbadores",
@@ -508,8 +521,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Lefty",
-        "imageBody": "../assets/images/Lefty/Lefty-icon.png",
-        "imageIcon": "../assets/images/Lefty/Lefty.png",
+        "imageBody": "../assets/images/Lefty/Lefty.png",
+        "imageIcon": "../assets/images/Lefty/LeftyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Lefty pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é designado para contornar ou capturar outros animatrônicos.",
         "description": "Lefty é um animatrônico grande e esguio, com uma aparência de urso. Ele é caracterizado por sua pelagem escura, olhos brilhantes e uma presença imponente. Lefty desempenha um papel específico na narrativa e nas mecânicas de jogo.",
@@ -521,8 +534,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Scrap Baby",
-        "imageBody": "../assets/images/ScrapBaby/ScrapBaby-icon.png",
-        "imageIcon": "../assets/images/ScrapBaby/ScrapBaby.png",
+        "imageBody": "../assets/images/ScrapBaby/ScrapBaby.png",
+        "imageIcon": "../assets/images/ScrapBaby/ScrapBabyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Scrap Baby pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
         "description": "Scrap Baby é uma versão modificada e danificada do animatrônico Circus Baby. Ela é caracterizada por sua aparência assustadora e perturbadora, com partes do exosqueleto expostas. Scrap Baby desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
@@ -534,8 +547,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Scraptrap",
-        "imageBody": "../assets/images/Scraptrap/Scraptrap-icon.png",
-        "imageIcon": "../assets/images/Scraptrap/Scraptrap.png",
+        "imageBody": "../assets/images/Scraptrap/Scraptrap.png",
+        "imageIcon": "../assets/images/Scraptrap/ScraptrapIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Scraptrap pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Ele é uma versão modificada e danificada do animatrônico Spring Bonnie.",
         "description": "Scraptrap é a forma danificada e modificada de Spring Bonnie, caracterizado por sua aparência deteriorada, partes expostas do exosqueleto e uma expressão ameaçadora. Ele desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
@@ -547,8 +560,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Molten Freddy",
-        "imageBody": "../assets/images/MoltenFreddy/MoltenFreddy-icon.png",
-        "imageIcon": "../assets/images/MoltenFreddy/MoltenFreddy.png",
+        "imageBody": "../assets/images/MoltenFreddy/MoltenFreddy.png",
+        "imageIcon": "../assets/images/MoltenFreddy/MoltenFreddyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Molten Freddy pode ser encontrado em diferentes áreas da Circus Baby's Pizza World, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Molten Freddy é uma versão alterada e composta de vários animatrônicos, incluindo Funtime Freddy e Funtime Foxy. Ele é caracterizado por uma aparência fundida e distorcida, com partes expostas e uma atmosfera ameaçadora. Molten Freddy desempenha um papel significativo na narrativa e nas mecânicas de jogo.",
@@ -560,8 +573,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Freddy",
-        "imageBody": "../assets/images/RockstarFreddy/RockstarFreddy-icon.png",
-        "imageIcon": "../assets/images/RockstarFreddy/RockstarFreddy.png",
+        "imageBody": "../assets/images/RockstarFreddy/RockstarFreddy.png",
+        "imageIcon": "../assets/images/RockstarFreddy/RockstarFreddyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Freddy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Rockstar Freddy é um animatrônico urso com uma aparência mais moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Freddy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
@@ -573,8 +586,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Bonnie",
-        "imageBody": "../assets/images/RockstarBonnie/RockstarBonnie-icon.png",
-        "imageIcon": "../assets/images/RockstarBonnie/RockstarBonnie.png",
+        "imageBody": "../assets/images/RockstarBonnie/RockstarBonnie.png",
+        "imageIcon": "../assets/images/RockstarBonnie/RockstarBonnieIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Bonnie pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um antagonista significativo.",
         "description": "Rockstar Bonnie é um animatrônico coelho com uma aparência moderna e refinada. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Bonnie desempenha um papel específico na narrativa e nas mecânicas de jogo.",
@@ -586,8 +599,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Chica",
-        "imageBody": "../assets/images/RockstarChica/RockstarChica-icon.png",
-        "imageIcon": "../assets/images/RockstarChica/RockstarChica.png",
+        "imageBody": "../assets/images/RockstarChica/RockstarChica.png",
+        "imageIcon": "../assets/images/RockstarChica/RockstarChicaIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Chica pode ser encontrada em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ela é um antagonista significativo.",
         "description": "Rockstar Chica é um animatrônico galinha com uma aparência moderna e polida. Ela é caracterizada por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Chica desempenha um papel específico na narrativa e nas mecânicas de jogo.",
@@ -599,8 +612,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Foxy",
-        "imageBody": "../assets/images/RockstarFoxy/RockstarFoxy-icon.png",
-        "imageIcon": "../assets/images/RockstarFoxy/RockstarFoxy.png",
+        "imageBody": "../assets/images/RockstarFoxy/RockstarFoxy.png",
+        "imageIcon": "../assets/images/RockstarFoxy/RockstarFoxyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Foxy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
         "description": "Rockstar Foxy é um animatrônico pirata com uma aparência moderna e polida. Ele é caracterizado por seus traços mais robustos e pela presença de uma estrela em seu peito. Rockstar Foxy desempenha um papel específico na narrativa e nas mecânicas de jogo.",
