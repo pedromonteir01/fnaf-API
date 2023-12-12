@@ -43,7 +43,7 @@ export class AnimatronicList {
         }
 
         const animatronicFilter = this.animatronics.filter((animatronic) => {
-            const animatronicName = name == undefined || animatronic.name.toLowerCase() === name;
+            const animatronicName = name == undefined || animatronic.name.toLowerCase().includes(name);
 
             return animatronicName;
         })

@@ -7,13 +7,6 @@ const verifyURL = (url) => {
     return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
 }
 
-//verificação do vídeo
-const verifyVideo = (url) => {
-    const videosExtensions = ['.mp4', '.avi', '.mkv', '.mov', '.wmv', '.flv'];
-    return videosExtensions.some(extension => url.toLowerCase().endsWith(extension));
-}
-
-
 //lista dos animatronics
 const list = new AnimatronicList();
 
@@ -121,10 +114,6 @@ export const postAnimtronic = (req, res) => {
     //faz a verificação do tamanho do nome
     if (instrument.length < 3 || instrument.length > 150) {
         errors.push("invalid_instrument");
-    }
-
-    if(!verifyVideo(jumpscare)) {
-        errors.push("invalid_video")
     }
 
     //restorna os erros adicionas ao array
