@@ -91,12 +91,12 @@ export const updateStudents = (req, res) => {
         errors.push('O nome deve ter entre 3 e 50 caracteres.');
     }
 
-    if (gender != 'masculino' && gender != 'feminino') {
+    if (gender != 'Masculino' && gender != 'Feminino') {
         numbersErrors++;
         errors.push("O gênero deve ser somente feminino ou masculino.")
     }
 
-    if (age < 0 || !(Number.isInteger(age))) {
+    if (age < 0 && !(Number.isInteger(age))) {
         numbersErrors++;
         errors.push("A idade do estudante deve ser um número inteiro.");
     }
