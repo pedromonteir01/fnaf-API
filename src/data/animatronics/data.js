@@ -650,14 +650,14 @@ export const mockedAnimatronic = [
 
     {
         "name": "Yendo",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
-        "jumpscare": ""
+        "imageBody": "../assets/images/Yendo/Yendo.png",
+        "imageIcon": "../assets/images/Yendo/YendoIcon.png",
+        "occupation": "Reparador de Endoesqueletos",
+        "initialLocation": "Oficina de Reparos",
+        "description": "Yendo é um animatrônico especializado na reparação de endoesqueletos de outros animatrônicos. Com uma estrutura modular e braços hábeis, Yendo desempenha um papel crucial na manutenção e conserto dos membros da equipe animatrônica.",
+        "color": "Tons de prata e azul metálico",
+        "status": "Bom estado, sem danos visíveis",
+        "instrument": "Chave de fenda magnética e braços flexíveis",
+        "jumpscare": "../assets/videos/jump-Scare-Yendo.mp4"
     }
 ]
