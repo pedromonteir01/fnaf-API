@@ -625,15 +625,15 @@ export const mockedAnimatronic = [
 
     {
         "name": "Lolbit",
-        "imageBody": "",
-        "imageIcon": "",
-        "occupation": "",
-        "initialLocation": "",
-        "description": "",
-        "color": "",
-        "status": "",
-        "instrument": "",
-        "jumpscare": ""
+        "imageBody": "../assets/images/Lolbit/Lolbit.png",
+        "imageIcon": "../assets/images/Lolbit/LolbitIcon.png",
+        "occupation": "Personagem de Realidade Virtual",
+        "initialLocation": "Auditório Divertido",
+        "description": "Lolbit é um personagem na franquia Five Nights at Freddy's. É um animatrônico único conhecido por sua aparição no Auditório Divertido. Ao contrário de outros animatrônicos, Lolbit é mais uma entidade virtual, frequentemente encontrada nos segmentos de realidade virtual do jogo.",
+        "color": "Roxo e Branco",
+        "status": "Sem danificações",
+        "instrument": "Nenhum",
+        "jumpscare": "../assets/videos/jump-Scare-Lolbit.mp4"
     },
     {
         "name": "Music Man",
