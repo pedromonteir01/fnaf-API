@@ -14,7 +14,7 @@ export class AnimatronicList {
         const { franchise, name } = data;
 
         if(franchise) {
-            return this.getAnimatronicByFranchise(franchise);
+            return this.getAnimatronicByFranchise(franchise, name);
         }
 
         if(name) {
@@ -25,7 +25,9 @@ export class AnimatronicList {
     }
 
     //métodos do filtro
-    getAnimatronicByFranchise(franchise) {
+    getAnimatronicByFranchise(franchise, name) {
+
+        if(franchise) {
 
         const animatronicsFilter = this.animatronics.filter((animatronic) => {
             const animatronicFranchise = franchise == undefined || animatronic.occupation == franchise;
@@ -33,8 +35,12 @@ export class AnimatronicList {
             return animatronicFranchise;
         });
 
+        if(name) {
+            return this.getAnimtronicByName(name);
+        }
         
         return animatronicsFilter;
+     }
     }
 
     getAnimtronicByName(name) {

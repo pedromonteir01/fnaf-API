@@ -1,6 +1,6 @@
 export const mockedPizzeria = [
   {
-    "name": "Pizzaria Freddy Fazbear",
+    "name": "Freddy Fazbear's Pizza (1993)",
     "img": "../assets/imagens-Pizzerias/pizzaria-Freddy-Fazbear1.png",
     "franchise": "FNAF",
     "animatronics": "Freddy fazbear, Golden Freddy, Bonnie, Foxy, Chica, Endo-01",
@@ -8,7 +8,7 @@ export const mockedPizzeria = [
   },
 
   {
-    "name": "Pizzaria Freddy Fazbear",
+    "name": "Freddy Fazbear's Pizza (1987)",
     "img": "../assets/imagens-Pizzerias/pizzaria-Freddy-Fazbear2.png",
     "franchise": "FNAF2",
     "animatronics": "The pupet, Balloon Boy, Mnagle, Purple Man, Withered Bonnie, Withered Golden Freddy, Withered Foxy",
@@ -16,7 +16,7 @@ export const mockedPizzeria = [
   },
 
   {
-    "name": "pizzaria fazbear Fright",
+    "name": "Fazbear's Fright: The Horror Attraction (2023)",
     "img": "../assets/imagens-Pizzerias/pizzaria-fazbear-Fright3.png",
     "franchise": "FNAF3",
     "animatronics": "Springtrap, Purple Man, Phantom Freddy, Phantom Puppet, Phantom Balloon Boy, Phantom Foxy, Phantom Mangle, Phantom Chica",
@@ -24,7 +24,7 @@ export const mockedPizzeria = [
   },
 
   {
-    "name": "A Casa",
+    "name": "Casa William Afton (1983)",
     "img": "../assets/imagens-Pizzerias/a-Casa4.png",
     "franchise": "FNAF4",
     "animatronics": "Nightmare Fredbear, Nightmare, Nightmarionne, Nightmare Freddy, Nightmare Chica, Nightmare Bonnie, Nightmare Foxy, Jack-O-Bonnie",
@@ -32,7 +32,7 @@ export const mockedPizzeria = [
   },
 
   {
-    "name": "Five Nights at Freddy's Sister Location.",
+    "name": "Circus Baby's Pizza World (1995)",
     "img": "../assets/imagens-Pizzerias/sala-dos-DijuntoresSL5.png",
     "franchise": "FNAFSL",
     "animatronics": "Ballora, Circus Baby, Ennard, Funtime Foxy, Funtime Freddy, Lolbit",
@@ -40,7 +40,7 @@ export const mockedPizzeria = [
   },
 
   {
-    "name": "Freddy Fazbear's Pizzeria Simulator",
+    "name": "Freddy Fazbear's Pizza (2023)",
     "img": "../assets/imagens-Pizzerias/escritorioFFPS6.png",
     "franchise": "FFPS",
     "animatronics": "William Afton, Lefty, Molten Freddy, Scrap Baby, Helpy, Happy Frog, Music Man",
