@@ -612,7 +612,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Foxy",
-        "imageBody": "../assets/images/RockstarFoxy/RockstarFoxy.png",
+        "imageBody": "../assets/images/RockstarFoxy/Rockstar Foxy.png",
         "imageIcon": "../assets/images/RockstarFoxy/RockstarFoxyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Foxy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
@@ -625,8 +625,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Lolbit",
-        "imageBody": "../assets/images/Lolbit/Lolbit.png",
-        "imageIcon": "../assets/images/Lolbit/LolbitIcon.png",
+        "imageBody": "../assets/images/Lolbit/lolbitBody.png",
+        "imageIcon": "../assets/images/Lolbit/LolbitMask.png",
         "occupation": "Personagem de Realidade Virtual",
         "initialLocation": "Auditório Divertido",
         "description": "Lolbit é um personagem na franquia Five Nights at Freddy's. É um animatrônico único conhecido por sua aparição no Auditório Divertido. Ao contrário de outros animatrônicos, Lolbit é mais uma entidade virtual, frequentemente encontrada nos segmentos de realidade virtual do jogo.",
@@ -650,8 +650,8 @@ export const mockedAnimatronic = [
 
     {
         "name": "Yendo",
-        "imageBody": "../assets/images/Yendo/Yendo.png",
-        "imageIcon": "../assets/images/Yendo/YendoIcon.png",
+        "imageBody": "../assets/images/Yendo/yendoBody.png",
+        "imageIcon": "../assets/images/Yendo/yendoMask.png",
         "occupation": "Reparador de Endoesqueletos",
         "initialLocation": "Oficina de Reparos",
         "description": "Yendo é um animatrônico especializado na reparação de endoesqueletos de outros animatrônicos. Com uma estrutura modular e braços hábeis, Yendo desempenha um papel crucial na manutenção e conserto dos membros da equipe animatrônica.",
