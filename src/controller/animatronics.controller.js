@@ -48,7 +48,7 @@ export const getAnimatronicById = (req, res) => {
 
     //verifica se ele existe
     if (animatronic) {
-        res.status(200).send({ animatronic });
+        res.status(200).send( animatronic );
     }
 
     //retorna o erro
