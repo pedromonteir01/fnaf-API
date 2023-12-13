@@ -1,7 +1,7 @@
 export const mockedAnimatronic = [
     {
         "name": "Freddy FazBear",
-        "imageBody": "../assets/images/Freddy/Fazbear.png",
+        "imageBody": "../assets/images/Freddy/FreddyFazbear.png",
         "imageIcon": "../assets/images/Freddy/FreddyFazbear-icon.png",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Geralmente, Freddy Fazbear começa sua noite na Sala de Show Principal, mas ao longo da noite, ele se move para outras áreas da pizzaria, como o Corredor Leste e o Corredor Oeste.",
@@ -27,7 +27,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Chica the Chicken",
-        "imageBody": "../assets/images/ChicatheChicken/Chica-icon.png",
+        "imageBody": "../assets/images/ChicatheChicken/Chica the Chicken.png",
         "imageIcon": "../assets/images/ChicatheChicken/Chica_icon_fnaf1.png",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Chica geralmente começa a noite na Sala de Show Principal ou em áreas próximas, mas durante a noite, ela se movimenta por diferentes partes da pizzaria em busca do jogador.",
@@ -40,7 +40,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Foxy the Pirate Fox",
-        "imageBody": "../assets/images/FoxythePirateFox/Foxy-icon.png",
+        "imageBody": "../assets/images/FoxythePirateFox/Foxy the Pirate Fox.png",
         "imageIcon": "../assets/images/FoxythePirateFox/SP-Foxy-the-Pirate-Fox.jpg",
         "occupation": "Freddy Fazbear's Pizza (1993)",
         "initialLocation": "Foxy começa suas noites na Sala de Piratas ou na Câmara de Segurança, dependendo do jogo específico. Ele é conhecido por ser mais ativo ao longo da noite, correndo em direção ao jogador.",
@@ -79,7 +79,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Toy Freddy",
-        "imageBody": "../assets/images/ToyFreddy/FullToyFreddy.png",
+        "imageBody": "../assets/images/ToyFreddy/ToyFreddy.png",
         "imageIcon": "../assets/images/ToyFreddy/ToyFreddyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (1987)",
         "initialLocation": " Toy Freddy geralmente começa a noite em áreas designadas para os animatrônicos Toy, como a Sala de Festas 2 ou a Sala de Festas 3. Ao longo da noite, ele se move para outras partes da pizzaria em busca do jogador.",
@@ -126,7 +126,7 @@ export const mockedAnimatronic = [
         "color": "Rosa/branco",
         "status": "Mangle é frequentemente retratada como quebrada e desmontada, refletindo sua natureza caótica. Seu estado físico pode variar entre os diferentes jogos da franquia.",
         "instrument": "Mangle não é associada a um instrumento musical específico. Sua ênfase está na representação de um animatrônico desmontado e caótico.",
-        "jumpscare": "../assets/videos/jump-Scare-Mangle.mp4"
+        "jumpscare": "../assets/videos/jum-Scare-Mangle.mp4"
     },
 
     {
@@ -139,7 +139,7 @@ export const mockedAnimatronic = [
         "color": "Pele clara",
         "status": "Balloon Boy geralmente não é retratado como quebrado em termos de danos físicos. No entanto, sua presença e risada podem representar um desafio adicional para o jogador, já que ele pode interferir nas defesas do jogador.",
         "instrument": "Balloon Boy não é associado a um instrumento musical específico. Seu papel está mais centrado em sua interação única e comportamento durante a noite.",
-        "jumpscare": "../assets/videos/jump-Scare-Ballon-Boy.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-Balloon-Boy.mp4"
     },
 
     {
