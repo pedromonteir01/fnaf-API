@@ -48,7 +48,7 @@ export const mockedAnimatronic = [
         "color": "Vermelho",
         "status": "Em alguns jogos da franquia, Foxy pode ser representado como quebrado ou desgastado devido ao uso constante. Sua condição pode variar, mas geralmente ele é retratado como um animatrônico mais deteriorado.",
         "instrument": "Foxy não é associado a um instrumento musical específico. Sua ênfase está mais na temática de piratas, com seu gancho e seu comportamento agressivo.",
-        "jumpscare": "../assets/videos/jump-Scare-Foxy.mp4"
+        "jumpscare": "../assets/videos/#"
     },
 
     {
@@ -61,7 +61,7 @@ export const mockedAnimatronic = [
         "color": "Dourado",
         "status": " Golden Freddy é frequentemente representado como quebrado e desgastado. Sua condição pode variar entre os diferentes jogos, mas a tonalidade dourada geralmente sugere um estado de animatrônico mais antigo e deteriorado.",
         "instrument": "Golden Freddy não é associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Golden-Freddy.mp4"
+        "jumpscare": "../assets/videos/#.mp4"
     },
 
     {
@@ -152,7 +152,7 @@ export const mockedAnimatronic = [
         "color": "Branco",
         "status": "O Puppet geralmente não é retratado como quebrado, mas seu estado físico pode variar em diferentes representações e jogos. Sua característica mais marcante é a ativação iminente se não for constantemente observado, proporcionando um desafio estratégico para o jogador.",
         "instrument": "Ele é muitas vezes retratado segurando ou associado a uma caixa de música, que é uma parte integral de sua mecânica no jogo.",
-        "jumpscare": "../assets/videos/jump-Scare-Puppet.mp4"
+        "jumpscare": "../assets/videos/jum-Scare-Puppet.mp4"
     },
 
     {
@@ -204,7 +204,7 @@ export const mockedAnimatronic = [
         "color": "Vermelho",
         "status": "Quebrado e abandonado",
         "instrument": "Não possui instrumento, apenas acessórios que remetem a piratas",
-        "jumpscare": "../assets/videos/#.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-Foxy.mp4.mp4"
     },
 
     {
@@ -217,7 +217,7 @@ export const mockedAnimatronic = [
         "color": "Amarelo(Dourado)",
         "status": "Quebrado e abandonado",
         "instrument": "Possuí apenas um microfone",
-        "jumpscare": "../assets/videos/#.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-Golden-Freddy.mp4"
     },
 
     {
@@ -269,7 +269,7 @@ export const mockedAnimatronic = [
         "color": " Verde/Amarelo Deteriorado",
         "status": "Springtrap é claramente retratado como quebrado e deteriorado. Sua condição é uma fusão de elementos orgânicos e animatrônicos, indicando um estado extremamente deteriorado e macabro.",
         "instrument": "Springtrap não é associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Springtrap.mp4"
+        "jumpscare": "../assets/videos/jum-Scare-Springtrap.mp4"
     },
 
     {
@@ -321,7 +321,7 @@ export const mockedAnimatronic = [
         "color": "A cor principal de Phantom Balloon Boy é uma mistura de tons escuros, incluindo preto, cinza e tons desbotados de azul e laranja. Sua aparência desgastada reflete o estado assombrado e abandonado do animatrônico.",
         "status": "Como um animatrônico phantom, Phantom Balloon Boy está quebrado e mostra sinais evidentes de deterioração. Ele não está em seu estado original e assume uma forma mais assustadora e danificada.",
         "instrument": "Ao contrário de alguns animatrônicos da franquia que estão associados a instrumentos musicais específicos.",
-        "jumpscare": "../assets/videos/jump-Scare-Phanton-Ballon-Boy.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-Phantom-Balloon-Boy.mp4"
     },
 
     {
@@ -425,7 +425,7 @@ export const mockedAnimatronic = [
         "color": "As cores principais de Funtime Freddy incluem branco, rosa, azul e amarelo. Seu design vibrante e alegre é destinado a atrair o público infantil.",
         "status": "Branco e roxo",
         "instrument": "Microfone",
-        "jumpscare": "../assets/videos/jump-Scare-Funtime-Freddy.mp4"
+        "jumpscare": "../assets/videos/jum-Scare-FunTime-Freddy.mp4"
     },
 
     {
@@ -438,7 +438,7 @@ export const mockedAnimatronic = [
         "color": "Branco e rosa",
         "status": "Em seu estado original, Funtime Foxy não é retratado como quebrado ou danificado. No entanto, ao longo da narrativa da série, ele pode passar por transformações ou eventos que afetam sua condição.",
         "instrument": "Funtime Foxy não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Funtime-Foxy.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-Fun-Time-Foxy.mp4"
     },
 
     {
@@ -451,7 +451,7 @@ export const mockedAnimatronic = [
         "color": "As cores principais de Ballora incluem tons de roxo, azul e branco. Sua aparência é sofisticada e atrativa, complementando seu papel como uma animatrônica de entretenimento.",
         "status": "Branco e roxo",
         "instrument": "Ballora não está associada a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Ballora.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-Ballora - Trim.mp4"
     },
 
     {
@@ -494,6 +494,44 @@ export const mockedAnimatronic = [
     },
 
     {
+        "name": "Lolbit",
+        "imageBody": "../assets/images/lolbit/lolbitBody.png",
+        "imageIcon": "../assets/images/lolbit/LolbitMask.png",
+        "occupation": "Chica's Party World (1995)",
+        "initialLocation": "Auditório Divertido",
+        "description": "Lolbit é um personagem na franquia Five Nights at Freddy's. É um animatrônico único conhecido por sua aparição no Auditório Divertido. Ao contrário de outros animatrônicos, Lolbit é mais uma entidade virtual, frequentemente encontrada nos segmentos de realidade virtual do jogo.",
+        "color": "Roxo e Branco",
+        "status": "Sem danificações",
+        "instrument": "Nenhum",
+        "jumpscare": "../assets/videos/jump-Scare-Lolbit.mp4"
+    },
+    {
+        "name": "Music Man",
+        "imageBody": "../assets/images/MusicMan/MusicMan.png",
+        "imageIcon": "../assets/images/MusicMan/MusicManIcon.png",
+        "occupation": "Chica's Party World (1995)",
+        "initialLocation": "Palco Principal",
+        "description": "Music Man é um animatrônico animado e carismático projetado para entreter os convidados com seus talentos musicais. Com uma aparência elegante e moderna, Music Man é uma atração favorita no local de entretenimento.",
+        "color": "Cores vibrantes e chamativas, incluindo vermelho, azul e amarelo",
+        "status": "Em termos de narrativa, Music Man não é retratado como quebrado ou danificado.",
+        "instrument": "Guitarra elétrica e bateria",
+        "jumpscare": "../assets/videos/jump-Scare-Music-Man.mp4"
+    },
+
+    {
+        "name": "Yendo",
+        "imageBody": "../assets/images/yendo/yendoBody.png",
+        "imageIcon": "../assets/images/yendo/yendoMask.png",
+        "occupation": "Chica's Party World (1995)",
+        "initialLocation": "Oficina de Reparos",
+        "description": "Yendo é um animatrônico especializado na reparação de endoesqueletos de outros animatrônicos. Com uma estrutura modular e braços hábeis, Yendo desempenha um papel crucial na manutenção e conserto dos membros da equipe animatrônica.",
+        "color": "Tons de prata e azul metálico",
+        "status": "Bom estado, sem danos visíveis",
+        "instrument": "Chave de fenda magnética e braços flexíveis",
+        "jumpscare": "../assets/videos/jump-Scare-Yendo.mp4"
+    },
+
+    {
         "name": "Spring Bonnie",
         "imageBody": "../assets/images/SpringBonnie/SpringBonnie.png",
         "imageIcon": "../assets/images/SpringBonnie/SpringBonnieIcon.png",
@@ -529,7 +567,7 @@ export const mockedAnimatronic = [
         "color": "A cor principal de Lefty é escura, geralmente apresentando tons de preto ou marrom escuro.",
         "status": "Em termos de narrativa, Lefty é frequentemente associado a situações de risco ou contornando protocolos de segurança. Sua condição pode variar dependendo do contexto do jogo, mas ele não é retratado como quebrado ou danificado no sentido tradicional.",
         "instrument": "Lefty não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Lefty.mp4"
+        "jumpscare": "../assets/videos/jumps-Scare-Lefty.mp4"
     },
 
     {
@@ -555,7 +593,7 @@ export const mockedAnimatronic = [
         "color": "As cores principais de Scraptrap incluem tons de amarelo, marrom e vermelho, destacando-se por sua aparência sombria e danificada.",
         "status": "Scraptrap é retratado como quebrado e danificado, refletindo as modificações e os danos sofridos ao longo da narrativa da série. Ele é uma versão alterada do animatrônico original Spring Bonnie.",
         "instrument": "Springtrap não está associado a um instrumento musical específico.",
-        "jumpscare": "../assets/videos/jump-Scare-Scraptrap.mp4"
+        "jumpscare": "../assets/videos/jump-Scare-ScarpTrap.mp4"
     },
 
     {
@@ -622,42 +660,4 @@ export const mockedAnimatronic = [
         "instrument": "Rockstar Foxy está associado a um gancho, representando sua característica pirata.",
         "jumpscare": "../assets/videos/jump-Scare-Rockstar-Foxy.mp4"
     },
-
-    {
-        "name": "Lolbit",
-        "imageBody": "../assets/images/Lolbit/Lolbit.png",
-        "imageIcon": "../assets/images/Lolbit/LolbitIcon.png",
-        "occupation": "Personagem de Realidade Virtual",
-        "initialLocation": "Auditório Divertido",
-        "description": "Lolbit é um personagem na franquia Five Nights at Freddy's. É um animatrônico único conhecido por sua aparição no Auditório Divertido. Ao contrário de outros animatrônicos, Lolbit é mais uma entidade virtual, frequentemente encontrada nos segmentos de realidade virtual do jogo.",
-        "color": "Roxo e Branco",
-        "status": "Sem danificações",
-        "instrument": "Nenhum",
-        "jumpscare": "../assets/videos/jump-Scare-Lolbit.mp4"
-    },
-    {
-        "name": "Music Man",
-        "imageBody": "../assets/images/MusicMan/MusicMan.png",
-        "imageIcon": "../assets/images/MusicMan/MusicManIcon.png",
-        "occupation": "Freddy Fazbear's Pizza (2023)",
-        "initialLocation": "Palco Principal",
-        "description": "Music Man é um animatrônico animado e carismático projetado para entreter os convidados com seus talentos musicais. Com uma aparência elegante e moderna, Music Man é uma atração favorita no local de entretenimento.",
-        "color": "Cores vibrantes e chamativas, incluindo vermelho, azul e amarelo",
-        "status": "Em termos de narrativa, Music Man não é retratado como quebrado ou danificado.",
-        "instrument": "Guitarra elétrica e bateria",
-        "jumpscare": "../assets/videos/jump-Scare-Music-Man.mp4"
-    },
-
-    {
-        "name": "Yendo",
-        "imageBody": "../assets/images/Yendo/Yendo.png",
-        "imageIcon": "../assets/images/Yendo/YendoIcon.png",
-        "occupation": "Reparador de Endoesqueletos",
-        "initialLocation": "Oficina de Reparos",
-        "description": "Yendo é um animatrônico especializado na reparação de endoesqueletos de outros animatrônicos. Com uma estrutura modular e braços hábeis, Yendo desempenha um papel crucial na manutenção e conserto dos membros da equipe animatrônica.",
-        "color": "Tons de prata e azul metálico",
-        "status": "Bom estado, sem danos visíveis",
-        "instrument": "Chave de fenda magnética e braços flexíveis",
-        "jumpscare": "../assets/videos/jump-Scare-Yendo.mp4"
-    }
 ]

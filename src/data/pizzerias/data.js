@@ -32,11 +32,27 @@ export const mockedPizzeria = [
   },
 
   {
+    "name": "Fredbear's Family Dinner (1983)",
+    "img": "../assets/imagens-Pizzerias/chicas-party-world.png",
+    "franchise": "FNAF4(2)",
+    "animatronics": "Fredbear, SpringBonnie",
+    "description": "Foi o primeiro restaurante da FazBear entertainment, inaugurado em 1983, contando com 2 atrações principais que precederam os animatrônicos, os springlock, onde também ocorreu a mordida de 83 dando início aos eventos do FNAF4"
+  },
+
+  {
     "name": "Circus Baby's Pizza World (1995)",
     "img": "../assets/imagens-Pizzerias/sala-dos-DijuntoresSL5.png",
     "franchise": "FNAFSL",
-    "animatronics": "Ballora, Circus Baby, Ennard, Funtime Foxy, Funtime Freddy, Lolbit",
+    "animatronics": "Ballora, Circus Baby, Funtime Foxy, Funtime Freddy",
     "description": "Em Five Nights at Freddy's: Sister Location, uma parte significativa do jogo ocorre na Sala dos Disjuntores. Diferentemente dos jogos anteriores da série, Sister Location explora ambientes mais diversos e complexos, e a Sala dos Disjuntores é um desses locais. Nesta sala, o jogador assume o papel de um técnico de manutenção e é encarregado de reiniciar os disjuntores defeituosos. A Sala dos Disjuntores é representativa da abordagem mais narrativa e orientada para a história de Sister Location. Durante a jogabilidade, o jogador é guiado por uma inteligência artificial chamada HandUnit, que fornece instruções e informações sobre os procedimentos a serem realizados na sala. A narrativa de Sister Location desenrola-se à medida que o jogador explora diferentes áreas da instalação, incluindo a Sala dos Disjuntores. O jogo introduz novos personagens, como Circus Baby e Ballora, e explora aspectos mais profundos da história da franquia. A Sala dos Disjuntores, com sua atmosfera tensa e o papel crítico que desempenha na narrativa, contribui para a experiência única e arrepiante proporcionada por Five Nights at Freddy's: Sister Location."
+  },
+
+  {
+    "name": "Chica's Party World (1995)",
+    "img": "../assets/imagens-Pizzerias/chicas-party-world.png",
+    "franchise": "FNAFSL(2)",
+    "animatronics": "Lolbit, Funtime Chica, Music Man, Yendo",
+    "description": "Chica's Party World é uma filial da Circus Baby de mesmo ano que inaugurou antes, foi criada por William Afton com propósito de preparar o restaurante Circus Baby para sequestrar crianças."
   },
 
   {
@@ -45,13 +61,5 @@ export const mockedPizzeria = [
     "franchise": "FFPS",
     "animatronics": "William Afton, Lefty, Molten Freddy, Scrap Baby, Helpy, Happy Frog, Music Man",
     "description": "Em Freddy Fazbear's Pizzeria Simulator, os jogadores encontram um ambiente único e intrigante que mistura elementos de gerenciamento de negócios com o terror característico da série Five Nights at Freddy's. O jogo se desenrola como uma simulação de gerenciamento de pizzaria, onde os jogadores assumem o papel de um proprietário que deve administrar e expandir sua própria Freddy Fazbear's Pizza. O local inclui diferentes áreas, como o escritório, onde os jogadores podem realizar tarefas de gerenciamento e comprar novos equipamentos, e também uma área de jogo onde os animatrônicos são apresentados. À medida que o jogo avança, elementos de terror são gradualmente introduzidos, revelando que nem tudo é o que parece ser. Eventos inesperados e aparições assustadoras dos animatrônicos dão à experiência uma reviravolta surpreendente. A narrativa do jogo se desenvolve à medida que o jogador toma decisões sobre quais animatrônicos adotar, colocando-os em diferentes seções da pizzaria. O jogo explora temas de responsabilidade e as consequências de suas escolhas no desenrolar da história. Em resumo, Freddy Fazbear's Pizzeria Simulator oferece uma combinação única de simulação de negócios e elementos de terror, surpreendendo os jogadores com reviravoltas inesperadas enquanto eles tentam administrar sua própria pizzaria no universo assombrado de Five Nights at Freddy's."
-  },
-
-  {
-    "name": "Ultimate Custom Night",
-    "img": "../assets/imagens-Pizzerias/unc7.png",
-    "franchise": "UNC",
-    "animatronics": "Dee Dee, RWQFSFASXC, Lefty (UCN), Chica (UCN), Fredbear (UCN), Lolbit (UCN), Ballora (UCN)",
-    "description": "Em Ultimate Custom Night (UCN), os jogadores encontram-se em um ambiente virtual composto por um escritório claustrofóbico e uma série de câmeras de segurança. Diferentemente dos jogos anteriores, UCN é um simulador personalizável, permitindo que os jogadores escolham entre uma extensa lista de animatrônicos de toda a série Five Nights at Freddy's. O jogo oferece uma experiência desafiadora, onde os jogadores podem ajustar a dificuldade de cada animatrônico individualmente, tornando-o uma verdadeira noite personalizada. A tarefa principal é sobreviver a uma série de ataques de animatrônicos, cada um com seus próprios padrões e comportamentos únicos. O escritório é equipado com portas, luzes e um sistema de ventilação, elementos tradicionais da série, que os jogadores podem usar estrategicamente para se proteger dos animatrônicos que tentam atacar. Além disso, há também a presença do animatrônico Fredbear, que desempenha um papel significativo na história e nas reviravoltas narrativas do jogo. Ultimate Custom Night é conhecido pela sua intensidade e pela sua abordagem flexível, permitindo aos jogadores criar desafios personalizados. O local virtual serve como o palco para a última e mais desafiadora noite, reunindo uma ampla variedade de personagens icônicos da série para um confronto final."
   },
 ]

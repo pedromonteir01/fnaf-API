@@ -6,11 +6,11 @@ export class Pizzerias {
 
     // Método de mostrar todas as pizzarias
     getPizzerias(data) {
-        console.log('class data', data)
+        console.log('class data', data);
         const { franchise } = data;
 
         if(franchise){
-            return this.getPizzeriasbyFranchise(franchise)
+            return this.getPizzeriasbyFranchise(franchise);
         }
         
         return this.pizzerias;
