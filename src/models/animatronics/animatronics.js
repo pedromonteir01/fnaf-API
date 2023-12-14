@@ -28,7 +28,6 @@ export class AnimatronicList {
     getAnimatronicByFranchise(franchise, name) {
 
         if(franchise) {
-
         const animatronicsFilter = this.animatronics.filter((animatronic) => {
             const animatronicFranchise = franchise == undefined || animatronic.occupation == franchise;
 

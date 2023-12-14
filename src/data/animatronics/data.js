@@ -650,7 +650,7 @@ export const mockedAnimatronic = [
 
     {
         "name": "Rockstar Foxy",
-        "imageBody": "../assets/images/RockstarFoxy/RockstarFoxy.png",
+        "imageBody": "../assets/images/RockstarFoxy/Rockstar Foxy.png",
         "imageIcon": "../assets/images/RockstarFoxy/RockstarFoxyIcon.png",
         "occupation": "Freddy Fazbear's Pizza (2023)",
         "initialLocation": "Rockstar Foxy pode ser encontrado em diferentes áreas da Freddy Fazbear's Pizza, dependendo do jogo específico. Sua presença é notável em contextos nos quais ele é um personagem secundário e interage com o jogador de maneira única.",
