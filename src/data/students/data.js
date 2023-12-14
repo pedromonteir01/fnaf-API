@@ -19,8 +19,8 @@ export const mockedStudents = [
         "name": "Livia Souza",
         "img": "../assets/imagens-students/liv.png",
         "age": "16",
-        "gender": "Femonino",
-        "description": "Nascido em 2007, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
+        "gender": "Feminino",
+        "description": "Nascida em 2007, estudante da escola SESI Valinhos - 299 e cursa Técnico em Desinvolvimento de Sistemas no SENAI Valinhos."
     },
 
     {
