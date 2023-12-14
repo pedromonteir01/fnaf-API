@@ -17,12 +17,13 @@ export class Pizzerias {
     }
 
     getPizzeriasbyFranchise(franchise){
+
         if(franchise){
             franchise = franchise.toUpperCase();
         }
 
         const pizzeriasFilt = this.pizzerias.filter((pizzeria) =>{
-            const franchiseCondition = franchise == undefined || pizzeria.franchise.toUpperCase() == franchise;
+            const franchiseCondition = franchise == undefined || pizzeria.franchise == franchise;
 
             return franchiseCondition;
         });
